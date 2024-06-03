@@ -4,23 +4,82 @@ format: html
 editor: visual
 ---
 
-## Quarto
+### Metadata 
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+<https://github.com/epigeneticstoocean/2018OAExp_larvae>
 
-## Running Code
+<https://github.com/epigeneticstoocean/2018_L18_OAExp_Cvirginica_DNAm/blob/main/data/L18_larvae_meta.csv>
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+### Raw reads:
 
-```{r}
-1 + 1
+<https://owl.fish.washington.edu/nightingales/C_virginica/2018OALarvae_DNAm_discovery/>
+
+### Trimmed reads:
+
+<https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/>
+
+#### MultiQC report:
+
+<https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/multiqc_report.html>
+
+#### Trimming notebook:
+
+<https://robertslab.github.io/sams-notebook/posts/2022/2022-08-29-FastQ-Trimming-and-QC---C.virginica-Larval-BS-seq-Data-from-Lotterhos-Lab-and-Part-of-CEABIGR-Project-Using-fastp-on-Mox/index.html>
+
+
+
+# moving trimmed reads to raven
+
+`https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/CF01-CM02-Larvae_R2_001.fastp-trim.20220827.fq.gz`
+
+```{r, engine='bash'}
+wget -r \
+--no-directories --no-parent \
+-P ../data \
+-A "*20220827.fq.gz" https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/
 ```
 
-You can add options to executable code like this
 
-```{r}
-#| echo: false
-2 * 2
+```{bash}
+# Directories and programs
+bismark_dir="/home/shared/Bismark-0.24.0"
+bowtie2_dir="/home/shared/bowtie2-2.4.4-linux-x86_64/"
+genome_folder="../data/genome/"
+
+${bismark_dir}/bismark_genome_preparation \
+--verbose \
+--parallel 24 \
+--path_to_aligner ${bowtie2_dir} \
+${genome_folder} \
+2> ../output/01-data-explore/prep.out
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+ls ../data/*fq.gz | wc -l 
+```
+
+
+
+
+
+```{bash}
+# Directories and programs
+bismark_dir="/home/shared/Bismark-0.24.0"
+bowtie2_dir="/home/shared/bowtie2-2.4.4-linux-x86_64/"
+genome_folder="../data/genome/"
+
+find ../data/_R1_001.fastp-trim.20220827.fq.gz \
+| xargs basename -s _R1_001.fastp-trim.20220827.fq.gz | xargs -I{} ${bismark_dir}/bismark \
+--path_to_bowtie ${bowtie2_dir} \
+-genome ${genome_folder} \
+-p 4 \
+-score_min L,0,-0.6 \
+--non_directional \
+-1 ../data/_R1_001.fastp-trim.20220827.fq.gz \
+-2 ../data/_R2_001.fastp-trim.20220827.fq.gz \
+-o ../output/01-data-explore/bismark \
+>./output/01-data-explore/bismark.log 2>&1
+```
+
+
