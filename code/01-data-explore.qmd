@@ -55,6 +55,15 @@ ${genome_folder} \
 ls ../data/*fq.gz | wc -l 
 ```
 
+
+```{bash}
+echo "01-data-explore" >> ../output/.gitignore
+```
+
+
+
+STARTED JUNE 6 11AM FINISHED June 12 6PM
+
 ```{bash}
 # Directories and programs
 bismark_dir="/home/shared/Bismark-0.24.0"
@@ -71,5 +80,5 @@ find ../data/*_R1_001.fastp-trim.20220827.fq.gz \
 -1 ../data/{}_R1_001.fastp-trim.20220827.fq.gz \
 -2 ../data/{}_R2_001.fastp-trim.20220827.fq.gz \
 -o ../output/01-data-explore/bismark \
->../output/01-data-explore/bismark.log 2>&1
+&> ../output/01-data-explore/bismark.log
 ```
