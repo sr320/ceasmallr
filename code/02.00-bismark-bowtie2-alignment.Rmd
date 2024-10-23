@@ -33,3 +33,101 @@ knitr::opts_chunk$set(
   comment = ""         # Prevents appending '##' to beginning of lines in code output
 )
 ```
+
+# Create a Bash variables file
+
+This allows usage of Bash variables across R Markdown chunks.
+
+```{r save-bash-variables-to-rvars-file, engine='bash', eval=TRUE}
+{
+echo "#### Assign Variables ####"
+echo ""
+
+echo "# Data directories"
+echo 'export repo_dir=/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr'
+echo 'export output_dir_top=${repo_dir}/output/02.00-bismark-bowtie2-alignment'
+echo 'export trimmed_reads_url="https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/"'
+echo 'export trimmed_fastqs_dir=${output_dir_top}/trimmed-fastqs'
+echo ""
+
+echo "# Paths to programs"
+echo 'export programs_dir="/home/shared"'
+echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
+echo 'export bowtie2_dir="${programs_dir}/bowtie2-2.4.4-linux-x86_64"'
+echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
+echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
+echo ""
+
+echo "# Set FastQ filename patterns"
+echo "export fastq_pattern='*.fq.gz'"
+echo "export R1_fastq_pattern='*_R1_*.fastq.gz'"
+echo "export R2_fastq_pattern='*_R2_*.fastq.gz'"
+echo "export trimmed_fastq_pattern='*fastp-trim*.fq.gz'"
+echo ""
+
+echo "# Set number of CPUs to use"
+echo 'export threads=40'
+echo "# Bismark already spawns multiple instances and additional threads are multiplicative."
+echo 'export bismark_threads=8' 
+echo ""
+
+
+echo "## Inititalize arrays"
+echo 'export fastq_array_R1=()'
+echo 'export fastq_array_R2=()'
+echo 'export trimmed_fastqs_array=()'
+echo 'export R1_names_array=()'
+echo 'export R2_names_array=()'
+echo ""
+
+echo "# Print formatting"
+echo 'export line="--------------------------------------------------------"'
+echo ""
+} > .bashvars
+
+cat .bashvars
+```
+
+# Download trimmed RNA-seq reads
+
+Reads are downloaded from https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/
+
+The `--cut-dirs 2` command cuts the preceding directory structure (i.e. `nightingales/E5-coral-time-series/30-1047560508/`) so that we just end up with the reads.
+
+```{bash download-trimmed-reads, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+# Make output directory if it doesn't exist
+mkdir --parents ${trimmed_fastqs_dir}
+
+# Run wget to retrieve FastQs and MD5 files
+wget \
+--directory-prefix ${trimmed_fastqs_dir} \
+--recursive \
+--no-check-certificate \
+--continue \
+--cut-dirs 2 \
+--no-host-directories \
+--no-parent \
+--quiet \
+--accept="${trimmed_fastq_pattern}, trimmed-fastq-checksums.md5" \
+${trimmed_reads_url}
+
+ls -lh "${trimmed_fastqs_dir}"
+```
+
+## Verify trimmed read checksums
+
+```{bash verify-trimmed-read-checksums, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${trimmed_fastqs_dir}"
+
+# Checksums file contains other files, so this just looks for the sRNAseq files.
+for file in *.md5
+do
+  md5sum --check "${file}"
+done
+```
