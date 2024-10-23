@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+*.bam
+.bashvars
+.DS_Store
