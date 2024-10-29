@@ -65,7 +65,7 @@ echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
 echo ""
 
 echo "# Program settings"
-echo 'export bowite2_min_score="L,0,-0.6"'
+echo 'export bowtie2_min_score="L,0,-0.6"'
 echo ""
 
 echo "# Set FastQ filename patterns"
@@ -79,7 +79,7 @@ echo "export trimmed_fastq_pattern='*fastp-trim*.fq.gz'"
 echo ""
 
 echo "# Set number of CPUs to use"
-echo 'export threads=4'
+echo 'export threads=8'
 echo "# Bismark already spawns multiple instances and additional threads are multiplicative."
 echo 'export bismark_threads=2' 
 echo ""
@@ -186,7 +186,7 @@ find ${trimmed_fastqs_dir}/${R1_fastq_pattern} \
 | xargs -I {} ${bismark_dir}/bismark \
 --path_to_bowtie2 ${bowtie2_dir} \
 --genome ${bisulfite_genome_dir} \
---score_min "${bowtie2_score}" \
+--score_min "${bowtie2_min_score}" \
 --parallel "${bismark_threads}" \
 --non_directional \
 --samtools_path "${samtools_dir}" \
