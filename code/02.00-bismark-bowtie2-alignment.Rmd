@@ -50,6 +50,12 @@ echo 'export trimmed_reads_url="https://gannet.fish.washington.edu/Atumefaciens/
 echo 'export trimmed_fastqs_dir=${output_dir_top}/trimmed-fastqs'
 echo ""
 
+echo "Input files"
+echo 'export bisulfite_genome_url="http://owl.fish.washington.edu/halfshell/genomic-databank/Cvirginica_v300_bisulfite.tar.gz"'
+echo 'export bisulfite_genome_gz="Cvirginica_v300_bisulfite.tar.gz"'
+echo 'export bisulfite_genome="Cvirginica_v300"'
+echo ""
+
 echo "# Paths to programs"
 echo 'export programs_dir="/home/shared"'
 echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
@@ -87,6 +93,36 @@ echo ""
 
 cat .bashvars
 ```
+
+# Download bisulfite genome
+
+```{bash download-bisulfite-genome, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${repo_dir}"/data
+
+wget --quiet \
+--continue \
+"${bisulfite_genome_url}"
+
+ls -ltrh
+```
+
+# Unpack bisulfite genome
+```{bash unpack-bisulfite-genome, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${repo_dir}"/data
+
+if [ ! -d "${bisulfite_genome}" ]; then
+  tar -xzf "${bisulfite_genome_gz}"
+fi
+
+tree "${bisulfite_genome}"
+```
+
 
 # Download trimmed RNA-seq reads
 
