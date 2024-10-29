@@ -47,13 +47,13 @@ echo "# Data directories"
 echo 'export repo_dir=/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr'
 echo 'export output_dir_top=${repo_dir}/output/02.00-bismark-bowtie2-alignment'
 echo 'export trimmed_reads_url="https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/"'
-echo 'export trimmed_fastqs_dir=${output_dir_top}/trimmed-fastqs'
+echo 'export trimmed_fastqs_dir="${output_dir_top}/trimmed-fastqs"'
 echo ""
 
-echo "Input files"
+echo "# Input files"
 echo 'export bisulfite_genome_url="http://owl.fish.washington.edu/halfshell/genomic-databank/Cvirginica_v300_bisulfite.tar.gz"'
 echo 'export bisulfite_genome_gz="Cvirginica_v300_bisulfite.tar.gz"'
-echo 'export bisulfite_genome="Cvirginica_v300"'
+echo 'export bisulfite_genome_dir="${repo_dir}/data/Cvirginica_v300"'
 echo ""
 
 echo "# Paths to programs"
@@ -64,17 +64,24 @@ echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
 echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
 echo ""
 
+echo "# Program settings"
+echo 'export bowite2_min_score="L,0,-0.6"'
+echo ""
+
 echo "# Set FastQ filename patterns"
 echo "export fastq_pattern='*.fq.gz'"
-echo "export R1_fastq_pattern='*_R1_*.fastq.gz'"
-echo "export R2_fastq_pattern='*_R2_*.fastq.gz'"
+echo "export R1_fastq_pattern='*_R1_*.fq.gz'"
+echo "export R2_fastq_pattern='*_R2_*.fq.gz'"
+echo 'export reads_basename="_001.fastp-trim.20220827.fq.gz"'
+echo 'export R1_reads_basename="_R1_001.fastp-trim.20220827.fq.gz"'
+echo 'export R2_reads_basename="_R2_001.fastp-trim.20220827.fq.gz"'
 echo "export trimmed_fastq_pattern='*fastp-trim*.fq.gz'"
 echo ""
 
 echo "# Set number of CPUs to use"
-echo 'export threads=40'
+echo 'export threads=4'
 echo "# Bismark already spawns multiple instances and additional threads are multiplicative."
-echo 'export bismark_threads=8' 
+echo 'export bismark_threads=2' 
 echo ""
 
 
@@ -109,18 +116,18 @@ wget --quiet \
 ls -ltrh
 ```
 
-# Unpack bisulfite genome
+## Unpack bisulfite genome
 ```{bash unpack-bisulfite-genome, engine='bash', eval=TRUE}
 # Load bash variables into memory
 source .bashvars
 
 cd "${repo_dir}"/data
 
-if [ ! -d "${bisulfite_genome}" ]; then
+if [ ! -d "${bisulfite_genome_dir}" ]; then
   tar -xzf "${bisulfite_genome_gz}"
 fi
 
-tree "${bisulfite_genome}"
+tree "${bisulfite_genome_dir}"
 ```
 
 
@@ -140,7 +147,6 @@ mkdir --parents ${trimmed_fastqs_dir}
 # Run wget to retrieve FastQs and MD5 files
 wget \
 --directory-prefix ${trimmed_fastqs_dir} \
---recursive \
 --no-check-certificate \
 --continue \
 --cut-dirs 2 \
@@ -166,4 +172,29 @@ for file in *.md5
 do
   md5sum --check "${file}"
 done
+```
+
+# Alignment
+```{bash alignment, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${trimmed_fastqs_dir}"
+
+find ${trimmed_fastqs_dir}/${R1_fastq_pattern} \
+| xargs basename -s "${R1_reads_basename}" \
+| xargs -I {} ${bismark_dir}/bismark \
+--path_to_bowtie2 ${bowtie2_dir} \
+--genome ${bisulfite_genome_dir} \
+--score_min "${bowtie2_score}" \
+--parallel "${bismark_threads}" \
+--non_directional \
+--samtools_path "${samtools_dir}" \
+--gzip \
+-p "${threads}" \
+-1 ${trimmed_fastqs_dir}/{}"${R1_reads_basename}" \
+-2 ${trimmed_fastqs_dir}/{}"${R2_reads_basename}" \
+--output_dir "${output_dir_top}" \
+2> "${output_dir_top}"/bismark_summary.txt
+
 ```
