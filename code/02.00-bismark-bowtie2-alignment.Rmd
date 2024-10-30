@@ -79,7 +79,7 @@ echo "export trimmed_fastq_pattern='*fastp-trim*.fq.gz'"
 echo ""
 
 echo "# Set number of CPUs to use"
-echo 'export threads=8'
+echo 'export threads=4'
 echo "# Bismark already spawns multiple instances and additional threads are multiplicative."
 echo 'export bismark_threads=2' 
 echo ""
