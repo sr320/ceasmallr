@@ -87,3 +87,34 @@ ${bismark_dir}/deduplicate_bismark \
 --output_dir ${output_dir_top} \
 *_bismark_bt2_pe.bam
 ```
+
+# Sorting
+```{bash sorting, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+
+#Sorting for Downstream Applications
+find *deduplicated.bam \
+| xargs basename -s _R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
+| xargs -I{} ${samtools_dir}/samtools \
+sort {}_bt2_pe.deduplicated.bam \
+-@ "${threads}" \
+-o {}_dedup.sorted.bam
+```
+
+
+#Indexing for Downstream Applications
+```{r indexing, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+find *dedup.sorted.bam \
+| xargs basename -s _dedup.sorted.bam \
+| xargs -I{} ${samtools_dir}/samtools \
+index {}_dedup.sorted.bam
+
+```
