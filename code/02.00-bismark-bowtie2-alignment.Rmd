@@ -198,3 +198,17 @@ find ${trimmed_fastqs_dir}/${R1_fastq_pattern} \
 2> "${output_dir_top}"/bismark_summary.txt
 
 ```
+
+# Checksums
+```{r generate-checksums, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+for file in *; do
+  if [ "${file}" != "checksums.md" ]; then
+    md5sum "${file}" >> checksums.md
+  fi
+done
+```
