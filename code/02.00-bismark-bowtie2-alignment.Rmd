@@ -199,6 +199,16 @@ find ${trimmed_fastqs_dir}/${R1_fastq_pattern} \
 
 ```
 
+# MultiQC
+```{r multiqc, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
+```
+
 # Checksums
 ```{r generate-checksums, engine='bash', eval=TRUE}
 # Load bash variables into memory
@@ -207,8 +217,8 @@ source .bashvars
 cd "${output_dir_top}"
 
 for file in *; do
-  if [ "${file}" != "checksums.md" ]; then
-    md5sum "${file}" >> checksums.md
+  if [ "${file}" != "checksums.md5" ]; then
+    md5sum "${file}" >> checksums.md5
   fi
 done
 ```
