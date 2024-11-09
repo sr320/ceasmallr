@@ -100,13 +100,13 @@ cd "${output_dir_top}"
 find *deduplicated.bam \
 | xargs basename -s _R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
 | xargs -I{} ${samtools_dir}/samtools \
-sort {}_bt2_pe.deduplicated.bam \
+sort {}_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
 -@ "${threads}" \
 -o {}_dedup.sorted.bam
 ```
 
 
-#Indexing for Downstream Applications
+# Indexing for Downstream Applications
 ```{r indexing, engine='bash', eval=TRUE}
 # Load bash variables into memory
 source .bashvars
@@ -117,4 +117,28 @@ find *dedup.sorted.bam \
 | xargs -I{} ${samtools_dir}/samtools \
 index {}_dedup.sorted.bam
 
+```
+
+# MultiQC
+```{r multiqc, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
+```
+
+# Checksums
+```{r generate-checksums, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+for file in *; do
+  if [ "${file}" != "checksums.md5" ]; then
+    md5sum "${file}" >> checksums.md5
+  fi
+done
 ```
