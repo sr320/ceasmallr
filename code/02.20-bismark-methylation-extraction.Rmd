@@ -1,0 +1,96 @@
+---
+title: "02.20-bismark-methylation-extraction"
+author: "Sam White"
+date: "2024-11-11"
+output: 
+  bookdown::html_document2:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: true
+  github_document:
+    toc: true
+    number_sections: true
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: true
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(
+  echo = TRUE,         # Display code chunks
+  eval = FALSE,        # Evaluate code chunks
+  warning = FALSE,     # Hide warnings
+  message = FALSE,     # Hide messages
+  comment = ""         # Prevents appending '##' to beginning of lines in code output
+)
+```
+
+# Create a Bash variables file
+
+This allows usage of Bash variables across R Markdown chunks.
+
+```{r save-bash-variables-to-rvars-file, engine='bash', eval=TRUE}
+{
+echo "#### Assign Variables ####"
+echo ""
+
+echo "# Data directories"
+echo 'export repo_dir=/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr'
+echo 'export output_dir_top=${repo_dir}/output/02.20-bismark-methylation-extraction'
+echo 'export deduplication_dir="${repo_dir}/output/02.10-bismark-deduplication"'
+echo 'export genome_dir="${repo_dir}/data/Cvirginica_v300/"'
+echo ""
+
+
+echo "# Paths to programs"
+echo 'export programs_dir="/home/shared"'
+echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
+echo 'export bowtie2_dir="${programs_dir}/bowtie2-2.4.4-linux-x86_64"'
+echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
+echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
+echo ""
+
+echo "# Set number of CPUs to use"
+echo 'export threads=40'
+
+
+echo "# Print formatting"
+echo 'export line="--------------------------------------------------------"'
+echo ""
+} > .bashvars
+
+cat .bashvars
+```
+
+#Methylation Extraction
+
+```{r methylation-extraction, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${deduplication_dir}"
+
+${bismark_dir}/bismark_methylation_extractor \
+--bedGraph \
+--counts \
+--scaffolds \
+--parallel 10 \
+--output_dir ${output_dir_top} \
+--samtools_path ${samtools_dir} \
+--gzip \
+--paired-end \
+--zero_based \
+--buffer_size 50% \
+--cytosine_report \
+--genome_folder ${genome_dir} \
+*deduplicated.bam
+```
