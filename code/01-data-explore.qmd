@@ -54,6 +54,7 @@ ${genome_folder} \
 ```{bash}
 ls ../data/*fq.gz | wc -l 
 ```
+
 ```{bash}
 ls ../data/*fq.gz
 ```
@@ -61,8 +62,6 @@ ls ../data/*fq.gz
 ```{bash}
 echo "01-data-explore" >> ../output/.gitignore
 ```
-
-
 
 STARTED JUNE 6 11AM FINISHED June 12 6PM
 
@@ -85,8 +84,7 @@ find ../data/*_R1_001.fastp-trim.20220827.fq.gz \
 &> ../output/01-data-explore/bismark.log
 ```
 
-
-seems like last sample did not finish 
+seems like last sample did not finish
 
 ```{bash}
 # Directories and programs
