@@ -8,3 +8,6 @@
 Cvirginica_v300.fa
 *.fastq.gz
 *.fq.gz
+*.deduplicated.bedGraph.gz.bismark.zero.cov
+*.deduplicated.txt.gz
+
