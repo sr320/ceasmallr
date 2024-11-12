@@ -12,3 +12,5 @@ Cvirginica_v300.fa
 *.deduplicated.txt.gz
 *.deduplicated.bedGraph.gz
 *.deduplicated.bismark.cov.gz
+*.deduplicated.CpG_report.txt.gz
+
