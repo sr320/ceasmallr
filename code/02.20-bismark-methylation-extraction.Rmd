@@ -94,3 +94,27 @@ ${bismark_dir}/bismark_methylation_extractor \
 --genome_folder ${genome_dir} \
 *deduplicated.bam
 ```
+
+# MultiQC
+```{r multiqc, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
+```
+
+# Checksums
+```{r generate-checksums, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+for file in *; do
+  if [ "${file}" != "checksums.md5" ]; then
+    md5sum "${file}" >> checksums.md5
+  fi
+done
+```
