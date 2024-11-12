@@ -1,0 +1,7 @@
+
+Total number of alignments analysed in EF06-EM02-Larvae_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam:	40534735
+Total number duplicated alignments removed:	11398804 (28.12%)
+Duplicated alignments were found at:	8180056 different position(s)
+
+Total count of deduplicated leftover sequences: 29135931 (71.88% of total)
+

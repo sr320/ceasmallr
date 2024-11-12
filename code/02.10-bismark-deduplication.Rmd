@@ -1,0 +1,144 @@
+---
+title: "02.10-bismark-deduplication"
+author: "Sam White"
+date: "2024-11-09"
+output: 
+  bookdown::html_document2:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: true
+  github_document:
+    toc: true
+    number_sections: true
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: true
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(
+  echo = TRUE,         # Display code chunks
+  eval = FALSE,        # Evaluate code chunks
+  warning = FALSE,     # Hide warnings
+  message = FALSE,     # Hide messages
+  comment = ""         # Prevents appending '##' to beginning of lines in code output
+)
+```
+
+# Create a Bash variables file
+
+This allows usage of Bash variables across R Markdown chunks.
+
+```{r save-bash-variables-to-rvars-file, engine='bash', eval=TRUE}
+{
+echo "#### Assign Variables ####"
+echo ""
+
+echo "# Data directories"
+echo 'export repo_dir=/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr'
+echo 'export output_dir_top=${repo_dir}/output/02.10-bismark-deduplication'
+echo 'export alignment_dir="${repo_dir}/output/02.00-bismark-bowtie2-alignment"'
+echo ""
+
+
+echo "# Paths to programs"
+echo 'export programs_dir="/home/shared"'
+echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
+echo 'export bowtie2_dir="${programs_dir}/bowtie2-2.4.4-linux-x86_64"'
+echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
+echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
+echo ""
+
+echo "# Set number of CPUs to use"
+echo 'export threads=40'
+
+
+echo "# Print formatting"
+echo 'export line="--------------------------------------------------------"'
+echo ""
+} > .bashvars
+
+cat .bashvars
+```
+
+# Deduplication
+```{bash deduplication, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+# Make output directory, if it doesn't exist
+mkdir --parents "${output_dir_top}"
+
+cd "${alignment_dir}"
+
+${bismark_dir}/deduplicate_bismark \
+--samtools_path ${samtools_dir} \
+--paired \
+--bam \
+--output_dir ${output_dir_top} \
+*_bismark_bt2_pe.bam
+```
+
+# Sorting
+```{bash sorting, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+
+#Sorting for Downstream Applications
+find *deduplicated.bam \
+| xargs basename -s _R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
+| xargs -I{} ${samtools_dir}/samtools \
+sort {}_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
+-@ "${threads}" \
+-o {}_dedup.sorted.bam
+```
+
+
+# Indexing for Downstream Applications
+```{r indexing, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+find *dedup.sorted.bam \
+| xargs basename -s _dedup.sorted.bam \
+| xargs -I{} ${samtools_dir}/samtools \
+index {}_dedup.sorted.bam
+
+```
+
+# MultiQC
+```{r multiqc, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
+```
+
+# Checksums
+```{r generate-checksums, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+for file in *; do
+  if [ "${file}" != "checksums.md5" ]; then
+    md5sum "${file}" >> checksums.md5
+  fi
+done
+```

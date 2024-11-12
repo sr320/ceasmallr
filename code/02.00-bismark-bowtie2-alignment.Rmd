@@ -1,0 +1,224 @@
+---
+title: "02.00-bismark-bowtie2-alignment"
+author: "Sam White"
+date: "2024-10-23"
+output: 
+  bookdown::html_document2:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: true
+  github_document:
+    toc: true
+    number_sections: true
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: true
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(
+  echo = TRUE,         # Display code chunks
+  eval = FALSE,        # Evaluate code chunks
+  warning = FALSE,     # Hide warnings
+  message = FALSE,     # Hide messages
+  comment = ""         # Prevents appending '##' to beginning of lines in code output
+)
+```
+
+# Create a Bash variables file
+
+This allows usage of Bash variables across R Markdown chunks.
+
+```{r save-bash-variables-to-rvars-file, engine='bash', eval=TRUE}
+{
+echo "#### Assign Variables ####"
+echo ""
+
+echo "# Data directories"
+echo 'export repo_dir=/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr'
+echo 'export output_dir_top=${repo_dir}/output/02.00-bismark-bowtie2-alignment'
+echo 'export trimmed_reads_url="https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/"'
+echo 'export trimmed_fastqs_dir="${output_dir_top}/trimmed-fastqs"'
+echo ""
+
+echo "# Input files"
+echo 'export bisulfite_genome_url="http://owl.fish.washington.edu/halfshell/genomic-databank/Cvirginica_v300_bisulfite.tar.gz"'
+echo 'export bisulfite_genome_gz="Cvirginica_v300_bisulfite.tar.gz"'
+echo 'export bisulfite_genome_dir="${repo_dir}/data/Cvirginica_v300"'
+echo ""
+
+echo "# Paths to programs"
+echo 'export programs_dir="/home/shared"'
+echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
+echo 'export bowtie2_dir="${programs_dir}/bowtie2-2.4.4-linux-x86_64"'
+echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
+echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
+echo ""
+
+echo "# Program settings"
+echo 'export bowtie2_min_score="L,0,-0.6"'
+echo ""
+
+echo "# Set FastQ filename patterns"
+echo "export fastq_pattern='*.fq.gz'"
+echo "export R1_fastq_pattern='*_R1_*.fq.gz'"
+echo "export R2_fastq_pattern='*_R2_*.fq.gz'"
+echo 'export reads_basename="_001.fastp-trim.20220827.fq.gz"'
+echo 'export R1_reads_basename="_R1_001.fastp-trim.20220827.fq.gz"'
+echo 'export R2_reads_basename="_R2_001.fastp-trim.20220827.fq.gz"'
+echo "export trimmed_fastq_pattern='*fastp-trim*.fq.gz'"
+echo ""
+
+echo "# Set number of CPUs to use"
+echo 'export threads=4'
+echo "# Bismark already spawns multiple instances and additional threads are multiplicative."
+echo 'export bismark_threads=2' 
+echo ""
+
+
+echo "## Inititalize arrays"
+echo 'export fastq_array_R1=()'
+echo 'export fastq_array_R2=()'
+echo 'export trimmed_fastqs_array=()'
+echo 'export R1_names_array=()'
+echo 'export R2_names_array=()'
+echo ""
+
+echo "# Print formatting"
+echo 'export line="--------------------------------------------------------"'
+echo ""
+} > .bashvars
+
+cat .bashvars
+```
+
+# Download bisulfite genome
+
+```{bash download-bisulfite-genome, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${repo_dir}"/data
+
+wget --quiet \
+--continue \
+"${bisulfite_genome_url}"
+
+ls -ltrh
+```
+
+## Unpack bisulfite genome
+```{bash unpack-bisulfite-genome, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${repo_dir}"/data
+
+if [ ! -d "${bisulfite_genome_dir}" ]; then
+  tar -xzf "${bisulfite_genome_gz}"
+fi
+
+tree "${bisulfite_genome_dir}"
+```
+
+
+# Download trimmed RNA-seq reads
+
+Reads are downloaded from https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/
+
+The `--cut-dirs 2` command cuts the preceding directory structure (i.e. `nightingales/E5-coral-time-series/30-1047560508/`) so that we just end up with the reads.
+
+```{bash download-trimmed-reads, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+# Make output directory if it doesn't exist
+mkdir --parents ${trimmed_fastqs_dir}
+
+# Run wget to retrieve FastQs and MD5 files
+wget \
+--directory-prefix ${trimmed_fastqs_dir} \
+--no-check-certificate \
+--continue \
+--cut-dirs 2 \
+--no-host-directories \
+--no-parent \
+--quiet \
+--accept="${trimmed_fastq_pattern}, trimmed-fastq-checksums.md5" \
+${trimmed_reads_url}
+
+ls -lh "${trimmed_fastqs_dir}"
+```
+
+## Verify trimmed read checksums
+
+```{bash verify-trimmed-read-checksums, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${trimmed_fastqs_dir}"
+
+# Checksums file contains other files, so this just looks for the sRNAseq files.
+for file in *.md5
+do
+  md5sum --check "${file}"
+done
+```
+
+# Alignment
+```{bash alignment, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${trimmed_fastqs_dir}"
+
+find ${trimmed_fastqs_dir}/${R1_fastq_pattern} \
+| xargs basename -s "${R1_reads_basename}" \
+| xargs -I {} ${bismark_dir}/bismark \
+--path_to_bowtie2 ${bowtie2_dir} \
+--genome ${bisulfite_genome_dir} \
+--score_min "${bowtie2_min_score}" \
+--parallel "${bismark_threads}" \
+--non_directional \
+--samtools_path "${samtools_dir}" \
+--gzip \
+-p "${threads}" \
+-1 ${trimmed_fastqs_dir}/{}"${R1_reads_basename}" \
+-2 ${trimmed_fastqs_dir}/{}"${R2_reads_basename}" \
+--output_dir "${output_dir_top}" \
+2> "${output_dir_top}"/bismark_summary.txt
+
+```
+
+# MultiQC
+```{r multiqc, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
+```
+
+# Checksums
+```{r generate-checksums, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+for file in *; do
+  if [ "${file}" != "checksums.md5" ]; then
+    md5sum "${file}" >> checksums.md5
+  fi
+done
+```
