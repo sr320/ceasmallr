@@ -11,3 +11,4 @@ Cvirginica_v300.fa
 *.deduplicated.bedGraph.gz.bismark.zero.cov
 *.deduplicated.txt.gz
 *.deduplicated.bedGraph.gz
+*.deduplicated.bismark.cov.gz
