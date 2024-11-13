@@ -102,12 +102,20 @@ mkdir --parents "${output_dir_top}"
 
 cd "${alignment_dir}"
 
-${bismark_dir}/deduplicate_bismark \
---samtools_path ${samtools_dir} \
---paired \
---bam \
---output_dir ${output_dir_top} \
-*_bismark_bt2_pe.bam
+for bam in *_bismark_bt2_pe.bam
+do
+  # Set stderr filename
+  stderr_name=$(echo "${bam}" | awk -F"." '{print $1"."$2"."$3".deduplication.stderr"}')
+  
+  # Run deduplication
+  ${bismark_dir}/deduplicate_bismark \
+  --samtools_path ${samtools_dir} \
+  --paired \
+  --bam \
+  --output_dir ${output_dir_top} \
+  ${bam} \
+  2&1> ${output_dir_top}/${stderr_name}
+done
 ```
 
 # Sorting
