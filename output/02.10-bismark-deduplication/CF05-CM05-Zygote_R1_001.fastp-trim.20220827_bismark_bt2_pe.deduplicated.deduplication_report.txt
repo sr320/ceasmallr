@@ -1,7 +1,0 @@
-
-Total number of alignments analysed in CF06-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam:	34754339
-Total number duplicated alignments removed:	9096101 (26.17%)
-Duplicated alignments were found at:	6720191 different position(s)
-
-Total count of deduplicated leftover sequences: 25658238 (73.83% of total)
-
