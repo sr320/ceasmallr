@@ -155,7 +155,7 @@ tree "${bisulfite_genome_dir}"
 
 Reads are downloaded from <https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/>
 
-The `--cut-dirs 2` command cuts the preceding directory structure (i.e. `nightingales/E5-coral-time-series/30-1047560508/`) so that we just end up with the reads.
+The `--cut-dirs 2` command cuts the preceding directory structure (i.e. `Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/`) so that we just end up with the reads.
 
 ```{bash download-trimmed-reads, engine='bash', eval=TRUE}
 # Load bash variables into memory
