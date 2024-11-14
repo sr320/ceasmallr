@@ -93,7 +93,7 @@ cat .bashvars
 ```
 
 # Deduplication
-```{bash deduplication, engine='bash', eval=TRUE}
+```{bash deduplication, engine='bash', eval=FALSE}
 # Load bash variables into memory
 source .bashvars
 
@@ -119,7 +119,7 @@ done
 ```
 
 # Sorting
-```{bash sorting, engine='bash', eval=TRUE}
+```{bash sorting, engine='bash', eval=FALSE}
 # Load bash variables into memory
 source .bashvars
 
@@ -137,7 +137,7 @@ sort {}_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
 
 
 # Indexing for Downstream Applications
-```{r indexing, engine='bash', eval=TRUE}
+```{r indexing, engine='bash', eval=FALSE}
 # Load bash variables into memory
 source .bashvars
 
@@ -150,7 +150,7 @@ index {}_dedup.sorted.bam
 ```
 
 # MultiQC
-```{r multiqc, engine='bash', eval=TRUE}
+```{r multiqc, engine='bash', eval=FALSE}
 # Load bash variables into memory
 source .bashvars
 
@@ -160,7 +160,7 @@ ${multiqc} .
 ```
 
 # Checksums
-```{r generate-checksums, engine='bash', eval=TRUE}
+```{r generate-checksums, engine='bash', eval=FALSE}
 # Load bash variables into memory
 source .bashvars
 
