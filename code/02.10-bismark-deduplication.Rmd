@@ -172,3 +172,13 @@ for file in *; do
   fi
 done
 ```
+
+# List output files
+```{r list=outputs, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+ls -lh
+```
