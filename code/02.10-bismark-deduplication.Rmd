@@ -174,7 +174,7 @@ done
 ```
 
 # List output files
-```{r list=outputs, engine='bash', eval=TRUE}
+```{r list-outputs, engine='bash', eval=TRUE}
 # Load bash variables into memory
 source .bashvars
 
