@@ -69,6 +69,7 @@ echo "# Paths to programs"
 echo 'export programs_dir="/home/shared"'
 echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
 echo 'export bowtie2_dir="${programs_dir}/bowtie2-2.4.4-linux-x86_64"'
+echo 'export fastp="/home/shared/fastp"'
 echo 'export fastqc="/home/shared/FastQC-0.12.1/fastqc"'
 echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
 echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
@@ -212,15 +213,6 @@ do
 done
 ```
 
-## Remove old reads
-```{r rm-old-reads, engine='bash', eval=TRUE}
-# Load bash variables into memory
-source .bashvars
-
-rm -rf "${raw_reads_dir}"/2018OALarvae_DNAm_discovery
-
-ls -l "${raw_reads_dir}"/2018OALarvae_DNAm_discovery
-```
 
 # Trimming
 ```{r fastp-trimming, engine='bash', eval=TRUE}
@@ -229,6 +221,8 @@ source .bashvars
 
 # Make output directory, if it doesn't exist
 mkdir --parents ${output_dir_top}
+
+cd "${raw_reads_dir}"
 
 
 # Create arrays of fastq R1 files and sample names
@@ -266,6 +260,7 @@ for index in "${!fastq_array_R1[@]}"
 do
   R1_sample_name="${R1_names_array[index]}"
   R2_sample_name="${R2_names_array[index]}"
+  
   ${fastp} \
   --in1 ${fastq_array_R1[index]} \
   --in2 ${fastq_array_R2[index]} \
@@ -273,16 +268,19 @@ do
   --thread ${threads} \
   --trim_front1 15 \
   --trim_front2 15 \
-  --html "${R1_sample_name}".fastp-trim."${timestamp}".report.html \
-  --json "${R1_sample_name}".fastp-trim."${timestamp}".report.json \
-  --out1 "${R1_sample_name}".fastp-trim.fq.gz \
-  --out2 "${R2_sample_name}".fastp-trim.fq.gz
+  --html ${output_dir_top}/"${R1_sample_name}".fastp-trim."${timestamp}".report.html \
+  --json ${output_dir_top}/"${R1_sample_name}".fastp-trim."${timestamp}".report.json \
+  --out1 ${output_dir_top}/"${R1_sample_name}".fastp-trim.fq.gz \
+  --out2 ${output_dir_top}/"${R2_sample_name}".fastp-trim.fq.gz
 
   # Generate md5 checksums for newly trimmed files
+  cd ${output_dir_top}
   {
-      md5sum "${R1_sample_name}".fastp-trim.fq.gz
-      md5sum "${R2_sample_name}".fastp-trim.fq.gz
+      md5sum "${R1_sample_name}".fastp-trim.fq.gz > "${R1_sample_name}".fastp-trim.fq.gz.md5
+      md5sum "${R2_sample_name}".fastp-trim.fq.gz > "${R2_sample_name}".fastp-trim.fq.gz.md5
   } >> "${trimmed_checksums}"
+  
+  cd "${raw_reads_dir}"
 done
 ```
 
