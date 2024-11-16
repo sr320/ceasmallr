@@ -80,9 +80,6 @@ echo "# Set FastQ filename patterns"
 echo "export fastq_pattern='*.fastq.gz'"
 echo "export R1_fastq_pattern='*_R1_*.fastq.gz'"
 echo "export R2_fastq_pattern='*_R2_*.fastq.gz'"
-echo 'export reads_basename="_001.fastp-trim.20220827.fq.gz"'
-echo 'export R1_reads_basename="_R1_001.fastp-trim.20220827.fq.gz"'
-echo 'export R2_reads_basename="_R2_001.fastp-trim.20220827.fq.gz"'
 echo "export trimmed_fastq_pattern='*fastp-trim*.fq.gz'"
 echo ""
 
@@ -292,6 +289,36 @@ done
 # Load bash variables into memory
 source .bashvars
 
+cd "${output_dir_top}"
+
+############ RUN FASTQC ############
+
+
+# Create array of trimmed FastQs
+trimmed_fastqs_array=(${trimmed_fastq_pattern})
+
+# Pass array contents to new variable as space-delimited list
+trimmed_fastqc_list=$(echo "${trimmed_fastqs_array[*]}")
+
+echo "Beginning FastQC on trimmed reads..."
+echo ""
+
+# Run FastQC
+### NOTE: Do NOT quote raw_fastqc_list
+fastqc \
+--threads ${threads} \
+--outdir  "${output_dir_top}"\
+--quiet \
+${trimmed_fastqc_list}
+
+echo "FastQC on trimmed reads complete!"
+echo ""
+
+############ END FASTQC ############
+
+# Clean up
+rm *.zip
+```
 
 ```
 
