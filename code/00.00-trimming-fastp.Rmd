@@ -69,7 +69,7 @@ echo "# Paths to programs"
 echo 'export programs_dir="/home/shared"'
 echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
 echo 'export bowtie2_dir="${programs_dir}/bowtie2-2.4.4-linux-x86_64"'
-echo 'export fastp="/home/shared/fastp"'
+echo 'export fastp="/home/shared/fastp-v0.24.0/fastp"'
 echo 'export fastqc="/home/shared/FastQC-0.12.1/fastqc"'
 echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
 echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
@@ -265,20 +265,23 @@ do
   --in1 ${fastq_array_R1[index]} \
   --in2 ${fastq_array_R2[index]} \
   --detect_adapter_for_pe \
-  --thread ${threads} \
+  --thread 16 \
   --trim_front1 15 \
   --trim_front2 15 \
-  --html ${output_dir_top}/"${R1_sample_name}".fastp-trim."${timestamp}".report.html \
-  --json ${output_dir_top}/"${R1_sample_name}".fastp-trim."${timestamp}".report.json \
+  --html ${output_dir_top}/"${R1_sample_name}".fastp-trim.report.html \
+  --json ${output_dir_top}/"${R1_sample_name}".fastp-trim.report.json \
   --out1 ${output_dir_top}/"${R1_sample_name}".fastp-trim.fq.gz \
   --out2 ${output_dir_top}/"${R2_sample_name}".fastp-trim.fq.gz
 
+  echo "Finished trimming:"
+  echo "${fastq_array_R1[index]}"
+  echo "${fastq_array_R1[index]}"
+  echo ""
+  
   # Generate md5 checksums for newly trimmed files
-  cd ${output_dir_top}
-  {
-      md5sum "${R1_sample_name}".fastp-trim.fq.gz > "${R1_sample_name}".fastp-trim.fq.gz.md5
-      md5sum "${R2_sample_name}".fastp-trim.fq.gz > "${R2_sample_name}".fastp-trim.fq.gz.md5
-  } >> "${trimmed_checksums}"
+  cd "${output_dir_top}"
+  md5sum "${R1_sample_name}".fastp-trim.fq.gz > "${R1_sample_name}".fastp-trim.fq.gz.md5
+  md5sum "${R2_sample_name}".fastp-trim.fq.gz > "${R2_sample_name}".fastp-trim.fq.gz.md5
   
   cd "${raw_reads_dir}"
 done
