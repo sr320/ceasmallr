@@ -67,10 +67,11 @@ echo ""
 
 echo "# Paths to programs"
 echo 'export programs_dir="/home/shared"'
+echo 'export bbmap_repair="${programs_dir}/bbmap-39.12/repair.sh"'
 echo 'export bismark_dir="${programs_dir}/Bismark-0.24.0"'
 echo 'export bowtie2_dir="${programs_dir}/bowtie2-2.4.4-linux-x86_64"'
-echo 'export fastp="/home/shared/fastp-v0.24.0/fastp"'
-echo 'export fastqc="/home/shared/FastQC-0.12.1/fastqc"'
+echo 'export fastp="${programs_dir}/fastp-v0.24.0/fastp"'
+echo 'export fastqc="${programs_dir}/FastQC-0.12.1/fastqc"'
 echo 'export multiqc="/home/sam/programs/mambaforge/bin/multiqc"'
 echo 'export samtools_dir="${programs_dir}/samtools-1.12"'
 echo ""
@@ -287,6 +288,27 @@ do
   
   cd "${raw_reads_dir}"
 done
+```
+
+## Check for errors
+```{r check-fastp-errors, engine='bash'}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+grep --before-context 5 "ERROR" *.stderr
+
+```
+
+## Repair FastQs
+```{r repair-fastqs, engine='bash'}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+
 ```
 
 # FastQC
