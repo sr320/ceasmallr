@@ -305,9 +305,9 @@ echo ""
 
 # Run FastQC
 ### NOTE: Do NOT quote raw_fastqc_list
-fastqc \
+${fastqc} \
 --threads ${threads} \
---outdir  "${output_dir_top}"\
+--outdir "${output_dir_top}" \
 --quiet \
 ${trimmed_fastqc_list}
 
@@ -326,4 +326,8 @@ rm *.zip
 ```{r multiqc, engine='bash'}
 # Load bash variables into memory
 source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
 ```
