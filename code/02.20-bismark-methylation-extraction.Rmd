@@ -118,3 +118,31 @@ for file in *; do
   fi
 done
 ```
+
+# Peek at output files
+```{r head-files, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+head \
+<(zcat CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bedGraph.gz) \
+CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bedGraph.gz.bismark.zero.cov \
+<(zcat CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bismark.cov.gz) \
+<(zcat CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.CpG_report.txt.gz) \
+CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.cytosine_context_summary.txt \
+CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.M-bias.txt \
+CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated_splitting_report.txt \
+| column -t -s $'\t'
+```
+
+# List all outputs
+```{r list-outputs, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+ls -lh
+```
