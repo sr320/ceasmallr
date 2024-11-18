@@ -35,7 +35,7 @@ The expected outputs will be:
 
 Due to the large file sizes of FastQs, these cannot be hosted in the [ceasmallr GitHub repo](https://github.com/sr320/ceasmallr). As such these files are available for download here:
 
-- [https://gannet.fish.washington.edu/Atumefaciens/gitrepos/ceasmallr/output/00.00-trimming-fastp/](https://gannet.fish.washington.edu/Atumefaciens/gitrepos/ceasmallr/output/00.00-trimming-fastp/)
+- [https://gannet.fish.washington.edu/gitrepos/ceasmallr/output/00.00-trimming-fastp/](https://gannet.fish.washington.edu/gitrepos/ceasmallr/output/00.00-trimming-fastp/)
 
 ```{r setup, include=FALSE}
 library(knitr)
