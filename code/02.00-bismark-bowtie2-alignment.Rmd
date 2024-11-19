@@ -203,9 +203,17 @@ done
 # Load bash variables into memory
 source .bashvars
 
-cd "${output_dir_top}"
 
-ls -lh
+cd "${trimmed_fastqs_dir}"
+
+find ${trimmed_fastqs_dir}/${R1_fastq_pattern} \
+| xargs basename -s "${R1_reads_basename}" \
+| awk '{print $0, $0}' > "${output_dir_top}"/fastq_pairs.txt
+
+
+cat "${output_dir_top}"/fastq_pairs.txt
+
+
 ```
 
 
