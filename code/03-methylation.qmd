@@ -1,0 +1,101 @@
+---
+title: "03-methylation"
+format: html
+editor: visual
+---
+
+
+Sam did extraction...
+
+```
+${bismark_dir}/bismark_methylation_extractor \
+--bedGraph \
+--counts \
+--scaffolds \
+--parallel 10 \
+--output_dir ${output_dir_top} \
+--samtools_path ${samtools_dir} \
+--gzip \
+--paired-end \
+--zero_based \
+--buffer_size 50% \
+--cytosine_report \
+--genome_folder ${genome_dir} \
+*deduplicated.bam
+```
+
+```{bash}
+wget -r \
+--no-directories --no-parent \
+-P ../output/02.20-bismark-methylation-extraction/ \
+-A "*cov.gz" https://gannet.fish.washington.edu/Atumefaciens/gitrepos/ceasmallr/output/02.20-bismark-methylation-extraction/
+
+```
+
+
+```{bash}
+ls ../output/02.20-bismark-methylation-extraction/*cov.gz
+```
+
+```{bash}
+# Set the paths for Bismark, Bowtie2, and genome folder
+bismark_dir="/home/shared/Bismark-0.24.0"
+bowtie2_dir="/home/shared/bowtie2-2.4.4-linux-x86_64/"
+genome_folder="../data/genome/"
+output_dir="../output/03-methylation"
+
+# Create the output directory if it doesn't exist
+mkdir -p "$output_dir"
+
+# Find files and process each with coverage2cytosine
+find ../output/02.20-bismark-methylation-extraction/*_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bismark.cov.gz \
+| while read -r file; do
+    # Get the sample name by stripping the suffix
+    sample_name=$(basename "$file" "_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+
+    # Define log file for capturing stdout and stderr
+    log_file="$output_dir/${sample_name}_coverage2cytosine.log"
+
+    # Run coverage2cytosine command and redirect stdout and stderr to the log file
+    "${bismark_dir}/coverage2cytosine" \
+    --genome_folder "${genome_folder}" \
+    -o "$output_dir/$sample_name" \
+    --merge_CpG \
+    --zero_based \
+    "$file" > "$log_file" 2>&1
+
+    echo "Processed $sample_name, output in $log_file"
+done
+```
+
+
+```{bash}
+# Set the base directory containing the Bismark subdirectories
+base_dir="/output"
+# Set the output directory for all Bismark reports
+output_dir="../output/03-methylation"
+
+# Create the output directory if it doesn't exist
+mkdir -p "$output_dir"
+
+# Loop through each subdirectory
+for dir in "$base_dir"/*/; do
+  # Check if the directory exists
+  if [ -d "$dir" ]; then
+    echo "Processing directory: $dir"
+    
+    # Extract the subdirectory name
+    sub_dir_name=$(basename "$dir")
+    
+    # Run bismark2report and redirect output
+    "${dir}/bismark2report" > "$output_dir/${sub_dir_name}_report.txt"
+    
+    # Run bismark2summary and redirect output
+    "${dir}/bismark2summary" > "$output_dir/${sub_dir_name}_summary.txt"
+  fi
+done
+```
+
+
+
+

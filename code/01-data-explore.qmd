@@ -51,9 +51,19 @@ ${genome_folder} \
 2> ../output/01-data-explore/prep.out
 ```
 
-```{r}
+```{bash}
 ls ../data/*fq.gz | wc -l 
 ```
+
+```{bash}
+ls ../data/*fq.gz
+```
+
+```{bash}
+echo "01-data-explore" >> ../output/.gitignore
+```
+
+STARTED JUNE 6 11AM FINISHED June 12 6PM
 
 ```{bash}
 # Directories and programs
@@ -71,5 +81,26 @@ find ../data/*_R1_001.fastp-trim.20220827.fq.gz \
 -1 ../data/{}_R1_001.fastp-trim.20220827.fq.gz \
 -2 ../data/{}_R2_001.fastp-trim.20220827.fq.gz \
 -o ../output/01-data-explore/bismark \
->../output/01-data-explore/bismark.log 2>&1
+&> ../output/01-data-explore/bismark.log
+```
+
+seems like last sample did not finish
+
+```{bash}
+# Directories and programs
+bismark_dir="/home/shared/Bismark-0.24.0"
+bowtie2_dir="/home/shared/bowtie2-2.4.4-linux-x86_64/"
+genome_folder="../data/genome/"
+
+find ../data/EF07*_R1_001.fastp-trim.20220827.fq.gz \
+| xargs basename -s _R1_001.fastp-trim.20220827.fq.gz | xargs -I{} ${bismark_dir}/bismark \
+--path_to_bowtie ${bowtie2_dir} \
+-genome ${genome_folder} \
+-p 4 \
+-score_min L,0,-0.6 \
+--non_directional \
+-1 ../data/{}_R1_001.fastp-trim.20220827.fq.gz \
+-2 ../data/{}_R2_001.fastp-trim.20220827.fq.gz \
+-o ../output/01-data-explore/bismark \
+&> ../output/01-data-explore/bismark.log
 ```
