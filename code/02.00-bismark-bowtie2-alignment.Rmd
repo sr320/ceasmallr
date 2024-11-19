@@ -92,9 +92,7 @@ echo "# Set FastQ filename patterns"
 echo "export fastq_pattern='*.fq.gz'"
 echo "export R1_fastq_pattern='*_R1_*.fq.gz'"
 echo "export R2_fastq_pattern='*_R2_*.fq.gz'"
-echo 'export reads_basename="_001.fastp-trim.20220827.fq.gz"'
-echo 'export R1_reads_basename="_R1_001.fastp-trim.20220827.fq.gz"'
-echo 'export R2_reads_basename="_R2_001.fastp-trim.20220827.fq.gz"'
+
 echo "export trimmed_fastq_pattern='*fastp-trim*.fq.gz'"
 echo ""
 
@@ -206,9 +204,19 @@ source .bashvars
 
 cd "${trimmed_fastqs_dir}"
 
-find ${trimmed_fastqs_dir}/${R1_fastq_pattern} \
-| xargs basename -s "${R1_reads_basename}" \
-| awk '{print $0, $0}' > "${output_dir_top}"/fastq_pairs.txt
+if [[ -f "${output_dir_top}"/fastq_pairs.txt ]]; then
+  rm "${output_dir_top}"/fastq_pairs.txt
+fi
+
+# Find all _R1_ files and match them with their corresponding _R2_ files
+for R1_file in *_R1_*.fq.gz; do
+    R2_file="${R1_file/_R1_/_R2_}"
+    if [[ -f "$R2_file" ]]; then
+        echo "$R1_file $R2_file" >> "${output_dir_top}"/fastq_pairs.txt
+    else
+        echo "Warning: No matching R2 file for $R1_file"
+    fi
+done
 
 
 cat "${output_dir_top}"/fastq_pairs.txt
