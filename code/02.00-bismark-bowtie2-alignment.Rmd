@@ -67,7 +67,7 @@ echo "# Data directories"
 echo 'export repo_dir=/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr'
 echo 'export output_dir_top=${repo_dir}/output/02.00-bismark-bowtie2-alignment'
 echo 'export trimmed_reads_url="https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/"'
-echo 'export trimmed_fastqs_dir="${output_dir_top}/trimmed-fastqs"'
+echo 'export trimmed_fastqs_dir="${repo_dir}/output/00.00-trimming-fastp"'
 echo ""
 
 echo "# Input files"
@@ -195,6 +195,20 @@ done
 ```
 
 # Alignment
+
+## Find read pairs
+
+
+```{r find-read-pairs, engine='bash', eval=TRUE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+ls -lh
+```
+
+
 
 ```{bash alignment, engine='bash', eval=FALSE}
 # Load bash variables into memory
