@@ -104,3 +104,35 @@ find ../data/EF07*_R1_001.fastp-trim.20220827.fq.gz \
 -o ../output/01-data-explore/bismark \
 &> ../output/01-data-explore/bismark.log
 ```
+
+# Getting file to klone
+
+```{r, engine='bash'}
+wget -r \
+--no-directories --no-parent \
+-P ../data \
+-A "*20220827.fq.gz" https://gannet.fish.washington.edu/Atumefaciens/20220826-cvir-larvae_zygote-BSseq-fastp_trimming/
+```
+```{bash}
+ls ../data/*fq.gz | wc -l 
+
+```
+
+```{bash}
+cd ../data/genome
+wget http://owl.fish.washington.edu/halfshell/genomic-databank/Cvirginica_v300.fa
+```
+
+
+```{bash}
+# Directories and programs
+bismark_dir="/home/shared/Bismark-0.24.0"
+bowtie2_dir="/home/shared/bowtie2-2.4.4-linux-x86_64/"
+genome_folder="../data/genome/"
+
+bismark_genome_preparation \
+--verbose \
+--parallel 14 \
+${genome_folder} \
+2> ../output/01-data-explore/klone-prep.out
+```

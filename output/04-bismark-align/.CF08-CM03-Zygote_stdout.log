@@ -1,0 +1,25 @@
+chr NC_035780.1 (65668440 bp)
+chr NC_035781.1 (61752955 bp)
+chr NC_035782.1 (77061148 bp)
+chr NC_035783.1 (59691872 bp)
+chr NC_035784.1 (98698416 bp)
+chr NC_035785.1 (51258098 bp)
+chr NC_035786.1 (57830854 bp)
+chr NC_035787.1 (75944018 bp)
+chr NC_035788.1 (104168038 bp)
+chr NC_035789.1 (32650045 bp)
+chr NC_007175.2 (17244 bp)
+
+Number of paired-end alignments with a unique best hit:	1885
+Mapping efficiency:	18.9%
+
+Sequence pairs with no alignments under any condition:	7344
+Sequence pairs did not map uniquely:	771
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	561	((converted) top strand)
+GA/CT/CT:	429	(complementary to (converted) top strand)
+GA/CT/GA:	364	(complementary to (converted) bottom strand)
+CT/GA/GA:	531	((converted) bottom strand)
+
