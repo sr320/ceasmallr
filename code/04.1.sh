@@ -27,13 +27,13 @@ stderr_log="${output_dir}${sample_name}_stderr.log"
 bismark \
     -genome ${genome_folder} \
     -p 8 \
+    -u 10000 \
     -score_min L,0,-0.6 \
     --non_directional \
     -1 ${reads_dir}${sample_name}_R1_001.fastp-trim.20220827.fq.gz \
     -2 ${reads_dir}${sample_name}_R2_001.fastp-trim.20220827.fq.gz \
     -o ${output_dir} \
-    --basename ${sample_name} \
-    > ${stdout_log} 2> ${stderr_log}
+    --basename ${sample_name}
     
 
 # Check if the command was successful

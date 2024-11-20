@@ -1,5 +1,0 @@
-File	Total Reads	Aligned Reads	Unaligned Reads	Ambiguously Aligned Reads	No Genomic Sequence	Duplicate Reads (removed)	Unique Reads (remaining)	Total Cs	Methylated CpGs	Unmethylated CpGs	Methylated chgs	Unmethylated chgs	Methylated CHHs	Unmethylated CHHs
-CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam	10000	1284	8163	553	0			36160	803	4073	165	6324	666	24129
-CF01-CM02-Larvae_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam	10000	3589	4873	1538	0			131226	3780	16322	570	27706	2269	80579
-CF02-CM02-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam	10000	1389	7984	627	0			33169	884	2779	330	5741	1676	21759
-CF03-CM03-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam	10000	2558	6464	978	0			70747	1698	7047	487	13683	2445	45387
