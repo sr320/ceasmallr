@@ -1,0 +1,17 @@
+Sample	Original bottom strand	Complementary to original bottom strand	Complementary to original top strand	Original top strand
+CF01-CM01-Zygote_R1_001	322	291	298	373
+CF01-CM02-Larvae_R1_001	885	965	887	852
+CF02-CM02-Zygote_R1_001	438	264	242	445
+CF03-CM03-Zygote_R1_001	698	618	545	697
+CF03-CM04-Larvae_PE_report	1083	1222	1184	1122
+CF03-CM05-Larvae_PE_report	821	836	897	843
+CF04-CM04-Zygote_PE_report	742	572	501	699
+CF05-CM02-Larvae_PE_report	828	968	917	806
+CF05-CM05-Zygote_PE_report	667	630	585	646
+CF06-CM01-Zygote_PE_report	646	523	553	632
+CF06-CM02-Larvae_PE_report	584	583	534	569
+CF07-CM02-Zygote_PE_report	284	281	256	326
+CF08-CM03-Zygote_PE_report	531	364	429	561
+CF08-CM04-Larvae_PE_report	29	18	18	22
+CF08-CM05-Larvae_PE_report	47	49	50	64
+EF01-EM01-Zygote_PE_report	575	555	505	559

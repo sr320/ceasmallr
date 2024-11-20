@@ -1,0 +1,3147 @@
+{
+    "report_data_sources": {
+        "Bismark": {
+            "alignment": {
+                "CF01-CM02-Larvae_R1_001": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF01-CM02-Larvae_R1_001.fastp-trim.20220827_bismark_bt2_PE_report.txt",
+                "CF01-CM01-Zygote_R1_001": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_PE_report.txt",
+                "CF03-CM04-Larvae_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM04-Larvae_PE_report.txt",
+                "CF05-CM02-Larvae_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF05-CM02-Larvae_PE_report.txt",
+                "CF06-CM02-Larvae_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF06-CM02-Larvae_PE_report.txt",
+                "CF08-CM03-Zygote_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM03-Zygote_PE_report.txt",
+                "CF03-CM03-Zygote_R1_001": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM03-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_PE_report.txt",
+                "CF08-CM04-Larvae_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM04-Larvae_PE_report.txt",
+                "CF06-CM01-Zygote_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF06-CM01-Zygote_PE_report.txt",
+                "CF04-CM04-Zygote_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF04-CM04-Zygote_PE_report.txt",
+                "EF01-EM01-Zygote_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF01-EM01-Zygote_PE_report.txt",
+                "CF07-CM02-Zygote_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF07-CM02-Zygote_PE_report.txt",
+                "CF02-CM02-Zygote_R1_001": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF02-CM02-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_PE_report.txt",
+                "CF08-CM05-Larvae_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM05-Larvae_PE_report.txt",
+                "CF05-CM05-Zygote_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF05-CM05-Zygote_PE_report.txt",
+                "CF03-CM05-Larvae_PE_report": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM05-Larvae_PE_report.txt"
+            }
+        },
+        "Bowtie 2 / HiSAT2": {
+            "all_sections": {
+                "CF06-CM01-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF06-CM01-Zygote_stderr.log",
+                "CF01-CM02-Larvae_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF01-CM02-Larvae_stderr.log",
+                "CF03-CM04-Larvae_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF03-CM04-Larvae_stderr.log",
+                "CF05-CM05-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF05-CM05-Zygote_stderr.log",
+                "CF01-CM01-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF01-CM01-Zygote_stderr.log",
+                "CF05-CM02-Larvae_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF05-CM02-Larvae_stderr.log",
+                "CF03-CM03-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF03-CM03-Zygote_stderr.log",
+                "CF04-CM04-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF04-CM04-Zygote_stderr.log",
+                "EF01-EM01-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.EF01-EM01-Zygote_stderr.log",
+                "CF03-CM05-Larvae_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF03-CM05-Larvae_stderr.log",
+                "CF08-CM03-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF08-CM03-Zygote_stderr.log",
+                "CF08-CM04-Larvae_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF08-CM04-Larvae_stderr.log",
+                "CF08-CM05-Larvae_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF08-CM05-Larvae_stderr.log",
+                "CF07-CM02-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF07-CM02-Zygote_stderr.log",
+                "CF02-CM02-Zygote_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF02-CM02-Zygote_stderr.log",
+                "CF06-CM02-Larvae_stderr": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/.CF06-CM02-Larvae_stderr.log"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "CF01-CM02-Larvae_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 3589.0,
+                "no_alignments": 4873.0,
+                "ambig_reads": 1538.0,
+                "discarded_reads": 0.0,
+                "total_c": 131226.0,
+                "meth_cpg": 3780.0,
+                "meth_chg": 570.0,
+                "meth_chh": 2269.0,
+                "unmeth_cpg": 16322.0,
+                "unmeth_chg": 27706.0,
+                "unmeth_chh": 80579.0,
+                "percent_cpg_meth": 18.8,
+                "percent_chg_meth": 2.0,
+                "percent_chh_meth": 2.7,
+                "strand_ot": 852.0,
+                "strand_ctot": 887.0,
+                "strand_ctob": 965.0,
+                "strand_ob": 885.0,
+                "version": "0.24.2",
+                "percent_aligned": 35.89
+            },
+            "CF01-CM01-Zygote_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1284.0,
+                "no_alignments": 8163.0,
+                "ambig_reads": 553.0,
+                "discarded_reads": 0.0,
+                "total_c": 36160.0,
+                "meth_cpg": 803.0,
+                "meth_chg": 165.0,
+                "meth_chh": 666.0,
+                "unmeth_cpg": 4073.0,
+                "unmeth_chg": 6324.0,
+                "unmeth_chh": 24129.0,
+                "percent_cpg_meth": 16.5,
+                "percent_chg_meth": 2.5,
+                "percent_chh_meth": 2.7,
+                "strand_ot": 373.0,
+                "strand_ctot": 298.0,
+                "strand_ctob": 291.0,
+                "strand_ob": 322.0,
+                "version": "0.24.2",
+                "percent_aligned": 12.839999999999998
+            },
+            "CF03-CM04-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 4611.0,
+                "no_alignments": 3510.0,
+                "ambig_reads": 1879.0,
+                "discarded_reads": 0.0,
+                "total_c": 185545.0,
+                "meth_cpg": 4930.0,
+                "meth_chg": 670.0,
+                "meth_chh": 2576.0,
+                "unmeth_cpg": 22284.0,
+                "unmeth_chg": 38689.0,
+                "unmeth_chh": 116396.0,
+                "percent_cpg_meth": 18.1,
+                "percent_chg_meth": 1.7,
+                "percent_chh_meth": 2.2,
+                "strand_ot": 1122.0,
+                "strand_ctot": 1184.0,
+                "strand_ctob": 1222.0,
+                "strand_ob": 1083.0,
+                "version": "0.24.2",
+                "percent_aligned": 46.11
+            },
+            "CF05-CM02-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 3519.0,
+                "no_alignments": 4986.0,
+                "ambig_reads": 1495.0,
+                "discarded_reads": 0.0,
+                "total_c": 136978.0,
+                "meth_cpg": 3575.0,
+                "meth_chg": 456.0,
+                "meth_chh": 1692.0,
+                "unmeth_cpg": 17203.0,
+                "unmeth_chg": 29492.0,
+                "unmeth_chh": 84560.0,
+                "percent_cpg_meth": 17.2,
+                "percent_chg_meth": 1.5,
+                "percent_chh_meth": 2.0,
+                "strand_ot": 806.0,
+                "strand_ctot": 917.0,
+                "strand_ctob": 968.0,
+                "strand_ob": 828.0,
+                "version": "0.24.2",
+                "percent_aligned": 35.19
+            },
+            "CF06-CM02-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2270.0,
+                "no_alignments": 6950.0,
+                "ambig_reads": 780.0,
+                "discarded_reads": 0.0,
+                "total_c": 77276.0,
+                "meth_cpg": 2415.0,
+                "meth_chg": 849.0,
+                "meth_chh": 3353.0,
+                "unmeth_cpg": 7856.0,
+                "unmeth_chg": 14908.0,
+                "unmeth_chh": 47895.0,
+                "percent_cpg_meth": 23.5,
+                "percent_chg_meth": 5.4,
+                "percent_chh_meth": 6.5,
+                "strand_ot": 569.0,
+                "strand_ctot": 534.0,
+                "strand_ctob": 583.0,
+                "strand_ob": 584.0,
+                "version": "0.24.2",
+                "percent_aligned": 22.7
+            },
+            "CF08-CM03-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1885.0,
+                "no_alignments": 7344.0,
+                "ambig_reads": 771.0,
+                "discarded_reads": 0.0,
+                "total_c": 47765.0,
+                "meth_cpg": 1048.0,
+                "meth_chg": 345.0,
+                "meth_chh": 2130.0,
+                "unmeth_cpg": 4516.0,
+                "unmeth_chg": 8440.0,
+                "unmeth_chh": 31286.0,
+                "percent_cpg_meth": 18.8,
+                "percent_chg_meth": 3.9,
+                "percent_chh_meth": 6.4,
+                "strand_ot": 561.0,
+                "strand_ctot": 429.0,
+                "strand_ctob": 364.0,
+                "strand_ob": 531.0,
+                "version": "0.24.2",
+                "percent_aligned": 18.85
+            },
+            "CF03-CM03-Zygote_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2558.0,
+                "no_alignments": 6464.0,
+                "ambig_reads": 978.0,
+                "discarded_reads": 0.0,
+                "total_c": 70747.0,
+                "meth_cpg": 1698.0,
+                "meth_chg": 487.0,
+                "meth_chh": 2445.0,
+                "unmeth_cpg": 7047.0,
+                "unmeth_chg": 13683.0,
+                "unmeth_chh": 45387.0,
+                "percent_cpg_meth": 19.4,
+                "percent_chg_meth": 3.4,
+                "percent_chh_meth": 5.1,
+                "strand_ot": 697.0,
+                "strand_ctot": 545.0,
+                "strand_ctob": 618.0,
+                "strand_ob": 698.0,
+                "version": "0.24.2",
+                "percent_aligned": 25.580000000000002
+            },
+            "CF08-CM04-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 87.0,
+                "no_alignments": 9861.0,
+                "ambig_reads": 52.0,
+                "discarded_reads": 0.0,
+                "total_c": 3531.0,
+                "meth_cpg": 44.0,
+                "meth_chg": 7.0,
+                "meth_chh": 351.0,
+                "unmeth_cpg": 379.0,
+                "unmeth_chg": 540.0,
+                "unmeth_chh": 2210.0,
+                "percent_cpg_meth": 10.4,
+                "percent_chg_meth": 1.3,
+                "percent_chh_meth": 13.7,
+                "strand_ot": 22.0,
+                "strand_ctot": 18.0,
+                "strand_ctob": 18.0,
+                "strand_ob": 29.0,
+                "version": "0.24.2",
+                "percent_aligned": 0.8699999999999999
+            },
+            "CF06-CM01-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2354.0,
+                "no_alignments": 6679.0,
+                "ambig_reads": 967.0,
+                "discarded_reads": 0.0,
+                "total_c": 65013.0,
+                "meth_cpg": 1714.0,
+                "meth_chg": 564.0,
+                "meth_chh": 2448.0,
+                "unmeth_cpg": 6726.0,
+                "unmeth_chg": 12251.0,
+                "unmeth_chh": 41310.0,
+                "percent_cpg_meth": 20.3,
+                "percent_chg_meth": 4.4,
+                "percent_chh_meth": 5.6,
+                "strand_ot": 632.0,
+                "strand_ctot": 553.0,
+                "strand_ctob": 523.0,
+                "strand_ob": 646.0,
+                "version": "0.24.2",
+                "percent_aligned": 23.54
+            },
+            "CF04-CM04-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2514.0,
+                "no_alignments": 6495.0,
+                "ambig_reads": 991.0,
+                "discarded_reads": 0.0,
+                "total_c": 79058.0,
+                "meth_cpg": 2005.0,
+                "meth_chg": 425.0,
+                "meth_chh": 2167.0,
+                "unmeth_cpg": 8611.0,
+                "unmeth_chg": 15557.0,
+                "unmeth_chh": 50293.0,
+                "percent_cpg_meth": 18.9,
+                "percent_chg_meth": 2.7,
+                "percent_chh_meth": 4.1,
+                "strand_ot": 699.0,
+                "strand_ctot": 501.0,
+                "strand_ctob": 572.0,
+                "strand_ob": 742.0,
+                "version": "0.24.2",
+                "percent_aligned": 25.14
+            },
+            "EF01-EM01-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2194.0,
+                "no_alignments": 6957.0,
+                "ambig_reads": 849.0,
+                "discarded_reads": 0.0,
+                "total_c": 70163.0,
+                "meth_cpg": 2191.0,
+                "meth_chg": 740.0,
+                "meth_chh": 3057.0,
+                "unmeth_cpg": 7136.0,
+                "unmeth_chg": 13593.0,
+                "unmeth_chh": 43446.0,
+                "percent_cpg_meth": 23.5,
+                "percent_chg_meth": 5.2,
+                "percent_chh_meth": 6.6,
+                "strand_ot": 559.0,
+                "strand_ctot": 505.0,
+                "strand_ctob": 555.0,
+                "strand_ob": 575.0,
+                "version": "0.24.2",
+                "percent_aligned": 21.94
+            },
+            "CF07-CM02-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1147.0,
+                "no_alignments": 8378.0,
+                "ambig_reads": 475.0,
+                "discarded_reads": 0.0,
+                "total_c": 35128.0,
+                "meth_cpg": 921.0,
+                "meth_chg": 168.0,
+                "meth_chh": 1050.0,
+                "unmeth_cpg": 3670.0,
+                "unmeth_chg": 6935.0,
+                "unmeth_chh": 22384.0,
+                "percent_cpg_meth": 20.1,
+                "percent_chg_meth": 2.4,
+                "percent_chh_meth": 4.5,
+                "strand_ot": 326.0,
+                "strand_ctot": 256.0,
+                "strand_ctob": 281.0,
+                "strand_ob": 284.0,
+                "version": "0.24.2",
+                "percent_aligned": 11.469999999999999
+            },
+            "CF02-CM02-Zygote_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1389.0,
+                "no_alignments": 7984.0,
+                "ambig_reads": 627.0,
+                "discarded_reads": 0.0,
+                "total_c": 33169.0,
+                "meth_cpg": 884.0,
+                "meth_chg": 330.0,
+                "meth_chh": 1676.0,
+                "unmeth_cpg": 2779.0,
+                "unmeth_chg": 5741.0,
+                "unmeth_chh": 21759.0,
+                "percent_cpg_meth": 24.1,
+                "percent_chg_meth": 5.4,
+                "percent_chh_meth": 7.2,
+                "strand_ot": 445.0,
+                "strand_ctot": 242.0,
+                "strand_ctob": 264.0,
+                "strand_ob": 438.0,
+                "version": "0.24.2",
+                "percent_aligned": 13.889999999999999
+            },
+            "CF08-CM05-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 210.0,
+                "no_alignments": 9719.0,
+                "ambig_reads": 71.0,
+                "discarded_reads": 0.0,
+                "total_c": 8450.0,
+                "meth_cpg": 105.0,
+                "meth_chg": 21.0,
+                "meth_chh": 184.0,
+                "unmeth_cpg": 945.0,
+                "unmeth_chg": 1508.0,
+                "unmeth_chh": 5687.0,
+                "percent_cpg_meth": 10.0,
+                "percent_chg_meth": 1.4,
+                "percent_chh_meth": 3.1,
+                "strand_ot": 64.0,
+                "strand_ctot": 50.0,
+                "strand_ctob": 49.0,
+                "strand_ob": 47.0,
+                "version": "0.24.2",
+                "percent_aligned": 2.1
+            },
+            "CF05-CM05-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2528.0,
+                "no_alignments": 6478.0,
+                "ambig_reads": 994.0,
+                "discarded_reads": 0.0,
+                "total_c": 84970.0,
+                "meth_cpg": 2610.0,
+                "meth_chg": 608.0,
+                "meth_chh": 2324.0,
+                "unmeth_cpg": 9218.0,
+                "unmeth_chg": 17165.0,
+                "unmeth_chh": 53045.0,
+                "percent_cpg_meth": 22.1,
+                "percent_chg_meth": 3.4,
+                "percent_chh_meth": 4.2,
+                "strand_ot": 646.0,
+                "strand_ctot": 585.0,
+                "strand_ctob": 630.0,
+                "strand_ob": 667.0,
+                "version": "0.24.2",
+                "percent_aligned": 25.28
+            },
+            "CF03-CM05-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 3397.0,
+                "no_alignments": 5262.0,
+                "ambig_reads": 1341.0,
+                "discarded_reads": 0.0,
+                "total_c": 137390.0,
+                "meth_cpg": 3836.0,
+                "meth_chg": 947.0,
+                "meth_chh": 3425.0,
+                "unmeth_cpg": 17307.0,
+                "unmeth_chg": 29350.0,
+                "unmeth_chh": 82525.0,
+                "percent_cpg_meth": 18.1,
+                "percent_chg_meth": 3.1,
+                "percent_chh_meth": 4.0,
+                "strand_ot": 843.0,
+                "strand_ctot": 897.0,
+                "strand_ctob": 836.0,
+                "strand_ob": 821.0,
+                "version": "0.24.2",
+                "percent_aligned": 33.97
+            }
+        },
+        {
+            "CF06-CM01-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8870,
+                "paired_aligned_one": 510,
+                "paired_aligned_multi": 620,
+                "overall_alignment_rate": 11.3,
+                "paired_aligned_mate_none_halved": 8870
+            },
+            "CF01-CM02-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8238,
+                "paired_aligned_one": 808,
+                "paired_aligned_multi": 954,
+                "overall_alignment_rate": 17.62,
+                "paired_aligned_mate_none_halved": 8238
+            },
+            "CF03-CM04-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 7803,
+                "paired_aligned_one": 939,
+                "paired_aligned_multi": 1258,
+                "overall_alignment_rate": 21.97,
+                "paired_aligned_mate_none_halved": 7803
+            },
+            "CF05-CM05-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8688,
+                "paired_aligned_one": 614,
+                "paired_aligned_multi": 698,
+                "overall_alignment_rate": 13.12,
+                "paired_aligned_mate_none_halved": 8688
+            },
+            "CF01-CM01-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9348,
+                "paired_aligned_one": 301,
+                "paired_aligned_multi": 351,
+                "overall_alignment_rate": 6.52,
+                "paired_aligned_mate_none_halved": 9348
+            },
+            "CF05-CM02-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "overall_alignment_rate": 16.81
+            },
+            "CF03-CM03-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "overall_alignment_rate": 11.98
+            },
+            "CF04-CM04-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8878,
+                "paired_aligned_one": 583,
+                "paired_aligned_multi": 539,
+                "overall_alignment_rate": 11.22,
+                "paired_aligned_mate_none_halved": 8878
+            },
+            "EF01-EM01-Zygote_stderr": {
+                "total_reads": 0,
+                "overall_alignment_rate": 10.81
+            },
+            "CF03-CM05-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8366,
+                "paired_aligned_one": 702,
+                "paired_aligned_multi": 932,
+                "overall_alignment_rate": 16.34,
+                "paired_aligned_mate_none_halved": 8366
+            },
+            "CF08-CM03-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9206,
+                "paired_aligned_one": 351,
+                "paired_aligned_multi": 443,
+                "overall_alignment_rate": 7.94,
+                "paired_aligned_mate_none_halved": 9206
+            },
+            "CF08-CM04-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9941,
+                "paired_aligned_one": 24,
+                "paired_aligned_multi": 35,
+                "overall_alignment_rate": 0.59,
+                "paired_aligned_mate_none_halved": 9941
+            },
+            "CF08-CM05-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9892,
+                "paired_aligned_one": 52,
+                "paired_aligned_multi": 56,
+                "overall_alignment_rate": 1.08,
+                "paired_aligned_mate_none_halved": 9892
+            },
+            "CF07-CM02-Zygote_stderr": {
+                "total_reads": 0,
+                "overall_alignment_rate": 5.64
+            },
+            "CF02-CM02-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9407,
+                "paired_aligned_one": 255,
+                "paired_aligned_multi": 338,
+                "overall_alignment_rate": 5.93,
+                "paired_aligned_mate_none_halved": 9407
+            },
+            "CF06-CM02-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8903,
+                "paired_aligned_one": 562,
+                "paired_aligned_multi": 535,
+                "overall_alignment_rate": 10.97,
+                "paired_aligned_mate_none_halved": 8903
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "aligned_reads": {
+                "title": "M Aligned",
+                "description": "Total Aligned Sequences (millions)",
+                "min": 0,
+                "scale": "PuRd",
+                "modify": null,
+                "shared_key": "read_count",
+                "hidden": true,
+                "namespace": "Bismark",
+                "rid": "mqc_generalstats_bismark_aligned_reads",
+                "suffix": " M",
+                "format": null,
+                "color": "55,126,184",
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minrange": null,
+                "placement": 1000.0,
+                "dmax": 0.004611,
+                "dmin": 0.0
+            },
+            "percent_aligned": {
+                "title": "% Aligned",
+                "description": "Percent Aligned Sequences",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Bismark",
+                "rid": "mqc_generalstats_bismark_percent_aligned",
+                "format": null,
+                "color": "55,126,184",
+                "hidden": false,
+                "ceiling": null,
+                "floor": null,
+                "minrange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        },
+        {
+            "overall_alignment_rate": {
+                "title": "% Aligned",
+                "description": "overall alignment rate",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Bowtie 2 / HiSAT2",
+                "rid": "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate",
+                "format": null,
+                "color": "77,175,74",
+                "hidden": false,
+                "ceiling": null,
+                "floor": null,
+                "minrange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/srlab/programs/miniforge3-24.7.1-0/envs/multiqc_env/bin/multiqc .",
+    "report_plot_data": {
+        "bismark_alignment": {
+            "id": "bismark_alignment",
+            "plot_type": "bar_graph",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 540,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "Bismark: Alignment Scores",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "bismark_alignment",
+                    "label": "1",
+                    "uid": "bismark_alignment",
+                    "dconfig": {
+                        "title": "Bismark: Alignment Scores<br><sup>16 samples</sup>"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Bismark: Alignment Scores<br><sup>16 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 10000
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 16,
+                    "cats": [
+                        {
+                            "name": "Aligned Uniquely",
+                            "data": [
+                                2194,
+                                210,
+                                87,
+                                1885,
+                                1147,
+                                2270,
+                                2354,
+                                2528,
+                                3519,
+                                2514,
+                                3397,
+                                4611,
+                                2558,
+                                1389,
+                                3589,
+                                1284
+                            ],
+                            "color": "47,126,216",
+                            "data_pct": [
+                                21.94,
+                                2.1,
+                                0.8699999999999999,
+                                18.85,
+                                11.469999999999999,
+                                22.7,
+                                23.54,
+                                25.28,
+                                35.19,
+                                25.14,
+                                33.97,
+                                46.11,
+                                25.580000000000002,
+                                13.889999999999999,
+                                35.89,
+                                12.839999999999998
+                            ]
+                        },
+                        {
+                            "name": "Aligned Ambiguously",
+                            "data": [
+                                849,
+                                71,
+                                52,
+                                771,
+                                475,
+                                780,
+                                967,
+                                994,
+                                1495,
+                                991,
+                                1341,
+                                1879,
+                                978,
+                                627,
+                                1538,
+                                553
+                            ],
+                            "color": "73,41,112",
+                            "data_pct": [
+                                8.49,
+                                0.7100000000000001,
+                                0.52,
+                                7.71,
+                                4.75,
+                                7.8,
+                                9.67,
+                                9.94,
+                                14.95,
+                                9.91,
+                                13.41,
+                                18.790000000000003,
+                                9.78,
+                                6.2700000000000005,
+                                15.379999999999999,
+                                5.53
+                            ]
+                        },
+                        {
+                            "name": "Did Not Align",
+                            "data": [
+                                6957,
+                                9719,
+                                9861,
+                                7344,
+                                8378,
+                                6950,
+                                6679,
+                                6478,
+                                4986,
+                                6495,
+                                5262,
+                                3510,
+                                6464,
+                                7984,
+                                4873,
+                                8163
+                            ],
+                            "color": "13,35,58",
+                            "data_pct": [
+                                69.57,
+                                97.19,
+                                98.61,
+                                73.44000000000001,
+                                83.78,
+                                69.5,
+                                66.79,
+                                64.78,
+                                49.86,
+                                64.95,
+                                52.62,
+                                35.099999999999994,
+                                64.64,
+                                79.84,
+                                48.730000000000004,
+                                81.63
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "EF01-EM01-Zygote_PE_report",
+                        "CF08-CM05-Larvae_PE_report",
+                        "CF08-CM04-Larvae_PE_report",
+                        "CF08-CM03-Zygote_PE_report",
+                        "CF07-CM02-Zygote_PE_report",
+                        "CF06-CM02-Larvae_PE_report",
+                        "CF06-CM01-Zygote_PE_report",
+                        "CF05-CM05-Zygote_PE_report",
+                        "CF05-CM02-Larvae_PE_report",
+                        "CF04-CM04-Zygote_PE_report",
+                        "CF03-CM05-Larvae_PE_report",
+                        "CF03-CM04-Larvae_PE_report",
+                        "CF03-CM03-Zygote_R1_001",
+                        "CF02-CM02-Zygote_R1_001",
+                        "CF01-CM02-Larvae_R1_001",
+                        "CF01-CM01-Zygote_R1_001"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "bismark_alignment",
+                "table_title": null,
+                "title": "Bismark: Alignment Scores",
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "# Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false
+        },
+        "bismark_strand_alignment": {
+            "id": "bismark_strand_alignment",
+            "plot_type": "bar_graph",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 540,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "Bismark: Alignment to Individual Bisulfite Strands",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "bismark_strand_alignment",
+                    "label": "1",
+                    "uid": "bismark_strand_alignment",
+                    "dconfig": {
+                        "title": "Bismark: Alignment to Individual Bisulfite Strands<br><sup>16 samples</sup>"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Bismark: Alignment to Individual Bisulfite Strands<br><sup>16 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 4611
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 16,
+                    "cats": [
+                        {
+                            "name": "Original bottom strand",
+                            "data": [
+                                575,
+                                47,
+                                29,
+                                531,
+                                284,
+                                584,
+                                646,
+                                667,
+                                828,
+                                742,
+                                821,
+                                1083,
+                                698,
+                                438,
+                                885,
+                                322
+                            ],
+                            "color": "124,181,236",
+                            "data_pct": [
+                                26.207839562443024,
+                                22.380952380952383,
+                                33.33333333333333,
+                                28.16976127320955,
+                                24.760244115082823,
+                                25.726872246696036,
+                                27.442650807136786,
+                                26.384493670886076,
+                                23.52941176470588,
+                                29.51471758154336,
+                                24.16838386811893,
+                                23.487312947299934,
+                                27.2869429241595,
+                                31.533477321814257,
+                                24.658679297854555,
+                                25.077881619937692
+                            ]
+                        },
+                        {
+                            "name": "Complementary to original bottom strand",
+                            "data": [
+                                555,
+                                49,
+                                18,
+                                364,
+                                281,
+                                583,
+                                523,
+                                630,
+                                968,
+                                572,
+                                836,
+                                1222,
+                                618,
+                                264,
+                                965,
+                                291
+                            ],
+                            "color": "67,67,72",
+                            "data_pct": [
+                                25.296262534184137,
+                                23.333333333333332,
+                                20.689655172413794,
+                                19.310344827586206,
+                                24.498692240627726,
+                                25.682819383259915,
+                                22.21750212404418,
+                                24.920886075949365,
+                                27.507814720090934,
+                                22.75258552108194,
+                                24.60994995584339,
+                                26.501843417913683,
+                                24.159499609069584,
+                                19.00647948164147,
+                                26.887712454722763,
+                                22.66355140186916
+                            ]
+                        },
+                        {
+                            "name": "Complementary to original top strand",
+                            "data": [
+                                505,
+                                50,
+                                18,
+                                429,
+                                256,
+                                534,
+                                553,
+                                585,
+                                917,
+                                501,
+                                897,
+                                1184,
+                                545,
+                                242,
+                                887,
+                                298
+                            ],
+                            "color": "144,237,125",
+                            "data_pct": [
+                                23.01731996353692,
+                                23.809523809523807,
+                                20.689655172413794,
+                                22.758620689655174,
+                                22.319093286835223,
+                                23.524229074889867,
+                                23.491928632115545,
+                                23.140822784810126,
+                                26.05853935777209,
+                                19.928400954653938,
+                                26.405652045922874,
+                                25.677727174148774,
+                                21.30570758405004,
+                                17.42260619150468,
+                                24.714405126776263,
+                                23.20872274143302
+                            ]
+                        },
+                        {
+                            "name": "Original top strand",
+                            "data": [
+                                559,
+                                64,
+                                22,
+                                561,
+                                326,
+                                569,
+                                632,
+                                646,
+                                806,
+                                699,
+                                843,
+                                1122,
+                                697,
+                                445,
+                                852,
+                                373
+                            ],
+                            "color": "247,163,92",
+                            "data_pct": [
+                                25.478577939835915,
+                                30.476190476190478,
+                                25.287356321839084,
+                                29.76127320954907,
+                                28.421970357454228,
+                                25.066079295154186,
+                                26.847918436703484,
+                                25.55379746835443,
+                                22.904234157431087,
+                                27.804295942720763,
+                                24.81601413011481,
+                                24.333116460637605,
+                                27.247849882720875,
+                                32.0374370050396,
+                                23.73920312064642,
+                                29.049844236760126
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "EF01-EM01-Zygote_PE_report",
+                        "CF08-CM05-Larvae_PE_report",
+                        "CF08-CM04-Larvae_PE_report",
+                        "CF08-CM03-Zygote_PE_report",
+                        "CF07-CM02-Zygote_PE_report",
+                        "CF06-CM02-Larvae_PE_report",
+                        "CF06-CM01-Zygote_PE_report",
+                        "CF05-CM05-Zygote_PE_report",
+                        "CF05-CM02-Larvae_PE_report",
+                        "CF04-CM04-Zygote_PE_report",
+                        "CF03-CM05-Larvae_PE_report",
+                        "CF03-CM04-Larvae_PE_report",
+                        "CF03-CM03-Zygote_R1_001",
+                        "CF02-CM02-Zygote_R1_001",
+                        "CF01-CM02-Larvae_R1_001",
+                        "CF01-CM01-Zygote_R1_001"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "bismark_strand_alignment",
+                "table_title": null,
+                "title": "Bismark: Alignment to Individual Bisulfite Strands",
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": false,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": true,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false
+        },
+        "bowtie2_pe_plot": {
+            "id": "bowtie2_pe_plot",
+            "plot_type": "bar_graph",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 440,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "Bowtie 2: PE Alignment Scores",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "bowtie2_pe_plot",
+                    "label": "1",
+                    "uid": "bowtie2_pe_plot",
+                    "dconfig": {
+                        "title": "Bowtie 2: PE Alignment Scores<br><sup>12 samples</sup>"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Bowtie 2: PE Alignment Scores<br><sup>12 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 10000
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 12,
+                    "cats": [
+                        {
+                            "name": "PE mapped uniquely",
+                            "data": [
+                                52,
+                                24,
+                                351,
+                                562,
+                                510,
+                                614,
+                                583,
+                                702,
+                                939,
+                                255,
+                                808,
+                                301
+                            ],
+                            "color": "32,86,143",
+                            "data_pct": [
+                                0.52,
+                                0.24,
+                                3.51,
+                                5.62,
+                                5.1,
+                                6.140000000000001,
+                                5.83,
+                                7.02,
+                                9.39,
+                                2.55,
+                                8.08,
+                                3.01
+                            ]
+                        },
+                        {
+                            "name": "PE multimapped",
+                            "data": [
+                                56,
+                                35,
+                                443,
+                                535,
+                                620,
+                                698,
+                                539,
+                                932,
+                                1258,
+                                338,
+                                954,
+                                351
+                            ],
+                            "color": "247,163,92",
+                            "data_pct": [
+                                0.5599999999999999,
+                                0.35000000000000003,
+                                4.43,
+                                5.35,
+                                6.2,
+                                6.98,
+                                5.390000000000001,
+                                9.32,
+                                12.58,
+                                3.38,
+                                9.54,
+                                3.51
+                            ]
+                        },
+                        {
+                            "name": "PE neither mate aligned",
+                            "data": [
+                                9892,
+                                9941,
+                                9206,
+                                8903,
+                                8870,
+                                8688,
+                                8878,
+                                8366,
+                                7803,
+                                9407,
+                                8238,
+                                9348
+                            ],
+                            "color": "152,25,25",
+                            "data_pct": [
+                                98.92,
+                                99.41,
+                                92.06,
+                                89.03,
+                                88.7,
+                                86.88,
+                                88.78,
+                                83.66,
+                                78.03,
+                                94.07,
+                                82.38,
+                                93.47999999999999
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "CF08-CM05-Larvae_stderr",
+                        "CF08-CM04-Larvae_stderr",
+                        "CF08-CM03-Zygote_stderr",
+                        "CF06-CM02-Larvae_stderr",
+                        "CF06-CM01-Zygote_stderr",
+                        "CF05-CM05-Zygote_stderr",
+                        "CF04-CM04-Zygote_stderr",
+                        "CF03-CM05-Larvae_stderr",
+                        "CF03-CM04-Larvae_stderr",
+                        "CF02-CM02-Zygote_stderr",
+                        "CF01-CM02-Larvae_stderr",
+                        "CF01-CM01-Zygote_stderr"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "bowtie2_pe_plot",
+                "table_title": null,
+                "title": "Bowtie 2: PE Alignment Scores",
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "# Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false
+        },
+        "general_stats_table": {
+            "id": "general_stats_table",
+            "plot_type": "violin",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": false,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "plot_id": "general_stats_table",
+                    "label": "1",
+                    "uid": "general_stats_table",
+                    "dconfig": {
+                        "ylab": "",
+                        "title": "General Statistics<br><sup>32 samples</sup>"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "General Statistics<br><sup>32 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": ""
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "#b5b5b5",
+                        "line": {
+                            "width": 2,
+                            "color": "#b5b5b5"
+                        },
+                        "opacity": 0.5,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 32,
+                    "metrics": [
+                        "mqc_generalstats_bismark_aligned_reads",
+                        "mqc_generalstats_bismark_percent_aligned",
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate"
+                    ],
+                    "header_by_metric": {
+                        "mqc_generalstats_bismark_aligned_reads": {
+                            "title": "M Aligned",
+                            "description": "Total Aligned Sequences (millions)",
+                            "suffix": " M",
+                            "dmin": 0.0,
+                            "dmax": 0.004611,
+                            "hidden": true,
+                            "xaxis": {
+                                "ticksuffix": " M",
+                                "tickvals": null,
+                                "range": [
+                                    -2.3055e-05,
+                                    0.004634170274999999
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "Bismark",
+                            "color": "55,126,184",
+                            "hoverformat": ".2f"
+                        },
+                        "mqc_generalstats_bismark_percent_aligned": {
+                            "title": "% Aligned",
+                            "description": "Percent Aligned Sequences",
+                            "suffix": "%",
+                            "dmin": 0.0,
+                            "dmax": 100.0,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": "%",
+                                "tickvals": null,
+                                "range": [
+                                    -0.5,
+                                    100.5025
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "Bismark",
+                            "color": "55,126,184",
+                            "hoverformat": ".2f"
+                        },
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": {
+                            "title": "% Aligned",
+                            "description": "overall alignment rate",
+                            "suffix": "%",
+                            "dmin": 0.0,
+                            "dmax": 100.0,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": "%",
+                                "tickvals": null,
+                                "range": [
+                                    -0.5,
+                                    100.5025
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "Bowtie 2 / HiSAT2",
+                            "color": "77,175,74",
+                            "hoverformat": ".2f"
+                        }
+                    },
+                    "violin_value_by_sample_by_metric": {
+                        "mqc_generalstats_bismark_aligned_reads": {
+                            "CF01-CM02-Larvae_R1_001": 0.0035889999999999997,
+                            "CF01-CM01-Zygote_R1_001": 0.001284,
+                            "CF03-CM04-Larvae_PE_report": 0.004611,
+                            "CF05-CM02-Larvae_PE_report": 0.003519,
+                            "CF06-CM02-Larvae_PE_report": 0.00227,
+                            "CF08-CM03-Zygote_PE_report": 0.001885,
+                            "CF03-CM03-Zygote_R1_001": 0.002558,
+                            "CF08-CM04-Larvae_PE_report": 8.7e-05,
+                            "CF06-CM01-Zygote_PE_report": 0.0023539999999999998,
+                            "CF04-CM04-Zygote_PE_report": 0.0025139999999999997,
+                            "EF01-EM01-Zygote_PE_report": 0.0021939999999999998,
+                            "CF07-CM02-Zygote_PE_report": 0.001147,
+                            "CF02-CM02-Zygote_R1_001": 0.001389,
+                            "CF08-CM05-Larvae_PE_report": 0.00020999999999999998,
+                            "CF05-CM05-Zygote_PE_report": 0.002528,
+                            "CF03-CM05-Larvae_PE_report": 0.003397
+                        },
+                        "mqc_generalstats_bismark_percent_aligned": {
+                            "CF01-CM02-Larvae_R1_001": 35.89,
+                            "CF01-CM01-Zygote_R1_001": 12.839999999999998,
+                            "CF03-CM04-Larvae_PE_report": 46.11,
+                            "CF05-CM02-Larvae_PE_report": 35.19,
+                            "CF06-CM02-Larvae_PE_report": 22.7,
+                            "CF08-CM03-Zygote_PE_report": 18.85,
+                            "CF03-CM03-Zygote_R1_001": 25.580000000000002,
+                            "CF08-CM04-Larvae_PE_report": 0.8699999999999999,
+                            "CF06-CM01-Zygote_PE_report": 23.54,
+                            "CF04-CM04-Zygote_PE_report": 25.14,
+                            "EF01-EM01-Zygote_PE_report": 21.94,
+                            "CF07-CM02-Zygote_PE_report": 11.469999999999999,
+                            "CF02-CM02-Zygote_R1_001": 13.889999999999999,
+                            "CF08-CM05-Larvae_PE_report": 2.1,
+                            "CF05-CM05-Zygote_PE_report": 25.28,
+                            "CF03-CM05-Larvae_PE_report": 33.97
+                        },
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": {
+                            "CF06-CM01-Zygote_stderr": 11.3,
+                            "CF01-CM02-Larvae_stderr": 17.62,
+                            "CF03-CM04-Larvae_stderr": 21.97,
+                            "CF05-CM05-Zygote_stderr": 13.12,
+                            "CF01-CM01-Zygote_stderr": 6.52,
+                            "CF05-CM02-Larvae_stderr": 16.81,
+                            "CF03-CM03-Zygote_stderr": 11.98,
+                            "CF04-CM04-Zygote_stderr": 11.22,
+                            "EF01-EM01-Zygote_stderr": 10.81,
+                            "CF03-CM05-Larvae_stderr": 16.34,
+                            "CF08-CM03-Zygote_stderr": 7.94,
+                            "CF08-CM04-Larvae_stderr": 0.59,
+                            "CF08-CM05-Larvae_stderr": 1.08,
+                            "CF07-CM02-Zygote_stderr": 5.64,
+                            "CF02-CM02-Zygote_stderr": 5.93,
+                            "CF06-CM02-Larvae_stderr": 10.97
+                        }
+                    },
+                    "scatter_value_by_sample_by_metric": {
+                        "mqc_generalstats_bismark_aligned_reads": {},
+                        "mqc_generalstats_bismark_percent_aligned": {},
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": {}
+                    },
+                    "all_samples": [
+                        "CF01-CM01-Zygote_R1_001",
+                        "CF01-CM01-Zygote_stderr",
+                        "CF01-CM02-Larvae_R1_001",
+                        "CF01-CM02-Larvae_stderr",
+                        "CF02-CM02-Zygote_R1_001",
+                        "CF02-CM02-Zygote_stderr",
+                        "CF03-CM03-Zygote_R1_001",
+                        "CF03-CM03-Zygote_stderr",
+                        "CF03-CM04-Larvae_PE_report",
+                        "CF03-CM04-Larvae_stderr",
+                        "CF03-CM05-Larvae_PE_report",
+                        "CF03-CM05-Larvae_stderr",
+                        "CF04-CM04-Zygote_PE_report",
+                        "CF04-CM04-Zygote_stderr",
+                        "CF05-CM02-Larvae_PE_report",
+                        "CF05-CM02-Larvae_stderr",
+                        "CF05-CM05-Zygote_PE_report",
+                        "CF05-CM05-Zygote_stderr",
+                        "CF06-CM01-Zygote_PE_report",
+                        "CF06-CM01-Zygote_stderr",
+                        "CF06-CM02-Larvae_PE_report",
+                        "CF06-CM02-Larvae_stderr",
+                        "CF07-CM02-Zygote_PE_report",
+                        "CF07-CM02-Zygote_stderr",
+                        "CF08-CM03-Zygote_PE_report",
+                        "CF08-CM03-Zygote_stderr",
+                        "CF08-CM04-Larvae_PE_report",
+                        "CF08-CM04-Larvae_stderr",
+                        "CF08-CM05-Larvae_PE_report",
+                        "CF08-CM05-Larvae_stderr",
+                        "EF01-EM01-Zygote_PE_report",
+                        "EF01-EM01-Zygote_stderr"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "black"
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white"
+                        }
+                    }
+                }
+            ],
+            "pconfig": {
+                "id": "general_stats_table",
+                "table_title": null,
+                "title": "General Statistics",
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": null,
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": false,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "violin_height": 70,
+            "extra_height": 63,
+            "no_violin": false,
+            "show_table": true,
+            "show_table_by_default": true,
+            "n_samples": 32,
+            "main_table_dt": {
+                "id": "table-general_stats_table",
+                "raw_data": [
+                    {
+                        "CF01-CM02-Larvae_R1_001": {
+                            "aligned_reads": 0.0035889999999999997,
+                            "percent_aligned": 35.89
+                        },
+                        "CF01-CM01-Zygote_R1_001": {
+                            "aligned_reads": 0.001284,
+                            "percent_aligned": 12.839999999999998
+                        },
+                        "CF03-CM04-Larvae_PE_report": {
+                            "aligned_reads": 0.004611,
+                            "percent_aligned": 46.11
+                        },
+                        "CF05-CM02-Larvae_PE_report": {
+                            "aligned_reads": 0.003519,
+                            "percent_aligned": 35.19
+                        },
+                        "CF06-CM02-Larvae_PE_report": {
+                            "aligned_reads": 0.00227,
+                            "percent_aligned": 22.7
+                        },
+                        "CF08-CM03-Zygote_PE_report": {
+                            "aligned_reads": 0.001885,
+                            "percent_aligned": 18.85
+                        },
+                        "CF03-CM03-Zygote_R1_001": {
+                            "aligned_reads": 0.002558,
+                            "percent_aligned": 25.580000000000002
+                        },
+                        "CF08-CM04-Larvae_PE_report": {
+                            "aligned_reads": 8.7e-05,
+                            "percent_aligned": 0.8699999999999999
+                        },
+                        "CF06-CM01-Zygote_PE_report": {
+                            "aligned_reads": 0.0023539999999999998,
+                            "percent_aligned": 23.54
+                        },
+                        "CF04-CM04-Zygote_PE_report": {
+                            "aligned_reads": 0.0025139999999999997,
+                            "percent_aligned": 25.14
+                        },
+                        "EF01-EM01-Zygote_PE_report": {
+                            "aligned_reads": 0.0021939999999999998,
+                            "percent_aligned": 21.94
+                        },
+                        "CF07-CM02-Zygote_PE_report": {
+                            "aligned_reads": 0.001147,
+                            "percent_aligned": 11.469999999999999
+                        },
+                        "CF02-CM02-Zygote_R1_001": {
+                            "aligned_reads": 0.001389,
+                            "percent_aligned": 13.889999999999999
+                        },
+                        "CF08-CM05-Larvae_PE_report": {
+                            "aligned_reads": 0.00020999999999999998,
+                            "percent_aligned": 2.1
+                        },
+                        "CF05-CM05-Zygote_PE_report": {
+                            "aligned_reads": 0.002528,
+                            "percent_aligned": 25.28
+                        },
+                        "CF03-CM05-Larvae_PE_report": {
+                            "aligned_reads": 0.003397,
+                            "percent_aligned": 33.97
+                        }
+                    },
+                    {
+                        "CF06-CM01-Zygote_stderr": {
+                            "overall_alignment_rate": 11.3
+                        },
+                        "CF01-CM02-Larvae_stderr": {
+                            "overall_alignment_rate": 17.62
+                        },
+                        "CF03-CM04-Larvae_stderr": {
+                            "overall_alignment_rate": 21.97
+                        },
+                        "CF05-CM05-Zygote_stderr": {
+                            "overall_alignment_rate": 13.12
+                        },
+                        "CF01-CM01-Zygote_stderr": {
+                            "overall_alignment_rate": 6.52
+                        },
+                        "CF05-CM02-Larvae_stderr": {
+                            "overall_alignment_rate": 16.81
+                        },
+                        "CF03-CM03-Zygote_stderr": {
+                            "overall_alignment_rate": 11.98
+                        },
+                        "CF04-CM04-Zygote_stderr": {
+                            "overall_alignment_rate": 11.22
+                        },
+                        "EF01-EM01-Zygote_stderr": {
+                            "overall_alignment_rate": 10.81
+                        },
+                        "CF03-CM05-Larvae_stderr": {
+                            "overall_alignment_rate": 16.34
+                        },
+                        "CF08-CM03-Zygote_stderr": {
+                            "overall_alignment_rate": 7.94
+                        },
+                        "CF08-CM04-Larvae_stderr": {
+                            "overall_alignment_rate": 0.59
+                        },
+                        "CF08-CM05-Larvae_stderr": {
+                            "overall_alignment_rate": 1.08
+                        },
+                        "CF07-CM02-Zygote_stderr": {
+                            "overall_alignment_rate": 5.64
+                        },
+                        "CF02-CM02-Zygote_stderr": {
+                            "overall_alignment_rate": 5.93
+                        },
+                        "CF06-CM02-Larvae_stderr": {
+                            "overall_alignment_rate": 10.97
+                        }
+                    }
+                ],
+                "formatted_data": [
+                    {
+                        "CF01-CM02-Larvae_R1_001": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "35.9"
+                        },
+                        "CF01-CM01-Zygote_R1_001": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "12.8"
+                        },
+                        "CF03-CM04-Larvae_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "46.1"
+                        },
+                        "CF05-CM02-Larvae_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "35.2"
+                        },
+                        "CF06-CM02-Larvae_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "22.7"
+                        },
+                        "CF08-CM03-Zygote_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "18.9"
+                        },
+                        "CF03-CM03-Zygote_R1_001": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "25.6"
+                        },
+                        "CF08-CM04-Larvae_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "0.9"
+                        },
+                        "CF06-CM01-Zygote_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "23.5"
+                        },
+                        "CF04-CM04-Zygote_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "25.1"
+                        },
+                        "EF01-EM01-Zygote_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "21.9"
+                        },
+                        "CF07-CM02-Zygote_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "11.5"
+                        },
+                        "CF02-CM02-Zygote_R1_001": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "13.9"
+                        },
+                        "CF08-CM05-Larvae_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "2.1"
+                        },
+                        "CF05-CM05-Zygote_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "25.3"
+                        },
+                        "CF03-CM05-Larvae_PE_report": {
+                            "aligned_reads": "0.0",
+                            "percent_aligned": "34.0"
+                        }
+                    },
+                    {
+                        "CF06-CM01-Zygote_stderr": {
+                            "overall_alignment_rate": "11.3"
+                        },
+                        "CF01-CM02-Larvae_stderr": {
+                            "overall_alignment_rate": "17.6"
+                        },
+                        "CF03-CM04-Larvae_stderr": {
+                            "overall_alignment_rate": "22.0"
+                        },
+                        "CF05-CM05-Zygote_stderr": {
+                            "overall_alignment_rate": "13.1"
+                        },
+                        "CF01-CM01-Zygote_stderr": {
+                            "overall_alignment_rate": "6.5"
+                        },
+                        "CF05-CM02-Larvae_stderr": {
+                            "overall_alignment_rate": "16.8"
+                        },
+                        "CF03-CM03-Zygote_stderr": {
+                            "overall_alignment_rate": "12.0"
+                        },
+                        "CF04-CM04-Zygote_stderr": {
+                            "overall_alignment_rate": "11.2"
+                        },
+                        "EF01-EM01-Zygote_stderr": {
+                            "overall_alignment_rate": "10.8"
+                        },
+                        "CF03-CM05-Larvae_stderr": {
+                            "overall_alignment_rate": "16.3"
+                        },
+                        "CF08-CM03-Zygote_stderr": {
+                            "overall_alignment_rate": "7.9"
+                        },
+                        "CF08-CM04-Larvae_stderr": {
+                            "overall_alignment_rate": "0.6"
+                        },
+                        "CF08-CM05-Larvae_stderr": {
+                            "overall_alignment_rate": "1.1"
+                        },
+                        "CF07-CM02-Zygote_stderr": {
+                            "overall_alignment_rate": "5.6"
+                        },
+                        "CF02-CM02-Zygote_stderr": {
+                            "overall_alignment_rate": "5.9"
+                        },
+                        "CF06-CM02-Larvae_stderr": {
+                            "overall_alignment_rate": "11.0"
+                        }
+                    }
+                ],
+                "headers_in_order": {
+                    "1000": [
+                        [
+                            0,
+                            "aligned_reads"
+                        ],
+                        [
+                            0,
+                            "percent_aligned"
+                        ],
+                        [
+                            1,
+                            "overall_alignment_rate"
+                        ]
+                    ]
+                },
+                "headers": [
+                    {
+                        "aligned_reads": {
+                            "id": null,
+                            "rid": "mqc_generalstats_bismark_aligned_reads",
+                            "title": "M Aligned",
+                            "description": "Total Aligned Sequences (millions)",
+                            "namespace": "Bismark",
+                            "scale": "PuRd",
+                            "hidden": true,
+                            "colour": null,
+                            "color": "55,126,184",
+                            "placement": 1000.0,
+                            "max": null,
+                            "dmax": 0.004611,
+                            "min": 0.0,
+                            "dmin": 0.0,
+                            "ceiling": null,
+                            "floor": null,
+                            "minrange": null,
+                            "shared_key": "read_count",
+                            "tt_decimals": null,
+                            "suffix": " M",
+                            "cond_formatting_colours": [
+                                {
+                                    "blue": "#337ab7"
+                                },
+                                {
+                                    "lbue": "#5bc0de"
+                                },
+                                {
+                                    "pass": "#5cb85c"
+                                },
+                                {
+                                    "warn": "#f0ad4e"
+                                },
+                                {
+                                    "fail": "#d9534f"
+                                }
+                            ],
+                            "cond_formatting_rules": {},
+                            "bgcols": {},
+                            "bars_zero_centrepoint": false
+                        },
+                        "percent_aligned": {
+                            "id": null,
+                            "rid": "mqc_generalstats_bismark_percent_aligned",
+                            "title": "% Aligned",
+                            "description": "Percent Aligned Sequences",
+                            "namespace": "Bismark",
+                            "scale": "YlGn",
+                            "hidden": false,
+                            "colour": null,
+                            "color": "55,126,184",
+                            "placement": 1000.0,
+                            "max": 100.0,
+                            "dmax": 100.0,
+                            "min": 0.0,
+                            "dmin": 0.0,
+                            "ceiling": null,
+                            "floor": null,
+                            "minrange": null,
+                            "shared_key": null,
+                            "tt_decimals": null,
+                            "suffix": "%",
+                            "cond_formatting_colours": [
+                                {
+                                    "blue": "#337ab7"
+                                },
+                                {
+                                    "lbue": "#5bc0de"
+                                },
+                                {
+                                    "pass": "#5cb85c"
+                                },
+                                {
+                                    "warn": "#f0ad4e"
+                                },
+                                {
+                                    "fail": "#d9534f"
+                                }
+                            ],
+                            "cond_formatting_rules": {},
+                            "bgcols": {},
+                            "bars_zero_centrepoint": false
+                        }
+                    },
+                    {
+                        "overall_alignment_rate": {
+                            "id": null,
+                            "rid": "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate",
+                            "title": "% Aligned",
+                            "description": "overall alignment rate",
+                            "namespace": "Bowtie 2 / HiSAT2",
+                            "scale": "YlGn",
+                            "hidden": false,
+                            "colour": null,
+                            "color": "77,175,74",
+                            "placement": 1000.0,
+                            "max": 100.0,
+                            "dmax": 100.0,
+                            "min": 0.0,
+                            "dmin": 0.0,
+                            "ceiling": null,
+                            "floor": null,
+                            "minrange": null,
+                            "shared_key": null,
+                            "tt_decimals": null,
+                            "suffix": "%",
+                            "cond_formatting_colours": [
+                                {
+                                    "blue": "#337ab7"
+                                },
+                                {
+                                    "lbue": "#5bc0de"
+                                },
+                                {
+                                    "pass": "#5cb85c"
+                                },
+                                {
+                                    "warn": "#f0ad4e"
+                                },
+                                {
+                                    "fail": "#d9534f"
+                                }
+                            ],
+                            "cond_formatting_rules": {},
+                            "bgcols": {},
+                            "bars_zero_centrepoint": false
+                        }
+                    }
+                ],
+                "pconfig": {
+                    "id": "general_stats_table",
+                    "table_title": null,
+                    "title": "General Statistics",
+                    "height": null,
+                    "width": null,
+                    "square": false,
+                    "logswitch": false,
+                    "logswitch_active": false,
+                    "logswitch_label": "Log10",
+                    "cpswitch": true,
+                    "cpswitch_c_active": true,
+                    "cpswitch_counts_label": "Counts",
+                    "cpswitch_percent_label": "Percentages",
+                    "xLog": null,
+                    "yLog": null,
+                    "xlog": false,
+                    "ylog": false,
+                    "data_labels": [],
+                    "xTitle": null,
+                    "yTitle": null,
+                    "xlab": null,
+                    "ylab": null,
+                    "xsuffix": null,
+                    "ysuffix": null,
+                    "tt_suffix": null,
+                    "xLabFormat": null,
+                    "yLabFormat": null,
+                    "xLabelFormat": null,
+                    "yLabelFormat": null,
+                    "xlab_format": null,
+                    "ylab_format": null,
+                    "tt_label": null,
+                    "xDecimals": null,
+                    "yDecimals": null,
+                    "decimalPlaces": null,
+                    "x_decimals": null,
+                    "y_decimals": null,
+                    "tt_decimals": null,
+                    "xmin": null,
+                    "xmax": null,
+                    "ymin": null,
+                    "ymax": null,
+                    "xFloor": null,
+                    "xCeiling": null,
+                    "yFloor": null,
+                    "yCeiling": null,
+                    "x_clipmin": null,
+                    "x_clipmax": null,
+                    "y_clipmin": null,
+                    "y_clipmax": null,
+                    "save_data_file": true,
+                    "showlegend": null,
+                    "namespace": "",
+                    "save_file": true,
+                    "raw_data_fn": "multiqc_general_stats",
+                    "defaultsort": null,
+                    "sortRows": true,
+                    "sort_rows": true,
+                    "only_defined_headers": true,
+                    "col1_header": "Sample Name",
+                    "no_beeswarm": false,
+                    "no_violin": false,
+                    "scale": "GnBu",
+                    "min": null
+                }
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_bismark_alignment": {
+            "CF01-CM02-Larvae_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 3589.0,
+                "no_alignments": 4873.0,
+                "ambig_reads": 1538.0,
+                "discarded_reads": 0.0,
+                "total_c": 131226.0,
+                "meth_cpg": 3780.0,
+                "meth_chg": 570.0,
+                "meth_chh": 2269.0,
+                "unmeth_cpg": 16322.0,
+                "unmeth_chg": 27706.0,
+                "unmeth_chh": 80579.0,
+                "percent_cpg_meth": 18.8,
+                "percent_chg_meth": 2.0,
+                "percent_chh_meth": 2.7,
+                "strand_ot": 852.0,
+                "strand_ctot": 887.0,
+                "strand_ctob": 965.0,
+                "strand_ob": 885.0,
+                "version": "0.24.2",
+                "percent_aligned": 35.89
+            },
+            "CF01-CM01-Zygote_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1284.0,
+                "no_alignments": 8163.0,
+                "ambig_reads": 553.0,
+                "discarded_reads": 0.0,
+                "total_c": 36160.0,
+                "meth_cpg": 803.0,
+                "meth_chg": 165.0,
+                "meth_chh": 666.0,
+                "unmeth_cpg": 4073.0,
+                "unmeth_chg": 6324.0,
+                "unmeth_chh": 24129.0,
+                "percent_cpg_meth": 16.5,
+                "percent_chg_meth": 2.5,
+                "percent_chh_meth": 2.7,
+                "strand_ot": 373.0,
+                "strand_ctot": 298.0,
+                "strand_ctob": 291.0,
+                "strand_ob": 322.0,
+                "version": "0.24.2",
+                "percent_aligned": 12.839999999999998
+            },
+            "CF03-CM04-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 4611.0,
+                "no_alignments": 3510.0,
+                "ambig_reads": 1879.0,
+                "discarded_reads": 0.0,
+                "total_c": 185545.0,
+                "meth_cpg": 4930.0,
+                "meth_chg": 670.0,
+                "meth_chh": 2576.0,
+                "unmeth_cpg": 22284.0,
+                "unmeth_chg": 38689.0,
+                "unmeth_chh": 116396.0,
+                "percent_cpg_meth": 18.1,
+                "percent_chg_meth": 1.7,
+                "percent_chh_meth": 2.2,
+                "strand_ot": 1122.0,
+                "strand_ctot": 1184.0,
+                "strand_ctob": 1222.0,
+                "strand_ob": 1083.0,
+                "version": "0.24.2",
+                "percent_aligned": 46.11
+            },
+            "CF05-CM02-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 3519.0,
+                "no_alignments": 4986.0,
+                "ambig_reads": 1495.0,
+                "discarded_reads": 0.0,
+                "total_c": 136978.0,
+                "meth_cpg": 3575.0,
+                "meth_chg": 456.0,
+                "meth_chh": 1692.0,
+                "unmeth_cpg": 17203.0,
+                "unmeth_chg": 29492.0,
+                "unmeth_chh": 84560.0,
+                "percent_cpg_meth": 17.2,
+                "percent_chg_meth": 1.5,
+                "percent_chh_meth": 2.0,
+                "strand_ot": 806.0,
+                "strand_ctot": 917.0,
+                "strand_ctob": 968.0,
+                "strand_ob": 828.0,
+                "version": "0.24.2",
+                "percent_aligned": 35.19
+            },
+            "CF06-CM02-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2270.0,
+                "no_alignments": 6950.0,
+                "ambig_reads": 780.0,
+                "discarded_reads": 0.0,
+                "total_c": 77276.0,
+                "meth_cpg": 2415.0,
+                "meth_chg": 849.0,
+                "meth_chh": 3353.0,
+                "unmeth_cpg": 7856.0,
+                "unmeth_chg": 14908.0,
+                "unmeth_chh": 47895.0,
+                "percent_cpg_meth": 23.5,
+                "percent_chg_meth": 5.4,
+                "percent_chh_meth": 6.5,
+                "strand_ot": 569.0,
+                "strand_ctot": 534.0,
+                "strand_ctob": 583.0,
+                "strand_ob": 584.0,
+                "version": "0.24.2",
+                "percent_aligned": 22.7
+            },
+            "CF08-CM03-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1885.0,
+                "no_alignments": 7344.0,
+                "ambig_reads": 771.0,
+                "discarded_reads": 0.0,
+                "total_c": 47765.0,
+                "meth_cpg": 1048.0,
+                "meth_chg": 345.0,
+                "meth_chh": 2130.0,
+                "unmeth_cpg": 4516.0,
+                "unmeth_chg": 8440.0,
+                "unmeth_chh": 31286.0,
+                "percent_cpg_meth": 18.8,
+                "percent_chg_meth": 3.9,
+                "percent_chh_meth": 6.4,
+                "strand_ot": 561.0,
+                "strand_ctot": 429.0,
+                "strand_ctob": 364.0,
+                "strand_ob": 531.0,
+                "version": "0.24.2",
+                "percent_aligned": 18.85
+            },
+            "CF03-CM03-Zygote_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2558.0,
+                "no_alignments": 6464.0,
+                "ambig_reads": 978.0,
+                "discarded_reads": 0.0,
+                "total_c": 70747.0,
+                "meth_cpg": 1698.0,
+                "meth_chg": 487.0,
+                "meth_chh": 2445.0,
+                "unmeth_cpg": 7047.0,
+                "unmeth_chg": 13683.0,
+                "unmeth_chh": 45387.0,
+                "percent_cpg_meth": 19.4,
+                "percent_chg_meth": 3.4,
+                "percent_chh_meth": 5.1,
+                "strand_ot": 697.0,
+                "strand_ctot": 545.0,
+                "strand_ctob": 618.0,
+                "strand_ob": 698.0,
+                "version": "0.24.2",
+                "percent_aligned": 25.580000000000002
+            },
+            "CF08-CM04-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 87.0,
+                "no_alignments": 9861.0,
+                "ambig_reads": 52.0,
+                "discarded_reads": 0.0,
+                "total_c": 3531.0,
+                "meth_cpg": 44.0,
+                "meth_chg": 7.0,
+                "meth_chh": 351.0,
+                "unmeth_cpg": 379.0,
+                "unmeth_chg": 540.0,
+                "unmeth_chh": 2210.0,
+                "percent_cpg_meth": 10.4,
+                "percent_chg_meth": 1.3,
+                "percent_chh_meth": 13.7,
+                "strand_ot": 22.0,
+                "strand_ctot": 18.0,
+                "strand_ctob": 18.0,
+                "strand_ob": 29.0,
+                "version": "0.24.2",
+                "percent_aligned": 0.8699999999999999
+            },
+            "CF06-CM01-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2354.0,
+                "no_alignments": 6679.0,
+                "ambig_reads": 967.0,
+                "discarded_reads": 0.0,
+                "total_c": 65013.0,
+                "meth_cpg": 1714.0,
+                "meth_chg": 564.0,
+                "meth_chh": 2448.0,
+                "unmeth_cpg": 6726.0,
+                "unmeth_chg": 12251.0,
+                "unmeth_chh": 41310.0,
+                "percent_cpg_meth": 20.3,
+                "percent_chg_meth": 4.4,
+                "percent_chh_meth": 5.6,
+                "strand_ot": 632.0,
+                "strand_ctot": 553.0,
+                "strand_ctob": 523.0,
+                "strand_ob": 646.0,
+                "version": "0.24.2",
+                "percent_aligned": 23.54
+            },
+            "CF04-CM04-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2514.0,
+                "no_alignments": 6495.0,
+                "ambig_reads": 991.0,
+                "discarded_reads": 0.0,
+                "total_c": 79058.0,
+                "meth_cpg": 2005.0,
+                "meth_chg": 425.0,
+                "meth_chh": 2167.0,
+                "unmeth_cpg": 8611.0,
+                "unmeth_chg": 15557.0,
+                "unmeth_chh": 50293.0,
+                "percent_cpg_meth": 18.9,
+                "percent_chg_meth": 2.7,
+                "percent_chh_meth": 4.1,
+                "strand_ot": 699.0,
+                "strand_ctot": 501.0,
+                "strand_ctob": 572.0,
+                "strand_ob": 742.0,
+                "version": "0.24.2",
+                "percent_aligned": 25.14
+            },
+            "EF01-EM01-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2194.0,
+                "no_alignments": 6957.0,
+                "ambig_reads": 849.0,
+                "discarded_reads": 0.0,
+                "total_c": 70163.0,
+                "meth_cpg": 2191.0,
+                "meth_chg": 740.0,
+                "meth_chh": 3057.0,
+                "unmeth_cpg": 7136.0,
+                "unmeth_chg": 13593.0,
+                "unmeth_chh": 43446.0,
+                "percent_cpg_meth": 23.5,
+                "percent_chg_meth": 5.2,
+                "percent_chh_meth": 6.6,
+                "strand_ot": 559.0,
+                "strand_ctot": 505.0,
+                "strand_ctob": 555.0,
+                "strand_ob": 575.0,
+                "version": "0.24.2",
+                "percent_aligned": 21.94
+            },
+            "CF07-CM02-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1147.0,
+                "no_alignments": 8378.0,
+                "ambig_reads": 475.0,
+                "discarded_reads": 0.0,
+                "total_c": 35128.0,
+                "meth_cpg": 921.0,
+                "meth_chg": 168.0,
+                "meth_chh": 1050.0,
+                "unmeth_cpg": 3670.0,
+                "unmeth_chg": 6935.0,
+                "unmeth_chh": 22384.0,
+                "percent_cpg_meth": 20.1,
+                "percent_chg_meth": 2.4,
+                "percent_chh_meth": 4.5,
+                "strand_ot": 326.0,
+                "strand_ctot": 256.0,
+                "strand_ctob": 281.0,
+                "strand_ob": 284.0,
+                "version": "0.24.2",
+                "percent_aligned": 11.469999999999999
+            },
+            "CF02-CM02-Zygote_R1_001": {
+                "total_reads": 10000.0,
+                "aligned_reads": 1389.0,
+                "no_alignments": 7984.0,
+                "ambig_reads": 627.0,
+                "discarded_reads": 0.0,
+                "total_c": 33169.0,
+                "meth_cpg": 884.0,
+                "meth_chg": 330.0,
+                "meth_chh": 1676.0,
+                "unmeth_cpg": 2779.0,
+                "unmeth_chg": 5741.0,
+                "unmeth_chh": 21759.0,
+                "percent_cpg_meth": 24.1,
+                "percent_chg_meth": 5.4,
+                "percent_chh_meth": 7.2,
+                "strand_ot": 445.0,
+                "strand_ctot": 242.0,
+                "strand_ctob": 264.0,
+                "strand_ob": 438.0,
+                "version": "0.24.2",
+                "percent_aligned": 13.889999999999999
+            },
+            "CF08-CM05-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 210.0,
+                "no_alignments": 9719.0,
+                "ambig_reads": 71.0,
+                "discarded_reads": 0.0,
+                "total_c": 8450.0,
+                "meth_cpg": 105.0,
+                "meth_chg": 21.0,
+                "meth_chh": 184.0,
+                "unmeth_cpg": 945.0,
+                "unmeth_chg": 1508.0,
+                "unmeth_chh": 5687.0,
+                "percent_cpg_meth": 10.0,
+                "percent_chg_meth": 1.4,
+                "percent_chh_meth": 3.1,
+                "strand_ot": 64.0,
+                "strand_ctot": 50.0,
+                "strand_ctob": 49.0,
+                "strand_ob": 47.0,
+                "version": "0.24.2",
+                "percent_aligned": 2.1
+            },
+            "CF05-CM05-Zygote_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 2528.0,
+                "no_alignments": 6478.0,
+                "ambig_reads": 994.0,
+                "discarded_reads": 0.0,
+                "total_c": 84970.0,
+                "meth_cpg": 2610.0,
+                "meth_chg": 608.0,
+                "meth_chh": 2324.0,
+                "unmeth_cpg": 9218.0,
+                "unmeth_chg": 17165.0,
+                "unmeth_chh": 53045.0,
+                "percent_cpg_meth": 22.1,
+                "percent_chg_meth": 3.4,
+                "percent_chh_meth": 4.2,
+                "strand_ot": 646.0,
+                "strand_ctot": 585.0,
+                "strand_ctob": 630.0,
+                "strand_ob": 667.0,
+                "version": "0.24.2",
+                "percent_aligned": 25.28
+            },
+            "CF03-CM05-Larvae_PE_report": {
+                "total_reads": 10000.0,
+                "aligned_reads": 3397.0,
+                "no_alignments": 5262.0,
+                "ambig_reads": 1341.0,
+                "discarded_reads": 0.0,
+                "total_c": 137390.0,
+                "meth_cpg": 3836.0,
+                "meth_chg": 947.0,
+                "meth_chh": 3425.0,
+                "unmeth_cpg": 17307.0,
+                "unmeth_chg": 29350.0,
+                "unmeth_chh": 82525.0,
+                "percent_cpg_meth": 18.1,
+                "percent_chg_meth": 3.1,
+                "percent_chh_meth": 4.0,
+                "strand_ot": 843.0,
+                "strand_ctot": 897.0,
+                "strand_ctob": 836.0,
+                "strand_ob": 821.0,
+                "version": "0.24.2",
+                "percent_aligned": 33.97
+            }
+        },
+        "multiqc_bowtie2": {
+            "CF06-CM01-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8870,
+                "paired_aligned_one": 510,
+                "paired_aligned_multi": 620,
+                "overall_alignment_rate": 11.3,
+                "paired_aligned_mate_none_halved": 8870
+            },
+            "CF01-CM02-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8238,
+                "paired_aligned_one": 808,
+                "paired_aligned_multi": 954,
+                "overall_alignment_rate": 17.62,
+                "paired_aligned_mate_none_halved": 8238
+            },
+            "CF03-CM04-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 7803,
+                "paired_aligned_one": 939,
+                "paired_aligned_multi": 1258,
+                "overall_alignment_rate": 21.97,
+                "paired_aligned_mate_none_halved": 7803
+            },
+            "CF05-CM05-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8688,
+                "paired_aligned_one": 614,
+                "paired_aligned_multi": 698,
+                "overall_alignment_rate": 13.12,
+                "paired_aligned_mate_none_halved": 8688
+            },
+            "CF01-CM01-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9348,
+                "paired_aligned_one": 301,
+                "paired_aligned_multi": 351,
+                "overall_alignment_rate": 6.52,
+                "paired_aligned_mate_none_halved": 9348
+            },
+            "CF05-CM02-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "overall_alignment_rate": 16.81
+            },
+            "CF03-CM03-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "overall_alignment_rate": 11.98
+            },
+            "CF04-CM04-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8878,
+                "paired_aligned_one": 583,
+                "paired_aligned_multi": 539,
+                "overall_alignment_rate": 11.22,
+                "paired_aligned_mate_none_halved": 8878
+            },
+            "EF01-EM01-Zygote_stderr": {
+                "total_reads": 0,
+                "overall_alignment_rate": 10.81
+            },
+            "CF03-CM05-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8366,
+                "paired_aligned_one": 702,
+                "paired_aligned_multi": 932,
+                "overall_alignment_rate": 16.34,
+                "paired_aligned_mate_none_halved": 8366
+            },
+            "CF08-CM03-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9206,
+                "paired_aligned_one": 351,
+                "paired_aligned_multi": 443,
+                "overall_alignment_rate": 7.94,
+                "paired_aligned_mate_none_halved": 9206
+            },
+            "CF08-CM04-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9941,
+                "paired_aligned_one": 24,
+                "paired_aligned_multi": 35,
+                "overall_alignment_rate": 0.59,
+                "paired_aligned_mate_none_halved": 9941
+            },
+            "CF08-CM05-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9892,
+                "paired_aligned_one": 52,
+                "paired_aligned_multi": 56,
+                "overall_alignment_rate": 1.08,
+                "paired_aligned_mate_none_halved": 9892
+            },
+            "CF07-CM02-Zygote_stderr": {
+                "total_reads": 0,
+                "overall_alignment_rate": 5.64
+            },
+            "CF02-CM02-Zygote_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9407,
+                "paired_aligned_one": 255,
+                "paired_aligned_multi": 338,
+                "overall_alignment_rate": 5.93,
+                "paired_aligned_mate_none_halved": 9407
+            },
+            "CF06-CM02-Larvae_stderr": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8903,
+                "paired_aligned_one": 562,
+                "paired_aligned_multi": 535,
+                "overall_alignment_rate": 10.97,
+                "paired_aligned_mate_none_halved": 8903
+            }
+        },
+        "multiqc_general_stats": {
+            "CF01-CM02-Larvae_R1_001": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.0035889999999999997,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 35.89
+            },
+            "CF01-CM01-Zygote_R1_001": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.001284,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 12.839999999999998
+            },
+            "CF03-CM04-Larvae_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.004611,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 46.11
+            },
+            "CF05-CM02-Larvae_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.003519,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 35.19
+            },
+            "CF06-CM02-Larvae_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.00227,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 22.7
+            },
+            "CF08-CM03-Zygote_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.001885,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 18.85
+            },
+            "CF03-CM03-Zygote_R1_001": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.002558,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 25.580000000000002
+            },
+            "CF08-CM04-Larvae_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 8.7e-05,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 0.8699999999999999
+            },
+            "CF06-CM01-Zygote_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.0023539999999999998,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 23.54
+            },
+            "CF04-CM04-Zygote_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.0025139999999999997,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 25.14
+            },
+            "EF01-EM01-Zygote_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.0021939999999999998,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 21.94
+            },
+            "CF07-CM02-Zygote_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.001147,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 11.469999999999999
+            },
+            "CF02-CM02-Zygote_R1_001": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.001389,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 13.889999999999999
+            },
+            "CF08-CM05-Larvae_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.00020999999999999998,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 2.1
+            },
+            "CF05-CM05-Zygote_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.002528,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 25.28
+            },
+            "CF03-CM05-Larvae_PE_report": {
+                "Bismark_mqc_generalstats_bismark_aligned_reads": 0.003397,
+                "Bismark_mqc_generalstats_bismark_percent_aligned": 33.97
+            },
+            "CF06-CM01-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 11.3
+            },
+            "CF01-CM02-Larvae_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 17.62
+            },
+            "CF03-CM04-Larvae_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 21.97
+            },
+            "CF05-CM05-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 13.12
+            },
+            "CF01-CM01-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 6.52
+            },
+            "CF05-CM02-Larvae_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 16.81
+            },
+            "CF03-CM03-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 11.98
+            },
+            "CF04-CM04-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 11.22
+            },
+            "EF01-EM01-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 10.81
+            },
+            "CF03-CM05-Larvae_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 16.34
+            },
+            "CF08-CM03-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 7.94
+            },
+            "CF08-CM04-Larvae_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 0.59
+            },
+            "CF08-CM05-Larvae_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 1.08
+            },
+            "CF07-CM02-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 5.64
+            },
+            "CF02-CM02-Zygote_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 5.93
+            },
+            "CF06-CM02-Larvae_stderr": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 10.97
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2024-11-20, 12:09 PST",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/srlab/programs/miniforge3-24.7.1-0/envs/multiqc_env/lib/python3.13/site-packages/multiqc",
+    "config_short_version": "1.24.1",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.24.1",
+    "config_output_dir": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align"
+}
