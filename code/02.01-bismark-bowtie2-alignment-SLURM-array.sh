@@ -34,7 +34,7 @@ echo "Running in Apptainer container: ${APPTAINER_CONTAINER}"
 echo ""
 
 # Make output directory, if it doesn't exist
-mkdir --parents "02.01-bismark-bowtie2-alignment-SLURM-array"${output_dir_top}""
+mkdir --parents "${output_dir_top}/02.01-bismark-bowtie2-alignment-SLURM-array"
 
 ## CREATE LIST OF PAIRED READS ##
 
