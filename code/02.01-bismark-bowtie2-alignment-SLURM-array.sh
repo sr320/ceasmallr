@@ -3,6 +3,7 @@
 # This sccript is designed to be called by a SLURM script which
 # runs this script across an array of HPC nodes.
 
+
 ###################################################################################
 # These variables need to be set by user
 
@@ -26,6 +27,11 @@ bowtie2_min_score="L,0,-0.6"
 bismark_threads=15
 
 ###################################################################################
+
+# Print name of container
+
+echo "Running in Apptainer container: ${APPTAINER_CONTAINER}"
+echo ""
 
 # Make output directory, if it doesn't exist
 mkdir --parents "02.01-bismark-bowtie2-alignment-SLURM-array"${output_dir_top}""
