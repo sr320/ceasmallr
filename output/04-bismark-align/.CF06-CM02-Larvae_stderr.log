@@ -63,29 +63,29 @@ GWNJ-1012:512:GW210315000:4:1101:25455:1047_2:N:0:ATGTAAGT+CATAGAGT/2	141	*	0	0	
 
 Reading in the sequence files ../../data/CF06-CM02-Larvae_R1_001.fastp-trim.20220827.fq.gz and ../../data/CF06-CM02-Larvae_R2_001.fastp-trim.20220827.fq.gz
 10000 reads; of these:
+10000   reads; of these:10000
+ (  10000 (100.00%) were paired; of these:100.00
+%    ) were paired; of these:8945
+ (    89.458953% () aligned concordantly 0 times89.53
+%) aligned concordantly 0 times    
+487     (4944.87 (%4.94) aligned concordantly exactly 1 time%
+) aligned concordantly exactly 1 time    
+568     (5535.68 (%5.53) aligned concordantly >1 times%
+) aligned concordantly >1 times10.55
+%10.47 overall alignment rate%
+ overall alignment rate
+10000 reads; of these:
+  10000 (100.00%) were paired; of these:
+    8913 (89.13%) aligned concordantly 0 times
+    525 (5.25%) aligned concordantly exactly 1 time
+    562 (5.62%) aligned concordantly >1 times
+10.87% overall alignment rate
+10000 reads; of these:
   10000 (100.00%) were paired; of these:
     8903 (89.03%) aligned concordantly 0 times
     562 (5.62%) aligned concordantly exactly 1 time
     535 (5.35%) aligned concordantly >1 times
 10.97% overall alignment rate
-1000010000 reads; of these: reads; of these:10000
-
- reads; of these:    
-1000010000   ( (10000 (100.00%100.00) were paired; of these:100.00%
-%) were paired; of these:    ) were paired; of these:
-8945
-     (    891389.458953 (% (89.13) aligned concordantly 0 times89.53%
-%) aligned concordantly 0 times    ) aligned concordantly 0 times
-487
-     (    5254.87494 (% (5.25) aligned concordantly exactly 1 time4.94%
-%) aligned concordantly exactly 1 time    ) aligned concordantly exactly 1 time
-568
-     (    5625.68553 (% (5.62) aligned concordantly >1 times5.53%
-%) aligned concordantly >1 times10.55) aligned concordantly >1 times
-%
-10.87 overall alignment rate10.47%
-% overall alignment rate overall alignment rate
-
 Processed 10000 sequences in total
 
 
@@ -114,7 +114,7 @@ C methylated in CHH context:	6.5%
 C methylated in Unknown context (CN or CHN):	21.7%
 
 
-Bismark completed in 0d 0h 0m 33s
+Bismark completed in 0d 0h 0m 26s
 
 ====================
 Bismark run complete

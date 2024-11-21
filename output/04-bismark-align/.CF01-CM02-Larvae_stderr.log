@@ -58,7 +58,7 @@ Found first alignment:
 GWNJ-1012:512:GW210315000:4:1101:26612:1047_1:N:0:ACACGGAC+TGCGAGAC/1	77	*	0	0	*	*	0	0	ANATTAATTTTTATAATTAATAAATTTTTTTATTATAAAAATATTATTTTTAATAAATAATTTAAAATAATTTATTAAAATATAATAATTTTTATTATAAAAAAAATTATATTTTTAATAATTTAAAATTTATTAATATAATATTATAAA	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFF::FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FFFFF:FFFFF	YT:Z:UP
 GWNJ-1012:512:GW210315000:4:1101:26612:1047_2:N:0:ACACGGAC+TGCGAGAC/2	141	*	0	0	*	*	0	0	TTTTTAATAATATTTATTATTAAATTATTTTATTTTATAATTTATAATATTATATTAATAAATTTTAAATTATTAAAAATATAATTTTTTTTATAATAAAAATTATTATATTTTAATAAATTATTTTAAAATATTTATTAAAAATAATAT	:F:FFF:FFFFF:FFFFFFFFFFF:FFFFFF::FFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFF:FF,FFFFFFF,F:FFFFFFFFFFFFFFFFF:FF:FFFFFFFFFF:F:FFF:FFFFFF:FFF:,:F:FFFFFF:F:FFFF:,F	YT:Z:UP
 
->>> Writing bisulfite mapping results to CF01-CM02-Larvae_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam <<<
+>>> Writing bisulfite mapping results to CF01-CM02-Larvae_pe.bam <<<
 
 
 Reading in the sequence files ../../data/CF01-CM02-Larvae_R1_001.fastp-trim.20220827.fq.gz and ../../data/CF01-CM02-Larvae_R2_001.fastp-trim.20220827.fq.gz
@@ -66,10 +66,10 @@ Reading in the sequence files ../../data/CF01-CM02-Larvae_R1_001.fastp-trim.2022
   10000 (100.00%) were paired; of these:
     8142 (81.42%) aligned concordantly 0 times
     865 (8.65%) aligned concordantly exactly 1 time
-    993 (9.93%) aligned concordantly >1 times
-18.58% overall alignment rate
-10000 reads; of these:
-  10000 (100.00%) were paired; of these:
+    99310000 ( reads; of these:9.93
+%  ) aligned concordantly >1 times10000
+ (18.58%100.00 overall alignment rate%
+) were paired; of these:
     8220 (82.20%) aligned concordantly 0 times
     782 (7.82%) aligned concordantly exactly 1 time
     998 (9.98%) aligned concordantly >1 times
@@ -114,7 +114,7 @@ C methylated in CHH context:	2.7%
 C methylated in Unknown context (CN or CHN):	16.6%
 
 
-Bismark completed in 0d 0h 0m 35s
+Bismark completed in 0d 0h 0m 17s
 
 ====================
 Bismark run complete

@@ -1,0 +1,122 @@
+Bowtie 2 seems to be working fine (tested command 'bowtie2 --version' [2.5.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/srlab/programs/samtools-1.20/samtools'
+Reference genome folder provided is ../../data/genome/	(absolute path is '/mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/data/genome/)'
+FastQ format assumed (by default)
+Processing sequences up to read no. 10000 from the input file
+Attention: early reports suggested that high values of -p  to have diminishing returns. Please test different values using a small subset of data for your hardware setting.
+Each Bowtie 2 instance is going to be run with 8 threads. Please monitor performance closely and tune down if necessary!
+
+Input files to be analysed (in current folder '/mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align'):
+../../data/CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz
+../../data/CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz
+Library was specified to be not strand-specific (non-directional), therefore alignments to all four possible bisulfite strands (OT, CTOT, OB and CTOB) will be reported
+Output will be written into the directory: /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/
+Setting parallelization to single-threaded (default)
+
+Summary of all aligner options:	-q --score-min L,0,-0.6 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Current working directory is: /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align
+
+Now reading in and storing sequence information of the genome specified in: /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/data/genome/
+
+Single-core mode: setting pid to 1
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are ../../data/CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz and ../../data/CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz
+Input files are in FastQ format
+Processing reads up to sequence no. 10000 from ../../data/CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz
+Writing a C -> T converted version of the input file CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz to CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq
+Writing a G -> A converted version of the input file CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz to CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq
+
+Created C -> T as well as G -> A converted versions of the FastQ file CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz (10001 sequences in total)
+
+Processing reads up to sequence no. 10000 from ../../data/CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz
+Writing a C -> T converted version of the input file CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz to CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq
+Writing a G -> A converted version of the input file CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz to CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq
+
+Created C -> T as well as G -> A converted versions of the FastQ file CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz (10001 sequences in total)
+
+Input files are CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq and CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq (FastQ)
+Now running 4 individual instances of Bowtie 2 against the bisulfite genome of /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/data/genome/ with the specified options: -q --score-min L,0,-0.6 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq, with the options: -q --score-min L,0,-0.6 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_1:N:0:TGGATCGA+TATCGCAC/1	77	*	0	0	*	*	0	0	ANAAGTATAAATTTTATATTAAATTATTATTTTATTAATTAAATTTTTATTATATTTATTTTTTATAATATTAAATATTAGTTAATTATATTTATTTATAATAATTAAATTATTATAATTATAT	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FF:FFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_2:N:0:TGGATCGA+TATCGCAC/2	141	*	0	0	*	*	0	0	ATATAATTATAATAATTTAATTATTATAAATAAATATAATTAACTAATATTTAATATTATAAAAAATAAATATAATAAAAATTTAATTAATAAAATAATAATTTAATATAAAATTTATACTTAT	FFFFFFFFFFFFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2GAgenome (reading in sequences from CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq and CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq, with the options: -q --score-min L,0,-0.6 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_1:N:0:TGGATCGA+TATCGCAC/1	77	*	0	0	*	*	0	0	ANAAACATAAACCTTACACCAAACCACCATTCCACCAACCAAACTTTTACTACATTTATCCTTCATAATATCAAACATTAACTAATCATATTCATCCACAACAACCAAACCACTATAACCACAC	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FF:FFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_2:N:0:TGGATCGA+TATCGCAC/2	141	*	0	0	*	*	0	0	GTGTGGTTATAGTGGTTTGGTTGTTGTGGATGAATATGATTAGTTAATGTTTGATATTATGAAGGATAAATGTAGTAAAAGTTTGGTTGGTGGAATGGTGGTTTGGTGTAAGGTTTATGTTTGT	FFFFFFFFFFFFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2CTgenome (reading in sequences from CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq and CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq, with the options: -q --score-min L,0,-0.6 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_1:N:0:TGGATCGA+TATCGCAC/1	77	*	0	0	*	*	0	0	ANAAACATAAACCTTACACCAAACCACCATTCCACCAACCAAACTTTTACTACATTTATCCTTCATAATATCAAACATTAACTAATCATATTCATCCACAACAACCAAACCACTATAACCACAC	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FF:FFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_2:N:0:TGGATCGA+TATCGCAC/2	141	*	0	0	*	*	0	0	GTGTGGTTATAGTGGTTTGGTTGTTGTGGATGAATATGATTAGTTAATGTTTGATATTATGAAGGATAAATGTAGTAAAAGTTTGGTTGGTGGAATGGTGGTTTGGTGTAAGGTTTATGTTTGT	FFFFFFFFFFFFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq, with the options: -q --score-min L,0,-0.6 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_1:N:0:TGGATCGA+TATCGCAC/1	77	*	0	0	*	*	0	0	ANAAGTATAAATTTTATATTAAATTATTATTTTATTAATTAAATTTTTATTATATTTATTTTTTATAATATTAAATATTAGTTAATTATATTTATTTATAATAATTAAATTATTATAATTATAT	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,FF:FFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:26793:1047_2:N:0:TGGATCGA+TATCGCAC/2	141	*	0	0	*	*	0	0	ATATAATTATAATAATTTAATTATTATAAATAAATATAATTAACTAATATTTAATATTATAAAAAATAAATATAATAAAAATTTAATTAATAAAATAATAATTTAATATAAAATTTATACTTAT	FFFFFFFFFFFFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF	YT:Z:UP
+
+>>> Writing bisulfite mapping results to CF06-CM01-Zygote_pe.bam <<<
+
+
+Reading in the sequence files ../../data/CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz and ../../data/CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz
+10000 reads; of these:1000010000
+ reads; of these:10000 reads; of these:  
+ reads; of these:
+10000 (  
+  10000  100.0010000 (10000% ( (100.00) were paired; of these:%100.00
+100.00) were paired; of these:%    %
+) were paired; of these:8714) were paired; of these:    
+ (
+8711    87.14     (8870%888287.11 () aligned concordantly 0 times (%88.70
+88.82) aligned concordantly 0 times%    %
+) aligned concordantly 0 times621) aligned concordantly 0 times    
+ (
+604    6.21     (510%4986.04 () aligned concordantly exactly 1 time (%5.10
+4.98) aligned concordantly exactly 1 time%    %
+) aligned concordantly exactly 1 time665) aligned concordantly exactly 1 time    
+ (
+685    6.65     (620%6206.85 () aligned concordantly >1 times (%6.20
+6.20) aligned concordantly >1 times%12.86%
+) aligned concordantly >1 times%) aligned concordantly >1 times12.89
+ overall alignment rate
+%11.30
+11.18 overall alignment rate%%
+ overall alignment rate overall alignment rate
+
+Processed 10000 sequences in total
+
+
+Successfully deleted the temporary files CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq, CF06-CM01-Zygote_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq, CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and CF06-CM01-Zygote_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	10000
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	65013
+
+Total methylated C's in CpG context:	1714
+Total methylated C's in CHG context:	564
+Total methylated C's in CHH context:	2448
+Total methylated C's in Unknown context:	101
+
+Total unmethylated C's in CpG context:	6726
+Total unmethylated C's in CHG context:	12251
+Total unmethylated C's in CHH context:	41310
+Total unmethylated C's in Unknown context:	414
+
+C methylated in CpG context:	20.3%
+C methylated in CHG context:	4.4%
+C methylated in CHH context:	5.6%
+C methylated in Unknown context (CN or CHN):	19.6%
+
+
+Bismark completed in 0d 0h 0m 16s
+
+====================
+Bismark run complete
+====================
+

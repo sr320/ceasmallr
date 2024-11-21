@@ -62,30 +62,30 @@ GWNJ-1012:512:GW210315000:4:1101:26051:1047_2:N:0:ACTAAGAT+CCGCGGTT/2	141	*	0	0	
 
 
 Reading in the sequence files ../../data/CF05-CM02-Larvae_R1_001.fastp-trim.20220827.fq.gz and ../../data/CF05-CM02-Larvae_R2_001.fastp-trim.20220827.fq.gz
-1000010000 reads; of these: reads; of these:
-
-    1000010000 ( (100.00100.00%%) were paired; of these:) were paired; of these:
-
-        81078142 ( (81.0781.42%%) aligned concordantly 0 times) aligned concordantly 0 times
-
-        861803 ( (8.618.03%%) aligned concordantly exactly 1 time) aligned concordantly exactly 1 time
-
-        10321055 ( (10.3210.55%%) aligned concordantly >1 times) aligned concordantly >1 times
-
-18.9318.58%% overall alignment rate overall alignment rate
+10000 reads; of these:10000
+10000 reads; of these:   reads; of these:
+10000
+   (  1000010000100.00 ( (%) were paired; of these:100.00
+100.00%    %) were paired; of these:8107) were paired; of these:
+ (
+    81.07    8319%8306 () aligned concordantly 0 times (83.19
+83.06%    %) aligned concordantly 0 times861) aligned concordantly 0 times
+ (
+    8.61    724%673 () aligned concordantly exactly 1 time (7.24
+6.73%    %) aligned concordantly exactly 1 time1032) aligned concordantly exactly 1 time
+ (
+    10.32    957%1021 () aligned concordantly >1 times (9.57
+10.21%18.93%) aligned concordantly >1 times%) aligned concordantly >1 times
+ overall alignment rate
+16.81
+16.94%% overall alignment rate overall alignment rate
 
 10000 reads; of these:
-10000   reads; of these:10000
- (  10000 (100.00%) were paired; of these:
-100.00    %8306) were paired; of these: (
-83.06    %8319) aligned concordantly 0 times (
-83.19    %673) aligned concordantly 0 times (
-6.73    %724) aligned concordantly exactly 1 time (
-7.24    %1021) aligned concordantly exactly 1 time (
-10.21    %957) aligned concordantly >1 times (
-9.5716.94%%) aligned concordantly >1 times overall alignment rate
-
-16.81% overall alignment rate
+  10000 (100.00%) were paired; of these:
+    8142 (81.42%) aligned concordantly 0 times
+    803 (8.03%) aligned concordantly exactly 1 time
+    1055 (10.55%) aligned concordantly >1 times
+18.58% overall alignment rate
 Processed 10000 sequences in total
 
 
@@ -114,7 +114,7 @@ C methylated in CHH context:	2.0%
 C methylated in Unknown context (CN or CHN):	20.6%
 
 
-Bismark completed in 0d 0h 0m 35s
+Bismark completed in 0d 0h 0m 34s
 
 ====================
 Bismark run complete

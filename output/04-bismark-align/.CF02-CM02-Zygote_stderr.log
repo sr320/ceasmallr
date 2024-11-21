@@ -58,28 +58,28 @@ Found first alignment:
 GWNJ-1012:512:GW210315000:4:1101:25672:1047_1:N:0:TTGGACTC+CTGCTTCC/1	77	*	0	0	*	*	0	0	TNGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTGATTTTATGTTATTTTTTTTGGGATTGTTAATAGATGGAAGAGTATATGTTTGAATTTTATTTATTTGGATTTATTTTGTATTTTGTTATTAGTATGAAAAAAGGGGGGGGGGGGG	F#FFFFFFFFF:FFFFFFFF,FFFFF,FF,FF,FFFF:,FFF,FFF:F,FFFFF,,:F:FFFFFFFF,F::FFF,F,::FFF::F,FFF,,,FF,FFF:,:,FFF,:FF::,,FFF,F,::F:,F,,:,:,FFFF,,,,:,,FF,FFFFF	YT:Z:UP
 GWNJ-1012:512:GW210315000:4:1101:25672:1047_2:N:0:TTGGACTC+CTGCTTCC/2	141	*	0	0	*	*	0	0	AAATTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAAAAAAAAAAAAAAAATA	F:,,,,:FFFF::::FFF:FFFFFFFFFFFFF:,F:,FF:::,:F,,,,:,,,F,:,,,:::,,,:,:FF,F,F:FF:::F:,::,F,,,:,FFFF:::,:::,:FF,F,,F:F:FFF::F:,,,,,,,,,,:FFF:FFFFFFFF::,,,	YT:Z:UP
 
->>> Writing bisulfite mapping results to CF02-CM02-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam <<<
+>>> Writing bisulfite mapping results to CF02-CM02-Zygote_pe.bam <<<
 
 
 Reading in the sequence files ../../data/CF02-CM02-Zygote_R1_001.fastp-trim.20220827.fq.gz and ../../data/CF02-CM02-Zygote_R2_001.fastp-trim.20220827.fq.gz
+10000 reads; of these:10000
+ reads; of these:  
+10000   (10000 (100.00%100.00) were paired; of these:%
+) were paired; of these:    
+9376     (908393.76 (%) aligned concordantly 0 times90.83
+%    ) aligned concordantly 0 times293
+ (    2.93421% () aligned concordantly exactly 1 time4.21
+%    ) aligned concordantly exactly 1 time331
+ (    3.31496% () aligned concordantly >1 times4.96
+%6.24) aligned concordantly >1 times%
+ overall alignment rate9.17
+% overall alignment rate
 10000 reads; of these:
   10000 (100.00%) were paired; of these:
-    9376 (93.76%) aligned concordantly 0 times
-    293 (2.93%) aligned concordantly exactly 1 time
-    331 (3.31%) aligned concordantly >1 times
-6.24% overall alignment rate
-10000 reads; of these:
-  10000 (100.00%10000) were paired; of these: reads; of these:
-
-      909510000 ( (90.95%) aligned concordantly 0 times
-100.00    %394) were paired; of these: (
-3.94    %9083) aligned concordantly exactly 1 time (
-90.83    %511) aligned concordantly 0 times (
-5.11    %421) aligned concordantly >1 times (
-4.219.05%%) aligned concordantly exactly 1 time overall alignment rate
-
-    496 (4.96%) aligned concordantly >1 times
-9.17% overall alignment rate
+    9095 (90.95%) aligned concordantly 0 times
+    394 (3.94%) aligned concordantly exactly 1 time
+    511 (5.11%) aligned concordantly >1 times
+9.05% overall alignment rate
 10000 reads; of these:
   10000 (100.00%) were paired; of these:
     9407 (94.07%) aligned concordantly 0 times
@@ -114,7 +114,7 @@ C methylated in CHH context:	7.2%
 C methylated in Unknown context (CN or CHN):	21.5%
 
 
-Bismark completed in 0d 0h 0m 32s
+Bismark completed in 0d 0h 0m 19s
 
 ====================
 Bismark run complete

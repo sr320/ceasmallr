@@ -1,0 +1,1819 @@
+{
+    "report_data_sources": {
+        "Bowtie 2 / HiSAT2": {
+            "all_sections": {
+                "CF01-CM01-Zygote-0-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF01-CM01-Zygote-0-bismark_summary.txt",
+                "CF01-CM02-Larvae-1-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF01-CM02-Larvae-1-bismark_summary.txt",
+                "CF02-CM02-Zygote-2-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF02-CM02-Zygote-2-bismark_summary.txt",
+                "CF03-CM03-Zygote-3-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM03-Zygote-3-bismark_summary.txt",
+                "CF03-CM04-Larvae-4-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM04-Larvae-4-bismark_summary.txt",
+                "CF03-CM05-Larvae-5-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM05-Larvae-5-bismark_summary.txt",
+                "CF04-CM04-Zygote-6-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF04-CM04-Zygote-6-bismark_summary.txt",
+                "CF05-CM02-Larvae-7-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF05-CM02-Larvae-7-bismark_summary.txt",
+                "CF05-CM05-Zygote-8-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF05-CM05-Zygote-8-bismark_summary.txt",
+                "CF06-CM02-Larvae-10-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF06-CM02-Larvae-10-bismark_summary.txt",
+                "CF07-CM02-Zygote-11-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF07-CM02-Zygote-11-bismark_summary.txt",
+                "CF08-CM03-Zygote-12-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM03-Zygote-12-bismark_summary.txt",
+                "CF08-CM04-Larvae-13-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM04-Larvae-13-bismark_summary.txt",
+                "CF08-CM05-Larvae-14-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM05-Larvae-14-bismark_summary.txt",
+                "EF01-EM01-Zygote-15-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF01-EM01-Zygote-15-bismark_summary.txt",
+                "EF02-EM02-Zygote-16-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF02-EM02-Zygote-16-bismark_summary.txt",
+                "EF03-EM03-Zygote-17-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF03-EM03-Zygote-17-bismark_summary.txt",
+                "EF03-EM04-Larvae-18-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF03-EM04-Larvae-18-bismark_summary.txt",
+                "EF03-EM05-Larvae-19-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF03-EM05-Larvae-19-bismark_summary.txt",
+                "EF04-EM04-Zygote-20-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF04-EM04-Zygote-20-bismark_summary.txt",
+                "EF04-EM05-Larvae-21-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF04-EM05-Larvae-21-bismark_summary.txt",
+                "EF05-EM01-Larvae-22-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF05-EM01-Larvae-22-bismark_summary.txt",
+                "EF05-EM05-Zygote-23-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF05-EM05-Zygote-23-bismark_summary.txt",
+                "EF05-EM06-Larvae-24-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF05-EM06-Larvae-24-bismark_summary.txt",
+                "EF06-EM01-Larvae-25-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF06-EM01-Larvae-25-bismark_summary.txt",
+                "EF06-EM02-Larvae-26-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF06-EM02-Larvae-26-bismark_summary.txt",
+                "EF06-EM06-Larvae-27-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF06-EM06-Larvae-27-bismark_summary.txt",
+                "EF07-EM01-Zygote-28-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF07-EM01-Zygote-28-bismark_summary.txt",
+                "EF07-EM03-Larvae-29-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF07-EM03-Larvae-29-bismark_summary.txt",
+                "EF08-EM03-Larvae-30-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF08-EM03-Larvae-30-bismark_summary.txt",
+                "EF08-EM04-Larvae-31-bismark": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF08-EM04-Larvae-31-bismark_summary.txt"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "CF01-CM01-Zygote-0-bismark": {
+                "total_reads": 100001000010000,
+                "overall_alignment_rate": 6.24
+            },
+            "CF01-CM02-Larvae-1-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8205,
+                "paired_aligned_one": 804,
+                "paired_aligned_multi": 991,
+                "overall_alignment_rate": 17.95,
+                "paired_aligned_mate_none_halved": 8205
+            },
+            "CF02-CM02-Zygote-2-bismark": {
+                "overall_alignment_rate": 5.93
+            },
+            "CF03-CM03-Zygote-3-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "overall_alignment_rate": 13.55
+            },
+            "CF03-CM04-Larvae-4-bismark": {
+                "total_reads": 36,
+                "overall_alignment_rate": 22.76
+            },
+            "CF03-CM05-Larvae-5-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8366,
+                "paired_aligned_one": 702,
+                "paired_aligned_multi": 932,
+                "overall_alignment_rate": 16.34,
+                "paired_aligned_mate_none_halved": 8366
+            },
+            "CF04-CM04-Zygote-6-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8965,
+                "paired_aligned_one": 477,
+                "paired_aligned_multi": 558,
+                "overall_alignment_rate": 10.35,
+                "paired_aligned_mate_none_halved": 8965
+            },
+            "CF05-CM02-Larvae-7-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8107,
+                "paired_aligned_one": 861,
+                "paired_aligned_multi": 1032,
+                "overall_alignment_rate": 18.93,
+                "paired_aligned_mate_none_halved": 8107
+            },
+            "CF05-CM05-Zygote-8-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8688,
+                "paired_aligned_one": 614,
+                "paired_aligned_multi": 698,
+                "overall_alignment_rate": 13.12,
+                "paired_aligned_mate_none_halved": 8688
+            },
+            "CF06-CM02-Larvae-10-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8903,
+                "paired_aligned_one": 562,
+                "paired_aligned_multi": 535,
+                "overall_alignment_rate": 10.97,
+                "paired_aligned_mate_none_halved": 8903
+            },
+            "CF07-CM02-Zygote-11-bismark": {
+                "total_reads": 10000,
+                "overall_alignment_rate": 5.96
+            },
+            "CF08-CM03-Zygote-12-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9206,
+                "paired_aligned_one": 351,
+                "paired_aligned_multi": 443,
+                "overall_alignment_rate": 7.94,
+                "paired_aligned_mate_none_halved": 9206
+            },
+            "CF08-CM04-Larvae-13-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9941,
+                "paired_aligned_one": 24,
+                "paired_aligned_multi": 35,
+                "overall_alignment_rate": 0.59,
+                "paired_aligned_mate_none_halved": 9941
+            },
+            "CF08-CM05-Larvae-14-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9892,
+                "paired_aligned_one": 52,
+                "paired_aligned_multi": 56,
+                "overall_alignment_rate": 1.08,
+                "paired_aligned_mate_none_halved": 9892
+            },
+            "EF01-EM01-Zygote-15-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8908,
+                "paired_aligned_one": 528,
+                "paired_aligned_multi": 564,
+                "overall_alignment_rate": 10.92,
+                "paired_aligned_mate_none_halved": 8908
+            },
+            "EF02-EM02-Zygote-16-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8667,
+                "paired_aligned_one": 642,
+                "paired_aligned_multi": 691,
+                "overall_alignment_rate": 13.33,
+                "paired_aligned_mate_none_halved": 8667
+            },
+            "EF03-EM03-Zygote-17-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9001,
+                "paired_aligned_one": 447,
+                "paired_aligned_multi": 552,
+                "overall_alignment_rate": 9.99,
+                "paired_aligned_mate_none_halved": 9001
+            },
+            "EF03-EM04-Larvae-18-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8648,
+                "paired_aligned_one": 600,
+                "paired_aligned_multi": 752,
+                "overall_alignment_rate": 13.52,
+                "paired_aligned_mate_none_halved": 8648
+            },
+            "EF03-EM05-Larvae-19-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8658,
+                "paired_aligned_one": 637,
+                "paired_aligned_multi": 705,
+                "overall_alignment_rate": 13.42,
+                "paired_aligned_mate_none_halved": 8658
+            },
+            "EF04-EM04-Zygote-20-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9556,
+                "paired_aligned_one": 202,
+                "paired_aligned_multi": 242,
+                "overall_alignment_rate": 4.44,
+                "paired_aligned_mate_none_halved": 9556
+            },
+            "EF04-EM05-Larvae-21-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8025,
+                "paired_aligned_one": 908,
+                "paired_aligned_multi": 1067,
+                "overall_alignment_rate": 19.75,
+                "paired_aligned_mate_none_halved": 8025
+            },
+            "EF05-EM01-Larvae-22-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8688,
+                "paired_aligned_one": 611,
+                "paired_aligned_multi": 701,
+                "overall_alignment_rate": 13.12,
+                "paired_aligned_mate_none_halved": 8688
+            },
+            "EF05-EM05-Zygote-23-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9567,
+                "paired_aligned_one": 187,
+                "paired_aligned_multi": 246,
+                "overall_alignment_rate": 4.33,
+                "paired_aligned_mate_none_halved": 9567
+            },
+            "EF05-EM06-Larvae-24-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8356,
+                "paired_aligned_one": 772,
+                "paired_aligned_multi": 872,
+                "overall_alignment_rate": 16.44,
+                "paired_aligned_mate_none_halved": 8356
+            },
+            "EF06-EM01-Larvae-25-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8439,
+                "paired_aligned_one": 706,
+                "paired_aligned_multi": 855,
+                "overall_alignment_rate": 15.61,
+                "paired_aligned_mate_none_halved": 8439
+            },
+            "EF06-EM02-Larvae-26-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8346,
+                "paired_aligned_one": 771,
+                "paired_aligned_multi": 883,
+                "overall_alignment_rate": 16.54,
+                "paired_aligned_mate_none_halved": 8346
+            },
+            "EF06-EM06-Larvae-27-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8834,
+                "paired_aligned_one": 578,
+                "paired_aligned_multi": 588,
+                "overall_alignment_rate": 11.66,
+                "paired_aligned_mate_none_halved": 8834
+            },
+            "EF07-EM01-Zygote-28-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9286,
+                "paired_aligned_one": 308,
+                "paired_aligned_multi": 406,
+                "overall_alignment_rate": 7.14,
+                "paired_aligned_mate_none_halved": 9286
+            },
+            "EF07-EM03-Larvae-29-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8399,
+                "paired_aligned_one": 705,
+                "paired_aligned_multi": 896,
+                "overall_alignment_rate": 16.01,
+                "paired_aligned_mate_none_halved": 8399
+            },
+            "EF08-EM03-Larvae-30-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 7964,
+                "paired_aligned_one": 885,
+                "paired_aligned_multi": 1151,
+                "overall_alignment_rate": 20.36,
+                "paired_aligned_mate_none_halved": 7964
+            },
+            "EF08-EM04-Larvae-31-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8200,
+                "paired_aligned_one": 794,
+                "paired_aligned_multi": 1006,
+                "overall_alignment_rate": 18.0,
+                "paired_aligned_mate_none_halved": 8200
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "overall_alignment_rate": {
+                "title": "% Aligned",
+                "description": "overall alignment rate",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Bowtie 2 / HiSAT2",
+                "rid": "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate",
+                "format": null,
+                "color": "55,126,184",
+                "hidden": false,
+                "ceiling": null,
+                "floor": null,
+                "minrange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/srlab/programs/miniforge3-24.7.1-0/envs/multiqc_env/bin/multiqc ./CF01-CM01-Zygote-0-bismark_summary.txt ./CF01-CM02-Larvae-1-bismark_summary.txt ./CF02-CM02-Zygote-2-bismark_summary.txt ./CF03-CM03-Zygote-3-bismark_summary.txt ./CF03-CM04-Larvae-4-bismark_summary.txt ./CF03-CM05-Larvae-5-bismark_summary.txt ./CF04-CM04-Zygote-6-bismark_summary.txt ./CF05-CM02-Larvae-7-bismark_summary.txt ./CF05-CM05-Zygote-8-bismark_summary.txt ./CF06-CM01-Zygote-9-bismark_summary.txt ./CF06-CM02-Larvae-10-bismark_summary.txt ./CF07-CM02-Zygote-11-bismark_summary.txt ./CF08-CM03-Zygote-12-bismark_summary.txt ./CF08-CM04-Larvae-13-bismark_summary.txt ./CF08-CM05-Larvae-14-bismark_summary.txt ./EF01-EM01-Zygote-15-bismark_summary.txt ./EF02-EM02-Zygote-16-bismark_summary.txt ./EF03-EM03-Zygote-17-bismark_summary.txt ./EF03-EM04-Larvae-18-bismark_summary.txt ./EF03-EM05-Larvae-19-bismark_summary.txt ./EF04-EM04-Zygote-20-bismark_summary.txt ./EF04-EM05-Larvae-21-bismark_summary.txt ./EF05-EM01-Larvae-22-bismark_summary.txt ./EF05-EM05-Zygote-23-bismark_summary.txt ./EF05-EM06-Larvae-24-bismark_summary.txt ./EF06-EM01-Larvae-25-bismark_summary.txt ./EF06-EM02-Larvae-26-bismark_summary.txt ./EF06-EM06-Larvae-27-bismark_summary.txt ./EF07-EM01-Zygote-28-bismark_summary.txt ./EF07-EM03-Larvae-29-bismark_summary.txt ./EF08-EM03-Larvae-30-bismark_summary.txt ./EF08-EM04-Larvae-31-bismark_summary.txt",
+    "report_plot_data": {
+        "bowtie2_pe_plot": {
+            "id": "bowtie2_pe_plot",
+            "plot_type": "bar_graph",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 660,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "Bowtie 2: PE Alignment Scores",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "bowtie2_pe_plot",
+                    "label": "1",
+                    "uid": "bowtie2_pe_plot",
+                    "dconfig": {
+                        "title": "Bowtie 2: PE Alignment Scores<br><sup>26 samples</sup>"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Bowtie 2: PE Alignment Scores<br><sup>26 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 10000
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 26,
+                    "cats": [
+                        {
+                            "name": "PE mapped uniquely",
+                            "data": [
+                                794,
+                                885,
+                                705,
+                                308,
+                                578,
+                                771,
+                                706,
+                                772,
+                                187,
+                                611,
+                                908,
+                                202,
+                                637,
+                                600,
+                                447,
+                                642,
+                                528,
+                                52,
+                                24,
+                                351,
+                                562,
+                                614,
+                                861,
+                                477,
+                                702,
+                                804
+                            ],
+                            "color": "32,86,143",
+                            "data_pct": [
+                                7.9399999999999995,
+                                8.85,
+                                7.049999999999999,
+                                3.08,
+                                5.779999999999999,
+                                7.71,
+                                7.06,
+                                7.720000000000001,
+                                1.87,
+                                6.11,
+                                9.08,
+                                2.02,
+                                6.370000000000001,
+                                6.0,
+                                4.47,
+                                6.419999999999999,
+                                5.28,
+                                0.52,
+                                0.24,
+                                3.51,
+                                5.62,
+                                6.140000000000001,
+                                8.61,
+                                4.77,
+                                7.02,
+                                8.04
+                            ]
+                        },
+                        {
+                            "name": "PE multimapped",
+                            "data": [
+                                1006,
+                                1151,
+                                896,
+                                406,
+                                588,
+                                883,
+                                855,
+                                872,
+                                246,
+                                701,
+                                1067,
+                                242,
+                                705,
+                                752,
+                                552,
+                                691,
+                                564,
+                                56,
+                                35,
+                                443,
+                                535,
+                                698,
+                                1032,
+                                558,
+                                932,
+                                991
+                            ],
+                            "color": "247,163,92",
+                            "data_pct": [
+                                10.059999999999999,
+                                11.51,
+                                8.959999999999999,
+                                4.06,
+                                5.88,
+                                8.83,
+                                8.55,
+                                8.72,
+                                2.46,
+                                7.01,
+                                10.67,
+                                2.42,
+                                7.049999999999999,
+                                7.5200000000000005,
+                                5.52,
+                                6.909999999999999,
+                                5.64,
+                                0.5599999999999999,
+                                0.35000000000000003,
+                                4.43,
+                                5.35,
+                                6.98,
+                                10.32,
+                                5.58,
+                                9.32,
+                                9.91
+                            ]
+                        },
+                        {
+                            "name": "PE neither mate aligned",
+                            "data": [
+                                8200,
+                                7964,
+                                8399,
+                                9286,
+                                8834,
+                                8346,
+                                8439,
+                                8356,
+                                9567,
+                                8688,
+                                8025,
+                                9556,
+                                8658,
+                                8648,
+                                9001,
+                                8667,
+                                8908,
+                                9892,
+                                9941,
+                                9206,
+                                8903,
+                                8688,
+                                8107,
+                                8965,
+                                8366,
+                                8205
+                            ],
+                            "color": "152,25,25",
+                            "data_pct": [
+                                82.0,
+                                79.64,
+                                83.99,
+                                92.86,
+                                88.34,
+                                83.46000000000001,
+                                84.39,
+                                83.56,
+                                95.67,
+                                86.88,
+                                80.25,
+                                95.56,
+                                86.58,
+                                86.48,
+                                90.01,
+                                86.67,
+                                89.08,
+                                98.92,
+                                99.41,
+                                92.06,
+                                89.03,
+                                86.88,
+                                81.07,
+                                89.64999999999999,
+                                83.66,
+                                82.05
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "EF08-EM04-Larvae-31-bismark",
+                        "EF08-EM03-Larvae-30-bismark",
+                        "EF07-EM03-Larvae-29-bismark",
+                        "EF07-EM01-Zygote-28-bismark",
+                        "EF06-EM06-Larvae-27-bismark",
+                        "EF06-EM02-Larvae-26-bismark",
+                        "EF06-EM01-Larvae-25-bismark",
+                        "EF05-EM06-Larvae-24-bismark",
+                        "EF05-EM05-Zygote-23-bismark",
+                        "EF05-EM01-Larvae-22-bismark",
+                        "EF04-EM05-Larvae-21-bismark",
+                        "EF04-EM04-Zygote-20-bismark",
+                        "EF03-EM05-Larvae-19-bismark",
+                        "EF03-EM04-Larvae-18-bismark",
+                        "EF03-EM03-Zygote-17-bismark",
+                        "EF02-EM02-Zygote-16-bismark",
+                        "EF01-EM01-Zygote-15-bismark",
+                        "CF08-CM05-Larvae-14-bismark",
+                        "CF08-CM04-Larvae-13-bismark",
+                        "CF08-CM03-Zygote-12-bismark",
+                        "CF06-CM02-Larvae-10-bismark",
+                        "CF05-CM05-Zygote-8-bismark",
+                        "CF05-CM02-Larvae-7-bismark",
+                        "CF04-CM04-Zygote-6-bismark",
+                        "CF03-CM05-Larvae-5-bismark",
+                        "CF01-CM02-Larvae-1-bismark"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "bowtie2_pe_plot",
+                "table_title": null,
+                "title": "Bowtie 2: PE Alignment Scores",
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "# Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false
+        },
+        "general_stats_table": {
+            "id": "general_stats_table",
+            "plot_type": "violin",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": false,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "plot_id": "general_stats_table",
+                    "label": "1",
+                    "uid": "general_stats_table",
+                    "dconfig": {
+                        "ylab": "",
+                        "title": "General Statistics<br><sup>31 samples</sup>"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "General Statistics<br><sup>31 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": ""
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "#b5b5b5",
+                        "line": {
+                            "width": 2,
+                            "color": "#b5b5b5"
+                        },
+                        "opacity": 0.5,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 31,
+                    "metrics": [
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate"
+                    ],
+                    "header_by_metric": {
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": {
+                            "title": "% Aligned",
+                            "description": "overall alignment rate",
+                            "suffix": "%",
+                            "dmin": 0.0,
+                            "dmax": 100.0,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": "%",
+                                "tickvals": null,
+                                "range": [
+                                    -0.5,
+                                    100.5025
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "Bowtie 2 / HiSAT2",
+                            "color": null,
+                            "hoverformat": ".2f"
+                        }
+                    },
+                    "violin_value_by_sample_by_metric": {
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": {
+                            "CF01-CM01-Zygote-0-bismark": 6.24,
+                            "CF01-CM02-Larvae-1-bismark": 17.95,
+                            "CF02-CM02-Zygote-2-bismark": 5.93,
+                            "CF03-CM03-Zygote-3-bismark": 13.55,
+                            "CF03-CM04-Larvae-4-bismark": 22.76,
+                            "CF03-CM05-Larvae-5-bismark": 16.34,
+                            "CF04-CM04-Zygote-6-bismark": 10.35,
+                            "CF05-CM02-Larvae-7-bismark": 18.93,
+                            "CF05-CM05-Zygote-8-bismark": 13.12,
+                            "CF06-CM02-Larvae-10-bismark": 10.97,
+                            "CF07-CM02-Zygote-11-bismark": 5.96,
+                            "CF08-CM03-Zygote-12-bismark": 7.94,
+                            "CF08-CM04-Larvae-13-bismark": 0.59,
+                            "CF08-CM05-Larvae-14-bismark": 1.08,
+                            "EF01-EM01-Zygote-15-bismark": 10.92,
+                            "EF02-EM02-Zygote-16-bismark": 13.33,
+                            "EF03-EM03-Zygote-17-bismark": 9.99,
+                            "EF03-EM04-Larvae-18-bismark": 13.52,
+                            "EF03-EM05-Larvae-19-bismark": 13.42,
+                            "EF04-EM04-Zygote-20-bismark": 4.44,
+                            "EF04-EM05-Larvae-21-bismark": 19.75,
+                            "EF05-EM01-Larvae-22-bismark": 13.12,
+                            "EF05-EM05-Zygote-23-bismark": 4.33,
+                            "EF05-EM06-Larvae-24-bismark": 16.44,
+                            "EF06-EM01-Larvae-25-bismark": 15.61,
+                            "EF06-EM02-Larvae-26-bismark": 16.54,
+                            "EF06-EM06-Larvae-27-bismark": 11.66,
+                            "EF07-EM01-Zygote-28-bismark": 7.14,
+                            "EF07-EM03-Larvae-29-bismark": 16.01,
+                            "EF08-EM03-Larvae-30-bismark": 20.36,
+                            "EF08-EM04-Larvae-31-bismark": 18.0
+                        }
+                    },
+                    "scatter_value_by_sample_by_metric": {
+                        "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": {}
+                    },
+                    "all_samples": [
+                        "CF01-CM01-Zygote-0-bismark",
+                        "CF01-CM02-Larvae-1-bismark",
+                        "CF02-CM02-Zygote-2-bismark",
+                        "CF03-CM03-Zygote-3-bismark",
+                        "CF03-CM04-Larvae-4-bismark",
+                        "CF03-CM05-Larvae-5-bismark",
+                        "CF04-CM04-Zygote-6-bismark",
+                        "CF05-CM02-Larvae-7-bismark",
+                        "CF05-CM05-Zygote-8-bismark",
+                        "CF06-CM02-Larvae-10-bismark",
+                        "CF07-CM02-Zygote-11-bismark",
+                        "CF08-CM03-Zygote-12-bismark",
+                        "CF08-CM04-Larvae-13-bismark",
+                        "CF08-CM05-Larvae-14-bismark",
+                        "EF01-EM01-Zygote-15-bismark",
+                        "EF02-EM02-Zygote-16-bismark",
+                        "EF03-EM03-Zygote-17-bismark",
+                        "EF03-EM04-Larvae-18-bismark",
+                        "EF03-EM05-Larvae-19-bismark",
+                        "EF04-EM04-Zygote-20-bismark",
+                        "EF04-EM05-Larvae-21-bismark",
+                        "EF05-EM01-Larvae-22-bismark",
+                        "EF05-EM05-Zygote-23-bismark",
+                        "EF05-EM06-Larvae-24-bismark",
+                        "EF06-EM01-Larvae-25-bismark",
+                        "EF06-EM02-Larvae-26-bismark",
+                        "EF06-EM06-Larvae-27-bismark",
+                        "EF07-EM01-Zygote-28-bismark",
+                        "EF07-EM03-Larvae-29-bismark",
+                        "EF08-EM03-Larvae-30-bismark",
+                        "EF08-EM04-Larvae-31-bismark"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "#0b79e6"
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white"
+                        }
+                    }
+                }
+            ],
+            "pconfig": {
+                "id": "general_stats_table",
+                "table_title": null,
+                "title": "General Statistics",
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": null,
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": false,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "violin_height": 70,
+            "extra_height": 63,
+            "no_violin": false,
+            "show_table": true,
+            "show_table_by_default": true,
+            "n_samples": 31,
+            "main_table_dt": {
+                "id": "table-general_stats_table",
+                "raw_data": [
+                    {
+                        "CF01-CM01-Zygote-0-bismark": {
+                            "overall_alignment_rate": 6.24
+                        },
+                        "CF01-CM02-Larvae-1-bismark": {
+                            "overall_alignment_rate": 17.95
+                        },
+                        "CF02-CM02-Zygote-2-bismark": {
+                            "overall_alignment_rate": 5.93
+                        },
+                        "CF03-CM03-Zygote-3-bismark": {
+                            "overall_alignment_rate": 13.55
+                        },
+                        "CF03-CM04-Larvae-4-bismark": {
+                            "overall_alignment_rate": 22.76
+                        },
+                        "CF03-CM05-Larvae-5-bismark": {
+                            "overall_alignment_rate": 16.34
+                        },
+                        "CF04-CM04-Zygote-6-bismark": {
+                            "overall_alignment_rate": 10.35
+                        },
+                        "CF05-CM02-Larvae-7-bismark": {
+                            "overall_alignment_rate": 18.93
+                        },
+                        "CF05-CM05-Zygote-8-bismark": {
+                            "overall_alignment_rate": 13.12
+                        },
+                        "CF06-CM02-Larvae-10-bismark": {
+                            "overall_alignment_rate": 10.97
+                        },
+                        "CF07-CM02-Zygote-11-bismark": {
+                            "overall_alignment_rate": 5.96
+                        },
+                        "CF08-CM03-Zygote-12-bismark": {
+                            "overall_alignment_rate": 7.94
+                        },
+                        "CF08-CM04-Larvae-13-bismark": {
+                            "overall_alignment_rate": 0.59
+                        },
+                        "CF08-CM05-Larvae-14-bismark": {
+                            "overall_alignment_rate": 1.08
+                        },
+                        "EF01-EM01-Zygote-15-bismark": {
+                            "overall_alignment_rate": 10.92
+                        },
+                        "EF02-EM02-Zygote-16-bismark": {
+                            "overall_alignment_rate": 13.33
+                        },
+                        "EF03-EM03-Zygote-17-bismark": {
+                            "overall_alignment_rate": 9.99
+                        },
+                        "EF03-EM04-Larvae-18-bismark": {
+                            "overall_alignment_rate": 13.52
+                        },
+                        "EF03-EM05-Larvae-19-bismark": {
+                            "overall_alignment_rate": 13.42
+                        },
+                        "EF04-EM04-Zygote-20-bismark": {
+                            "overall_alignment_rate": 4.44
+                        },
+                        "EF04-EM05-Larvae-21-bismark": {
+                            "overall_alignment_rate": 19.75
+                        },
+                        "EF05-EM01-Larvae-22-bismark": {
+                            "overall_alignment_rate": 13.12
+                        },
+                        "EF05-EM05-Zygote-23-bismark": {
+                            "overall_alignment_rate": 4.33
+                        },
+                        "EF05-EM06-Larvae-24-bismark": {
+                            "overall_alignment_rate": 16.44
+                        },
+                        "EF06-EM01-Larvae-25-bismark": {
+                            "overall_alignment_rate": 15.61
+                        },
+                        "EF06-EM02-Larvae-26-bismark": {
+                            "overall_alignment_rate": 16.54
+                        },
+                        "EF06-EM06-Larvae-27-bismark": {
+                            "overall_alignment_rate": 11.66
+                        },
+                        "EF07-EM01-Zygote-28-bismark": {
+                            "overall_alignment_rate": 7.14
+                        },
+                        "EF07-EM03-Larvae-29-bismark": {
+                            "overall_alignment_rate": 16.01
+                        },
+                        "EF08-EM03-Larvae-30-bismark": {
+                            "overall_alignment_rate": 20.36
+                        },
+                        "EF08-EM04-Larvae-31-bismark": {
+                            "overall_alignment_rate": 18.0
+                        }
+                    }
+                ],
+                "formatted_data": [
+                    {
+                        "CF01-CM01-Zygote-0-bismark": {
+                            "overall_alignment_rate": "6.2"
+                        },
+                        "CF01-CM02-Larvae-1-bismark": {
+                            "overall_alignment_rate": "17.9"
+                        },
+                        "CF02-CM02-Zygote-2-bismark": {
+                            "overall_alignment_rate": "5.9"
+                        },
+                        "CF03-CM03-Zygote-3-bismark": {
+                            "overall_alignment_rate": "13.6"
+                        },
+                        "CF03-CM04-Larvae-4-bismark": {
+                            "overall_alignment_rate": "22.8"
+                        },
+                        "CF03-CM05-Larvae-5-bismark": {
+                            "overall_alignment_rate": "16.3"
+                        },
+                        "CF04-CM04-Zygote-6-bismark": {
+                            "overall_alignment_rate": "10.3"
+                        },
+                        "CF05-CM02-Larvae-7-bismark": {
+                            "overall_alignment_rate": "18.9"
+                        },
+                        "CF05-CM05-Zygote-8-bismark": {
+                            "overall_alignment_rate": "13.1"
+                        },
+                        "CF06-CM02-Larvae-10-bismark": {
+                            "overall_alignment_rate": "11.0"
+                        },
+                        "CF07-CM02-Zygote-11-bismark": {
+                            "overall_alignment_rate": "6.0"
+                        },
+                        "CF08-CM03-Zygote-12-bismark": {
+                            "overall_alignment_rate": "7.9"
+                        },
+                        "CF08-CM04-Larvae-13-bismark": {
+                            "overall_alignment_rate": "0.6"
+                        },
+                        "CF08-CM05-Larvae-14-bismark": {
+                            "overall_alignment_rate": "1.1"
+                        },
+                        "EF01-EM01-Zygote-15-bismark": {
+                            "overall_alignment_rate": "10.9"
+                        },
+                        "EF02-EM02-Zygote-16-bismark": {
+                            "overall_alignment_rate": "13.3"
+                        },
+                        "EF03-EM03-Zygote-17-bismark": {
+                            "overall_alignment_rate": "10.0"
+                        },
+                        "EF03-EM04-Larvae-18-bismark": {
+                            "overall_alignment_rate": "13.5"
+                        },
+                        "EF03-EM05-Larvae-19-bismark": {
+                            "overall_alignment_rate": "13.4"
+                        },
+                        "EF04-EM04-Zygote-20-bismark": {
+                            "overall_alignment_rate": "4.4"
+                        },
+                        "EF04-EM05-Larvae-21-bismark": {
+                            "overall_alignment_rate": "19.8"
+                        },
+                        "EF05-EM01-Larvae-22-bismark": {
+                            "overall_alignment_rate": "13.1"
+                        },
+                        "EF05-EM05-Zygote-23-bismark": {
+                            "overall_alignment_rate": "4.3"
+                        },
+                        "EF05-EM06-Larvae-24-bismark": {
+                            "overall_alignment_rate": "16.4"
+                        },
+                        "EF06-EM01-Larvae-25-bismark": {
+                            "overall_alignment_rate": "15.6"
+                        },
+                        "EF06-EM02-Larvae-26-bismark": {
+                            "overall_alignment_rate": "16.5"
+                        },
+                        "EF06-EM06-Larvae-27-bismark": {
+                            "overall_alignment_rate": "11.7"
+                        },
+                        "EF07-EM01-Zygote-28-bismark": {
+                            "overall_alignment_rate": "7.1"
+                        },
+                        "EF07-EM03-Larvae-29-bismark": {
+                            "overall_alignment_rate": "16.0"
+                        },
+                        "EF08-EM03-Larvae-30-bismark": {
+                            "overall_alignment_rate": "20.4"
+                        },
+                        "EF08-EM04-Larvae-31-bismark": {
+                            "overall_alignment_rate": "18.0"
+                        }
+                    }
+                ],
+                "headers_in_order": {
+                    "1000": [
+                        [
+                            0,
+                            "overall_alignment_rate"
+                        ]
+                    ]
+                },
+                "headers": [
+                    {
+                        "overall_alignment_rate": {
+                            "id": null,
+                            "rid": "mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate",
+                            "title": "% Aligned",
+                            "description": "overall alignment rate",
+                            "namespace": "Bowtie 2 / HiSAT2",
+                            "scale": "YlGn",
+                            "hidden": false,
+                            "colour": null,
+                            "color": null,
+                            "placement": 1000.0,
+                            "max": 100.0,
+                            "dmax": 100.0,
+                            "min": 0.0,
+                            "dmin": 0.0,
+                            "ceiling": null,
+                            "floor": null,
+                            "minrange": null,
+                            "shared_key": null,
+                            "tt_decimals": null,
+                            "suffix": "%",
+                            "cond_formatting_colours": [
+                                {
+                                    "blue": "#337ab7"
+                                },
+                                {
+                                    "lbue": "#5bc0de"
+                                },
+                                {
+                                    "pass": "#5cb85c"
+                                },
+                                {
+                                    "warn": "#f0ad4e"
+                                },
+                                {
+                                    "fail": "#d9534f"
+                                }
+                            ],
+                            "cond_formatting_rules": {},
+                            "bgcols": {},
+                            "bars_zero_centrepoint": false
+                        }
+                    }
+                ],
+                "pconfig": {
+                    "id": "general_stats_table",
+                    "table_title": null,
+                    "title": "General Statistics",
+                    "height": null,
+                    "width": null,
+                    "square": false,
+                    "logswitch": false,
+                    "logswitch_active": false,
+                    "logswitch_label": "Log10",
+                    "cpswitch": true,
+                    "cpswitch_c_active": true,
+                    "cpswitch_counts_label": "Counts",
+                    "cpswitch_percent_label": "Percentages",
+                    "xLog": null,
+                    "yLog": null,
+                    "xlog": false,
+                    "ylog": false,
+                    "data_labels": [],
+                    "xTitle": null,
+                    "yTitle": null,
+                    "xlab": null,
+                    "ylab": null,
+                    "xsuffix": null,
+                    "ysuffix": null,
+                    "tt_suffix": null,
+                    "xLabFormat": null,
+                    "yLabFormat": null,
+                    "xLabelFormat": null,
+                    "yLabelFormat": null,
+                    "xlab_format": null,
+                    "ylab_format": null,
+                    "tt_label": null,
+                    "xDecimals": null,
+                    "yDecimals": null,
+                    "decimalPlaces": null,
+                    "x_decimals": null,
+                    "y_decimals": null,
+                    "tt_decimals": null,
+                    "xmin": null,
+                    "xmax": null,
+                    "ymin": null,
+                    "ymax": null,
+                    "xFloor": null,
+                    "xCeiling": null,
+                    "yFloor": null,
+                    "yCeiling": null,
+                    "x_clipmin": null,
+                    "x_clipmax": null,
+                    "y_clipmin": null,
+                    "y_clipmax": null,
+                    "save_data_file": true,
+                    "showlegend": null,
+                    "namespace": "",
+                    "save_file": true,
+                    "raw_data_fn": "multiqc_general_stats",
+                    "defaultsort": null,
+                    "sortRows": true,
+                    "sort_rows": true,
+                    "only_defined_headers": true,
+                    "col1_header": "Sample Name",
+                    "no_beeswarm": false,
+                    "no_violin": false,
+                    "scale": "GnBu",
+                    "min": null
+                }
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_bowtie2": {
+            "CF01-CM01-Zygote-0-bismark": {
+                "total_reads": 100001000010000,
+                "overall_alignment_rate": 6.24
+            },
+            "CF01-CM02-Larvae-1-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8205,
+                "paired_aligned_one": 804,
+                "paired_aligned_multi": 991,
+                "overall_alignment_rate": 17.95,
+                "paired_aligned_mate_none_halved": 8205
+            },
+            "CF02-CM02-Zygote-2-bismark": {
+                "overall_alignment_rate": 5.93
+            },
+            "CF03-CM03-Zygote-3-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "overall_alignment_rate": 13.55
+            },
+            "CF03-CM04-Larvae-4-bismark": {
+                "total_reads": 36,
+                "overall_alignment_rate": 22.76
+            },
+            "CF03-CM05-Larvae-5-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8366,
+                "paired_aligned_one": 702,
+                "paired_aligned_multi": 932,
+                "overall_alignment_rate": 16.34,
+                "paired_aligned_mate_none_halved": 8366
+            },
+            "CF04-CM04-Zygote-6-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8965,
+                "paired_aligned_one": 477,
+                "paired_aligned_multi": 558,
+                "overall_alignment_rate": 10.35,
+                "paired_aligned_mate_none_halved": 8965
+            },
+            "CF05-CM02-Larvae-7-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8107,
+                "paired_aligned_one": 861,
+                "paired_aligned_multi": 1032,
+                "overall_alignment_rate": 18.93,
+                "paired_aligned_mate_none_halved": 8107
+            },
+            "CF05-CM05-Zygote-8-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8688,
+                "paired_aligned_one": 614,
+                "paired_aligned_multi": 698,
+                "overall_alignment_rate": 13.12,
+                "paired_aligned_mate_none_halved": 8688
+            },
+            "CF06-CM02-Larvae-10-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8903,
+                "paired_aligned_one": 562,
+                "paired_aligned_multi": 535,
+                "overall_alignment_rate": 10.97,
+                "paired_aligned_mate_none_halved": 8903
+            },
+            "CF07-CM02-Zygote-11-bismark": {
+                "total_reads": 10000,
+                "overall_alignment_rate": 5.96
+            },
+            "CF08-CM03-Zygote-12-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9206,
+                "paired_aligned_one": 351,
+                "paired_aligned_multi": 443,
+                "overall_alignment_rate": 7.94,
+                "paired_aligned_mate_none_halved": 9206
+            },
+            "CF08-CM04-Larvae-13-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9941,
+                "paired_aligned_one": 24,
+                "paired_aligned_multi": 35,
+                "overall_alignment_rate": 0.59,
+                "paired_aligned_mate_none_halved": 9941
+            },
+            "CF08-CM05-Larvae-14-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9892,
+                "paired_aligned_one": 52,
+                "paired_aligned_multi": 56,
+                "overall_alignment_rate": 1.08,
+                "paired_aligned_mate_none_halved": 9892
+            },
+            "EF01-EM01-Zygote-15-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8908,
+                "paired_aligned_one": 528,
+                "paired_aligned_multi": 564,
+                "overall_alignment_rate": 10.92,
+                "paired_aligned_mate_none_halved": 8908
+            },
+            "EF02-EM02-Zygote-16-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8667,
+                "paired_aligned_one": 642,
+                "paired_aligned_multi": 691,
+                "overall_alignment_rate": 13.33,
+                "paired_aligned_mate_none_halved": 8667
+            },
+            "EF03-EM03-Zygote-17-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9001,
+                "paired_aligned_one": 447,
+                "paired_aligned_multi": 552,
+                "overall_alignment_rate": 9.99,
+                "paired_aligned_mate_none_halved": 9001
+            },
+            "EF03-EM04-Larvae-18-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8648,
+                "paired_aligned_one": 600,
+                "paired_aligned_multi": 752,
+                "overall_alignment_rate": 13.52,
+                "paired_aligned_mate_none_halved": 8648
+            },
+            "EF03-EM05-Larvae-19-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8658,
+                "paired_aligned_one": 637,
+                "paired_aligned_multi": 705,
+                "overall_alignment_rate": 13.42,
+                "paired_aligned_mate_none_halved": 8658
+            },
+            "EF04-EM04-Zygote-20-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9556,
+                "paired_aligned_one": 202,
+                "paired_aligned_multi": 242,
+                "overall_alignment_rate": 4.44,
+                "paired_aligned_mate_none_halved": 9556
+            },
+            "EF04-EM05-Larvae-21-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8025,
+                "paired_aligned_one": 908,
+                "paired_aligned_multi": 1067,
+                "overall_alignment_rate": 19.75,
+                "paired_aligned_mate_none_halved": 8025
+            },
+            "EF05-EM01-Larvae-22-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8688,
+                "paired_aligned_one": 611,
+                "paired_aligned_multi": 701,
+                "overall_alignment_rate": 13.12,
+                "paired_aligned_mate_none_halved": 8688
+            },
+            "EF05-EM05-Zygote-23-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9567,
+                "paired_aligned_one": 187,
+                "paired_aligned_multi": 246,
+                "overall_alignment_rate": 4.33,
+                "paired_aligned_mate_none_halved": 9567
+            },
+            "EF05-EM06-Larvae-24-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8356,
+                "paired_aligned_one": 772,
+                "paired_aligned_multi": 872,
+                "overall_alignment_rate": 16.44,
+                "paired_aligned_mate_none_halved": 8356
+            },
+            "EF06-EM01-Larvae-25-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8439,
+                "paired_aligned_one": 706,
+                "paired_aligned_multi": 855,
+                "overall_alignment_rate": 15.61,
+                "paired_aligned_mate_none_halved": 8439
+            },
+            "EF06-EM02-Larvae-26-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8346,
+                "paired_aligned_one": 771,
+                "paired_aligned_multi": 883,
+                "overall_alignment_rate": 16.54,
+                "paired_aligned_mate_none_halved": 8346
+            },
+            "EF06-EM06-Larvae-27-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8834,
+                "paired_aligned_one": 578,
+                "paired_aligned_multi": 588,
+                "overall_alignment_rate": 11.66,
+                "paired_aligned_mate_none_halved": 8834
+            },
+            "EF07-EM01-Zygote-28-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 9286,
+                "paired_aligned_one": 308,
+                "paired_aligned_multi": 406,
+                "overall_alignment_rate": 7.14,
+                "paired_aligned_mate_none_halved": 9286
+            },
+            "EF07-EM03-Larvae-29-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8399,
+                "paired_aligned_one": 705,
+                "paired_aligned_multi": 896,
+                "overall_alignment_rate": 16.01,
+                "paired_aligned_mate_none_halved": 8399
+            },
+            "EF08-EM03-Larvae-30-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 7964,
+                "paired_aligned_one": 885,
+                "paired_aligned_multi": 1151,
+                "overall_alignment_rate": 20.36,
+                "paired_aligned_mate_none_halved": 7964
+            },
+            "EF08-EM04-Larvae-31-bismark": {
+                "total_reads": 10000,
+                "paired_total": 10000,
+                "paired_aligned_none": 8200,
+                "paired_aligned_one": 794,
+                "paired_aligned_multi": 1006,
+                "overall_alignment_rate": 18.0,
+                "paired_aligned_mate_none_halved": 8200
+            }
+        },
+        "multiqc_general_stats": {
+            "CF01-CM01-Zygote-0-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 6.24
+            },
+            "CF01-CM02-Larvae-1-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 17.95
+            },
+            "CF02-CM02-Zygote-2-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 5.93
+            },
+            "CF03-CM03-Zygote-3-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 13.55
+            },
+            "CF03-CM04-Larvae-4-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 22.76
+            },
+            "CF03-CM05-Larvae-5-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 16.34
+            },
+            "CF04-CM04-Zygote-6-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 10.35
+            },
+            "CF05-CM02-Larvae-7-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 18.93
+            },
+            "CF05-CM05-Zygote-8-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 13.12
+            },
+            "CF06-CM02-Larvae-10-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 10.97
+            },
+            "CF07-CM02-Zygote-11-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 5.96
+            },
+            "CF08-CM03-Zygote-12-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 7.94
+            },
+            "CF08-CM04-Larvae-13-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 0.59
+            },
+            "CF08-CM05-Larvae-14-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 1.08
+            },
+            "EF01-EM01-Zygote-15-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 10.92
+            },
+            "EF02-EM02-Zygote-16-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 13.33
+            },
+            "EF03-EM03-Zygote-17-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 9.99
+            },
+            "EF03-EM04-Larvae-18-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 13.52
+            },
+            "EF03-EM05-Larvae-19-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 13.42
+            },
+            "EF04-EM04-Zygote-20-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 4.44
+            },
+            "EF04-EM05-Larvae-21-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 19.75
+            },
+            "EF05-EM01-Larvae-22-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 13.12
+            },
+            "EF05-EM05-Zygote-23-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 4.33
+            },
+            "EF05-EM06-Larvae-24-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 16.44
+            },
+            "EF06-EM01-Larvae-25-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 15.61
+            },
+            "EF06-EM02-Larvae-26-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 16.54
+            },
+            "EF06-EM06-Larvae-27-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 11.66
+            },
+            "EF07-EM01-Zygote-28-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 7.14
+            },
+            "EF07-EM03-Larvae-29-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 16.01
+            },
+            "EF08-EM03-Larvae-30-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 20.36
+            },
+            "EF08-EM04-Larvae-31-bismark": {
+                "Bowtie 2 / HiSAT2_mqc_generalstats_bowtie_2_hisat2_overall_alignment_rate": 18.0
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF01-CM01-Zygote-0-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF01-CM02-Larvae-1-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF02-CM02-Zygote-2-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM03-Zygote-3-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM04-Larvae-4-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF03-CM05-Larvae-5-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF04-CM04-Zygote-6-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF05-CM02-Larvae-7-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF05-CM05-Zygote-8-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF06-CM01-Zygote-9-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF06-CM02-Larvae-10-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF07-CM02-Zygote-11-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM03-Zygote-12-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM04-Larvae-13-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/CF08-CM05-Larvae-14-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF01-EM01-Zygote-15-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF02-EM02-Zygote-16-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF03-EM03-Zygote-17-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF03-EM04-Larvae-18-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF03-EM05-Larvae-19-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF04-EM04-Zygote-20-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF04-EM05-Larvae-21-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF05-EM01-Larvae-22-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF05-EM05-Zygote-23-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF05-EM06-Larvae-24-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF06-EM01-Larvae-25-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF06-EM02-Larvae-26-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF06-EM06-Larvae-27-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF07-EM01-Zygote-28-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF07-EM03-Larvae-29-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF08-EM03-Larvae-30-bismark_summary.txt",
+        "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align/EF08-EM04-Larvae-31-bismark_summary.txt"
+    ],
+    "config_analysis_dir": [
+        "./CF01-CM01-Zygote-0-bismark_summary.txt",
+        "./CF01-CM02-Larvae-1-bismark_summary.txt",
+        "./CF02-CM02-Zygote-2-bismark_summary.txt",
+        "./CF03-CM03-Zygote-3-bismark_summary.txt",
+        "./CF03-CM04-Larvae-4-bismark_summary.txt",
+        "./CF03-CM05-Larvae-5-bismark_summary.txt",
+        "./CF04-CM04-Zygote-6-bismark_summary.txt",
+        "./CF05-CM02-Larvae-7-bismark_summary.txt",
+        "./CF05-CM05-Zygote-8-bismark_summary.txt",
+        "./CF06-CM01-Zygote-9-bismark_summary.txt",
+        "./CF06-CM02-Larvae-10-bismark_summary.txt",
+        "./CF07-CM02-Zygote-11-bismark_summary.txt",
+        "./CF08-CM03-Zygote-12-bismark_summary.txt",
+        "./CF08-CM04-Larvae-13-bismark_summary.txt",
+        "./CF08-CM05-Larvae-14-bismark_summary.txt",
+        "./EF01-EM01-Zygote-15-bismark_summary.txt",
+        "./EF02-EM02-Zygote-16-bismark_summary.txt",
+        "./EF03-EM03-Zygote-17-bismark_summary.txt",
+        "./EF03-EM04-Larvae-18-bismark_summary.txt",
+        "./EF03-EM05-Larvae-19-bismark_summary.txt",
+        "./EF04-EM04-Zygote-20-bismark_summary.txt",
+        "./EF04-EM05-Larvae-21-bismark_summary.txt",
+        "./EF05-EM01-Larvae-22-bismark_summary.txt",
+        "./EF05-EM05-Zygote-23-bismark_summary.txt",
+        "./EF05-EM06-Larvae-24-bismark_summary.txt",
+        "./EF06-EM01-Larvae-25-bismark_summary.txt",
+        "./EF06-EM02-Larvae-26-bismark_summary.txt",
+        "./EF06-EM06-Larvae-27-bismark_summary.txt",
+        "./EF07-EM01-Zygote-28-bismark_summary.txt",
+        "./EF07-EM03-Larvae-29-bismark_summary.txt",
+        "./EF08-EM03-Larvae-30-bismark_summary.txt",
+        "./EF08-EM04-Larvae-31-bismark_summary.txt"
+    ],
+    "config_creation_date": "2024-11-21, 10:35 PST",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/srlab/programs/miniforge3-24.7.1-0/envs/multiqc_env/lib/python3.13/site-packages/multiqc",
+    "config_short_version": "1.24.1",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.24.1",
+    "config_output_dir": "/gscratch/scrubbed/sr320/github/ceasmallr/output/04-bismark-align"
+}

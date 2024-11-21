@@ -9,7 +9,7 @@ checkpoint_file="completed_samples.log"
 touch ${checkpoint_file}
 
 # Get the list of sample files and corresponding sample names
-files=(${reads_dir}*_001.fastp-trim.20220827.fq.gz)
+files=(${reads_dir}*R1_001.fastp-trim.20220827.fq.gz)
 file="${files[$SLURM_ARRAY_TASK_ID]}"
 sample_name=$(basename "$file" "_R1_001.fastp-trim.20220827.fq.gz")
 
@@ -33,8 +33,8 @@ bismark \
     -1 ${reads_dir}${sample_name}_R1_001.fastp-trim.20220827.fq.gz \
     -2 ${reads_dir}${sample_name}_R2_001.fastp-trim.20220827.fq.gz \
     -o ${output_dir} \
-    --basename ${sample_name}
-    
+    --basename ${sample_name} \
+    2> "${sample_name}-${SLURM_ARRAY_TASK_ID}-bismark_summary.txt"
 
 # Check if the command was successful
 if [ $? -eq 0 ]; then
