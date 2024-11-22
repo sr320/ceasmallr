@@ -21,8 +21,8 @@ bismark_threads=4
 
 cd "${trimmed_fastqs_dir}"
 
-if [[ -f "${output_dir_top}"/fastq_pairs.txt ]]; then
-  echo "Missing ${output_dir_top}/fastq_pairs.txt"
+if [[ ! -f "${output_dir_top}"/fastq_pairs.txt ]]; then
+  echo "Missing ${output_dir_top}/fastq_pairs.txt" >&2
   exit 1
 fi
 
