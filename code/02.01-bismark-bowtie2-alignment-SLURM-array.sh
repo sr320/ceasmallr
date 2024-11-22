@@ -6,7 +6,7 @@ trimmed_fastqs_dir="${repo_dir}/output/00.00-trimming-fastp"
 bisulfite_genome_dir="${repo_dir}/data/Cvirginica_v300"
 
 # OUTPUT FILES
-output_dir_top="${repo_dir}/output/02.00-bismark-bowtie2-alignment"
+output_dir_top="${repo_dir}/output/02.01-bismark-bowtie2-alignment-SLURM-array"
 
 # PARAMETERS
 bowtie2_min_score="L,0,-0.6"
