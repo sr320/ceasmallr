@@ -1,0 +1,6 @@
+grep: ./CF05-CM05-Zygote_score_L0-0.8/CF05-CM05-Zygote_L0-0.8_PE_report.txt: No such file or directory
+grep: ./CF06-CM02-Larvae_score_L0-0.8/CF06-CM02-Larvae_L0-0.8_PE_report.txt: No such file or directory
+grep: ./CF08-CM03-Zygote_score_L0-0.4/CF08-CM03-Zygote_L0-0.4_PE_report.txt: No such file or directory
+grep: ./EF01-EM01-Zygote_score_L0-0.4/EF01-EM01-Zygote_L0-0.4_PE_report.txt: No such file or directory
+grep: ./EF02-EM02-Zygote_score_L0-0.4/EF02-EM02-Zygote_L0-0.4_PE_report.txt: No such file or directory
+grep: ./EF03-EM03-Zygote_score_L0-0.4/EF03-EM03-Zygote_L0-0.4_PE_report.txt: No such file or directory

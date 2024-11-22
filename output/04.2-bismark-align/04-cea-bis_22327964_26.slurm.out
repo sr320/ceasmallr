@@ -1,0 +1,136 @@
+Running Bismark for sample EF06-EM02-Larvae with score_min L,0,-0.4
+chr NC_035780.1 (65668440 bp)
+chr NC_035781.1 (61752955 bp)
+chr NC_035782.1 (77061148 bp)
+chr NC_035783.1 (59691872 bp)
+chr NC_035784.1 (98698416 bp)
+chr NC_035785.1 (51258098 bp)
+chr NC_035786.1 (57830854 bp)
+chr NC_035787.1 (75944018 bp)
+chr NC_035788.1 (104168038 bp)
+chr NC_035789.1 (32650045 bp)
+chr NC_007175.2 (17244 bp)
+
+Number of paired-end alignments with a unique best hit:	2809
+Mapping efficiency:	28.1%
+
+Sequence pairs with no alignments under any condition:	6083
+Sequence pairs did not map uniquely:	1108
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	712	((converted) top strand)
+GA/CT/CT:	730	(complementary to (converted) top strand)
+GA/CT/GA:	725	(complementary to (converted) bottom strand)
+CT/GA/GA:	642	((converted) bottom strand)
+
+Sample EF06-EM02-Larvae with score_min L,0,-0.4 processed successfully.
+Running Bismark for sample EF06-EM02-Larvae with score_min L,0,-0.6
+chr NC_035780.1 (65668440 bp)
+chr NC_035781.1 (61752955 bp)
+chr NC_035782.1 (77061148 bp)
+chr NC_035783.1 (59691872 bp)
+chr NC_035784.1 (98698416 bp)
+chr NC_035785.1 (51258098 bp)
+chr NC_035786.1 (57830854 bp)
+chr NC_035787.1 (75944018 bp)
+chr NC_035788.1 (104168038 bp)
+chr NC_035789.1 (32650045 bp)
+chr NC_007175.2 (17244 bp)
+
+Number of paired-end alignments with a unique best hit:	3655
+Mapping efficiency:	36.5%
+
+Sequence pairs with no alignments under any condition:	5006
+Sequence pairs did not map uniquely:	1339
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	895	((converted) top strand)
+GA/CT/CT:	946	(complementary to (converted) top strand)
+GA/CT/GA:	940	(complementary to (converted) bottom strand)
+CT/GA/GA:	874	((converted) bottom strand)
+
+Sample EF06-EM02-Larvae with score_min L,0,-0.6 processed successfully.
+Running Bismark for sample EF06-EM02-Larvae with score_min L,0,-0.8
+chr NC_035780.1 (65668440 bp)
+chr NC_035781.1 (61752955 bp)
+chr NC_035782.1 (77061148 bp)
+chr NC_035783.1 (59691872 bp)
+chr NC_035784.1 (98698416 bp)
+chr NC_035785.1 (51258098 bp)
+chr NC_035786.1 (57830854 bp)
+chr NC_035787.1 (75944018 bp)
+chr NC_035788.1 (104168038 bp)
+chr NC_035789.1 (32650045 bp)
+chr NC_007175.2 (17244 bp)
+
+Number of paired-end alignments with a unique best hit:	4299
+Mapping efficiency:	43.0%
+
+Sequence pairs with no alignments under any condition:	4216
+Sequence pairs did not map uniquely:	1485
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	1053	((converted) top strand)
+GA/CT/CT:	1122	(complementary to (converted) top strand)
+GA/CT/GA:	1080	(complementary to (converted) bottom strand)
+CT/GA/GA:	1044	((converted) bottom strand)
+
+Sample EF06-EM02-Larvae with score_min L,0,-0.8 processed successfully.
+Running Bismark for sample EF06-EM02-Larvae with score_min L,0,-1.0
+chr NC_035780.1 (65668440 bp)
+chr NC_035781.1 (61752955 bp)
+chr NC_035782.1 (77061148 bp)
+chr NC_035783.1 (59691872 bp)
+chr NC_035784.1 (98698416 bp)
+chr NC_035785.1 (51258098 bp)
+chr NC_035786.1 (57830854 bp)
+chr NC_035787.1 (75944018 bp)
+chr NC_035788.1 (104168038 bp)
+chr NC_035789.1 (32650045 bp)
+chr NC_007175.2 (17244 bp)
+
+Number of paired-end alignments with a unique best hit:	4954
+Mapping efficiency:	49.5%
+
+Sequence pairs with no alignments under any condition:	3413
+Sequence pairs did not map uniquely:	1633
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	1231	((converted) top strand)
+GA/CT/CT:	1302	(complementary to (converted) top strand)
+GA/CT/GA:	1231	(complementary to (converted) bottom strand)
+CT/GA/GA:	1190	((converted) bottom strand)
+
+Sample EF06-EM02-Larvae with score_min L,0,-1.0 processed successfully.
+Running Bismark for sample EF06-EM02-Larvae with score_min L,-1,-0.6
+chr NC_035780.1 (65668440 bp)
+chr NC_035781.1 (61752955 bp)
+chr NC_035782.1 (77061148 bp)
+chr NC_035783.1 (59691872 bp)
+chr NC_035784.1 (98698416 bp)
+chr NC_035785.1 (51258098 bp)
+chr NC_035786.1 (57830854 bp)
+chr NC_035787.1 (75944018 bp)
+chr NC_035788.1 (104168038 bp)
+chr NC_035789.1 (32650045 bp)
+chr NC_007175.2 (17244 bp)
+
+Number of paired-end alignments with a unique best hit:	3695
+Mapping efficiency:	37.0%
+
+Sequence pairs with no alignments under any condition:	4964
+Sequence pairs did not map uniquely:	1341
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	908	((converted) top strand)
+GA/CT/CT:	951	(complementary to (converted) top strand)
+GA/CT/GA:	949	(complementary to (converted) bottom strand)
+CT/GA/GA:	887	((converted) bottom strand)
+
+Sample EF06-EM02-Larvae with score_min L,-1,-0.6 processed successfully.
+All tests for sample EF06-EM02-Larvae completed.

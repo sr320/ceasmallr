@@ -1,0 +1,80 @@
+---
+title: "04.2b"
+output: html_document
+date: "2024-11-21"
+---
+
+
+
+
+```{bash}
+grep -r "Mapping efficiency:" ../output/04.2-bismark-align | sort -t/ -k2,2
+```
+
+
+
+
+
+
+
+
+
+
+```{bash}
+ls ../output/04.2-bismark-align/EF05-EM05-Zygote_score_L0-1.0/EF05-EM05-Zygote_L0-1.0_PE_report.txt
+
+
+```
+
+
+
+
+
+
+```{bash}
+# Define directories
+output_dir="../output/04.2-bismark-align"
+summary_file="${output_dir}/parameter_comparison_summary.csv"
+
+# Initialize summary file
+#echo "Sample,Score_Min,Alignment_Rate,Unique_Alignments,Mismatch_Rate,Bisulfite_Efficiency" > ${summary_file}
+
+# Loop through parameter output directories
+for dir in ${output_dir}/*_score_*; do
+    if [ -d "$dir" ]; then
+        # Extract sample name and score_min parameter from directory name
+        sample_name=$(basename "$dir" | cut -d'_' -f1)
+        score_min=$(basename "$dir" | grep -o "score_.*" | sed 's/score_//; s/_/,/g')
+
+        # Locate the summary file
+        summary_file_path="${dir}/${sample_name}_${score_min}_PE_report.txt"
+
+        # Extract metrics
+        mapping=$(grep "Mapping efficiency:" ${summary_file_path} | awk '{print "mapping efficiency ", $3}')
+        
+
+        # Append to the summary file
+        echo "${sample_name},${score_min},${mapping}" >> ${summary_file}
+    fi
+done
+
+```
+
+
+
+
+```{r}
+library(ggplot2)
+
+# Load the data
+data <- read.csv("../output/04.2-bismark-align/parameter_comparison_summary.csv", sep = ",", header = TRUE)
+
+# Plot alignment rate
+ggplot(data, aes(x = Score_Min, y = Alignment_Rate, color = Sample)) +
+    geom_line() +
+    theme_minimal() +
+    labs(title = "Alignment Rate vs. Score_Min",
+         x = "Score_Min Parameter",
+         y = "Alignment Rate (%)")
+```
+

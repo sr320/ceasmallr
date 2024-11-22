@@ -1,0 +1,122 @@
+Bowtie 2 seems to be working fine (tested command 'bowtie2 --version' [2.5.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/srlab/programs/samtools-1.20/samtools'
+Reference genome folder provided is ../../data/genome/	(absolute path is '/mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/data/genome/)'
+FastQ format assumed (by default)
+Processing sequences up to read no. 10000 from the input file
+Attention: early reports suggested that high values of -p  to have diminishing returns. Please test different values using a small subset of data for your hardware setting.
+Each Bowtie 2 instance is going to be run with 8 threads. Please monitor performance closely and tune down if necessary!
+
+Input files to be analysed (in current folder '/mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/output/04.2-bismark-align'):
+../../data/EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz
+../../data/EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz
+Library was specified to be not strand-specific (non-directional), therefore alignments to all four possible bisulfite strands (OT, CTOT, OB and CTOB) will be reported
+Output will be written into the directory: /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/output/04.2-bismark-align/EF03-EM05-Larvae_score_L0-0.4/
+Setting parallelization to single-threaded (default)
+
+Summary of all aligner options:	-q --score-min L,0,-0.4 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Current working directory is: /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/output/04.2-bismark-align
+
+Now reading in and storing sequence information of the genome specified in: /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/data/genome/
+
+Single-core mode: setting pid to 1
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are ../../data/EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz and ../../data/EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz
+Input files are in FastQ format
+Processing reads up to sequence no. 10000 from ../../data/EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz
+Writing a C -> T converted version of the input file EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz to EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq
+Writing a G -> A converted version of the input file EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz to EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz (10001 sequences in total)
+
+Processing reads up to sequence no. 10000 from ../../data/EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz
+Writing a C -> T converted version of the input file EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz to EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq
+Writing a G -> A converted version of the input file EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz to EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz (10001 sequences in total)
+
+Input files are EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq and EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq (FastQ)
+Now running 4 individual instances of Bowtie 2 against the bisulfite genome of /mmfs1/gscratch/scrubbed/sr320/github/ceasmallr/data/genome/ with the specified options: -q --score-min L,0,-0.4 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq, with the options: -q --score-min L,0,-0.4 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_1:N:0:AATCCGGA+AACTGTAG/1	99	NC_035782.1_CT_converted	29879545	11	4M3I143M	=	29879574	179	GNATTTATTAAATTTATTAAATTTAATGAATGGAGGAGGATGTGTTATTTTATTTGTTTTTAGTTGTAAAATAGTAATGTTTAATTTTTTATTGTGATAAAGAATTTTAGGTTTTAGAGAAAATTTTAAGGAATTAATTTGATAGTGTTT	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF,F:FFFF:FF	AS:i:-27	XS:i:-45	XN:i:0	XM:i:3	XO:i:1	XG:i:3	NM:i:6	MD:Z:1T0G1G142	YS:i:0	YT:Z:CP
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_2:N:0:AATCCGGA+AACTGTAG/2	147	NC_035782.1_CT_converted	29879574	11	150M	=	29879545	-179	GAGGAGGATGTGTTATTTTATTTGTTTTTAGTTGTAAAATAGTAATGTTTAATTTTTTATTGTGATAAAGAATTTTAGGTTTTAGAGAAAATTTTAAGGAATTAATTTGATAGTGTTTTTTAAATTTAAAATTGATAAATATTTTAGGAT	FFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	AS:i:0	XS:i:-18	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:150	YS:i:-27	YT:Z:CP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2GAgenome (reading in sequences from EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq and EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq, with the options: -q --score-min L,0,-0.4 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_1:N:0:AATCCGGA+AACTGTAG/1	77	*	0	0	*	*	0	0	ANATTCATTAAATTTATTAAATTTAATAAATAAAAAAAAATATATTATTTTATTTATTTTTAATTATAAAATAATAATATTTAATTTTTTATTATAATAAAAAATTTTAAATTTTAAAAAAAATTTTAAAAAATTAATTTAATAATATTC	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF,F:FFFF:FF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_2:N:0:AATCCGGA+AACTGTAG/2	141	*	0	0	*	*	0	0	ATTTTAAAATATTTATTAATTTTAAATTTAAAGAATATTATTAAATTAATTTTTTAAAATTTTTTTTAAAATTTAAAATTTTTTATTATAATAAAAAATTAAATATTATTATTTTATAATTAAAAATAAATAAAATAATATATTTTTTTT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2CTgenome (reading in sequences from EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq and EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq, with the options: -q --score-min L,0,-0.4 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_1:N:0:AATCCGGA+AACTGTAG/1	77	*	0	0	*	*	0	0	ANATTCATTAAATTTATTAAATTTAATAAATAAAAAAAAATATATTATTTTATTTATTTTTAATTATAAAATAATAATATTTAATTTTTTATTATAATAAAAAATTTTAAATTTTAAAAAAAATTTTAAAAAATTAATTTAATAATATTC	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF,F:FFFF:FF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_2:N:0:AATCCGGA+AACTGTAG/2	141	*	0	0	*	*	0	0	ATTTTAAAATATTTATTAATTTTAAATTTAAAGAATATTATTAAATTAATTTTTTAAAATTTTTTTTAAAATTTAAAATTTTTTATTATAATAAAAAATTAAATATTATTATTTTATAATTAAAAATAAATAAAATAATATATTTTTTTT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq, with the options: -q --score-min L,0,-0.4 -p 8 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_1:N:0:AATCCGGA+AACTGTAG/1	77	*	0	0	*	*	0	0	GNATTTATTAAATTTATTAAATTTAATGAATGGAGGAGGATGTGTTATTTTATTTGTTTTTAGTTGTAAAATAGTAATGTTTAATTTTTTATTGTGATAAAGAATTTTAGGTTTTAGAGAAAATTTTAAGGAATTAATTTGATAGTGTTT	F#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF,F:FFFF:FF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:26775:1047_2:N:0:AATCCGGA+AACTGTAG/2	141	*	0	0	*	*	0	0	ATCCTAAAATATTTATCAATTTTAAATTTAAAAAACACTATCAAATTAATTCCTTAAAATTTTCTCTAAAACCTAAAATTCTTTATCACAATAAAAAATTAAACATTACTATTTTACAACTAAAAACAAATAAAATAACACATCCTCCTC	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFF	YT:Z:UP
+
+>>> Writing bisulfite mapping results to EF03-EM05-Larvae_L0-0.4_pe.bam <<<
+
+
+Reading in the sequence files ../../data/EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz and ../../data/EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz
+1000010000 reads; of these: reads; of these:
+
+    1000010000 ( (1000010000100.00100.00 reads; of these: reads; of these:%%
+
+) were paired; of these:) were paired; of these:    
+
+1000010000         ( (89869050100.00 (100.00 (%89.86%90.50) were paired; of these:%) were paired; of these:%
+) aligned concordantly 0 times
+) aligned concordantly 0 times    
+    
+9045    9040     (530 (49690.45 (90.40 (%5.30%4.96) aligned concordantly 0 times%) aligned concordantly 0 times%
+) aligned concordantly exactly 1 time
+) aligned concordantly exactly 1 time    
+    
+497    472     (484 (4544.97 (4.72 (%4.84%4.54) aligned concordantly exactly 1 time%) aligned concordantly exactly 1 time%
+) aligned concordantly >1 times
+) aligned concordantly >1 times    
+    
+45810.144889.50 (% (%4.58 overall alignment rate4.88 overall alignment rate%
+%
+) aligned concordantly >1 times) aligned concordantly >1 times
+
+9.559.60%% overall alignment rate overall alignment rate
+
+Processed 10000 sequences in total
+
+
+Successfully deleted the temporary files EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_C_to_T.fastq, EF03-EM05-Larvae_R1_001.fastp-trim.20220827.fq.gz_G_to_A.fastq, EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_C_to_T.fastq and EF03-EM05-Larvae_R2_001.fastp-trim.20220827.fq.gz_G_to_A.fastq
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	10000
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	78689
+
+Total methylated C's in CpG context:	2467
+Total methylated C's in CHG context:	528
+Total methylated C's in CHH context:	2046
+Total methylated C's in Unknown context:	84
+
+Total unmethylated C's in CpG context:	9006
+Total unmethylated C's in CHG context:	16086
+Total unmethylated C's in CHH context:	48556
+Total unmethylated C's in Unknown context:	261
+
+C methylated in CpG context:	21.5%
+C methylated in CHG context:	3.2%
+C methylated in CHH context:	4.0%
+C methylated in Unknown context (CN or CHN):	24.3%
+
+
+Bismark completed in 0d 0h 0m 14s
+
+====================
+Bismark run complete
+====================
+
