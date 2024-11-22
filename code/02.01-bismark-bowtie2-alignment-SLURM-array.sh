@@ -6,7 +6,7 @@ trimmed_fastqs_dir="${repo_dir}/output/00.00-trimming-fastp"
 bisulfite_genome_dir="${repo_dir}/data/Cvirginica_v300"
 
 # OUTPUT FILES
-output_dir_top="${repo_dir}/output/02.01-bismark-bowtie2-alignment-SLURM-array"
+output_dir_top="${repo_dir}/output/02.00-bismark-bowtie2-alignment"
 
 # PARAMETERS
 bowtie2_min_score="L,0,-0.6"
@@ -22,8 +22,10 @@ bismark_threads=4
 cd "${trimmed_fastqs_dir}"
 
 if [[ -f "${output_dir_top}"/fastq_pairs.txt ]]; then
-  rm "${output_dir_top}"/fastq_pairs.txt
+  echo "Missing ${output_dir_top}/fastq_pairs.txt"
+  exit 1
 fi
+
 
 # Create a new file for unprocessed pairs
 unprocessed_pairs_file="${output_dir_top}/unprocessed_fastq_pairs-array-${SLURM_ARRAY_TASK_ID}.txt"
