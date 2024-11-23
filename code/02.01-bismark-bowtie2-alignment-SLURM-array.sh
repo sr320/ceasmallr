@@ -28,21 +28,12 @@ fi
 
 
 # Create a new file for unprocessed pairs
-unprocessed_pairs_file="${output_dir_top}/unprocessed_fastq_pairs-array-${SLURM_ARRAY_TASK_ID}.txt"
-if [[ -f "${unprocessed_pairs_file}" ]]; then
-  rm "${unprocessed_pairs_file}"
+unprocessed_pairs_file="${output_dir_top}/unprocessed_fastq_pairs.txt"
+if [[ ! -f "${unprocessed_pairs_file}" ]]; then
+  echo "Missing ${unprocessed_pairs_file}" >&2
+  exit 1
 fi
 
-# Get list of processed files
-processed_files=$(grep "Bismark completed" "${output_dir_top}"/*report.txt | awk -F"_" '{print $1}' | sort | uniq | xargs -n1 basename)
-
-# Find all _R1_ files and match them with their corresponding _R2_ files
-while read -r R1_file R2_file; do
-    sample_name=$(echo "$R1_file" | awk -F"_" '{print $1"}')
-    if [[ ! " ${processed_files[@]} " =~ " ${sample_name} " ]]; then
-        echo "$R1_file $R2_file" >> "${unprocessed_pairs_file}"
-    fi
-done < "${output_dir_top}/fastq_pairs.txt"
 
 ## SET ARRAY TASKS ##
 cd "${output_dir_top}"
@@ -60,11 +51,6 @@ R2_file=$(echo $pair | awk '{print $2}')
 # Get just the sample name (excludes the _R[12]_001*)
 sample_name=$(echo "$R1_file" | awk -F"_" '{print $1}')
 
-# Check if the pair has already been processed
-if [[ " ${processed_files[@]} " =~ " ${sample_name} " ]]; then
-    echo "Files ${R1_file} and ${R2_file} have already been processed. Exiting."
-    exit 0
-fi
 
 # Check if R1_file and R2_file are not empty
 if [ -z "$R1_file" ] || [ -z "$R2_file" ]; then
