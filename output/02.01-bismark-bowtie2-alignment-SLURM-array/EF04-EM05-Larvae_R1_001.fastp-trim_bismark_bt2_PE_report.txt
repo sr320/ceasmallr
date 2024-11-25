@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF04-EM05-Larvae_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF04-EM05-Larvae_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 15 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	140216071
+Number of paired-end alignments with a unique best hit:	50823168
+Mapping efficiency:	36.2% 
+Sequence pairs with no alignments under any condition:	70676931
+Sequence pairs did not map uniquely:	18715972
+Sequence pairs which were discarded because genomic sequence could not be extracted:	46
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	11976429	((converted) top strand)
+GA/CT/CT:	13412856	(complementary to (converted) top strand)
+GA/CT/GA:	13433026	(complementary to (converted) bottom strand)
+CT/GA/GA:	12000811	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1873200176
+
+Total methylated C's in CpG context:	48867547
+Total methylated C's in CHG context:	5376496
+Total methylated C's in CHH context:	22414199
+Total methylated C's in Unknown context:	1074590
+
+Total unmethylated C's in CpG context:	229865868
+Total unmethylated C's in CHG context:	387785042
+Total unmethylated C's in CHH context:	1178891024
+Total unmethylated C's in Unknown context:	7303859
+
+C methylated in CpG context:	17.5%
+C methylated in CHG context:	1.4%
+C methylated in CHH context:	1.9%
+C methylated in Unknown context (CN or CHN):	12.8%
+
+
+Bismark completed in 0d 8h 38m 26s

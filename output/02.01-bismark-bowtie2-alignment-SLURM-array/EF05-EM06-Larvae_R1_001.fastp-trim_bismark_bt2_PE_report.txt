@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF05-EM06-Larvae_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF05-EM06-Larvae_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 15 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	197315016
+Number of paired-end alignments with a unique best hit:	69096435
+Mapping efficiency:	35.0% 
+Sequence pairs with no alignments under any condition:	106977420
+Sequence pairs did not map uniquely:	21241161
+Sequence pairs which were discarded because genomic sequence could not be extracted:	35
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	16463519	((converted) top strand)
+GA/CT/CT:	18062442	(complementary to (converted) top strand)
+GA/CT/GA:	18070671	(complementary to (converted) bottom strand)
+CT/GA/GA:	16499768	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	2770765034
+
+Total methylated C's in CpG context:	75491086
+Total methylated C's in CHG context:	24300011
+Total methylated C's in CHH context:	100612703
+Total methylated C's in Unknown context:	1879039
+
+Total unmethylated C's in CpG context:	306626655
+Total unmethylated C's in CHG context:	515819901
+Total unmethylated C's in CHH context:	1747914678
+Total unmethylated C's in Unknown context:	10676837
+
+C methylated in CpG context:	19.8%
+C methylated in CHG context:	4.5%
+C methylated in CHH context:	5.4%
+C methylated in Unknown context (CN or CHN):	15.0%
+
+
+Bismark completed in 0d 12h 30m 10s

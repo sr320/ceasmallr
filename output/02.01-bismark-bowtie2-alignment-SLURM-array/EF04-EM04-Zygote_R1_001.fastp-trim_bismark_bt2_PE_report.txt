@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF04-EM04-Zygote_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF04-EM04-Zygote_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 15 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	156051705
+Number of paired-end alignments with a unique best hit:	13101846
+Mapping efficiency:	8.4% 
+Sequence pairs with no alignments under any condition:	137152854
+Sequence pairs did not map uniquely:	5797005
+Sequence pairs which were discarded because genomic sequence could not be extracted:	39
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	3227099	((converted) top strand)
+GA/CT/CT:	3293198	(complementary to (converted) top strand)
+GA/CT/GA:	3327067	(complementary to (converted) bottom strand)
+CT/GA/GA:	3254443	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	277701930
+
+Total methylated C's in CpG context:	6445114
+Total methylated C's in CHG context:	2039614
+Total methylated C's in CHH context:	9515860
+Total methylated C's in Unknown context:	462087
+
+Total unmethylated C's in CpG context:	30876926
+Total unmethylated C's in CHG context:	50171833
+Total unmethylated C's in CHH context:	178652583
+Total unmethylated C's in Unknown context:	2103819
+
+C methylated in CpG context:	17.3%
+C methylated in CHG context:	3.9%
+C methylated in CHH context:	5.1%
+C methylated in Unknown context (CN or CHN):	18.0%
+
+
+Bismark completed in 0d 7h 7m 53s

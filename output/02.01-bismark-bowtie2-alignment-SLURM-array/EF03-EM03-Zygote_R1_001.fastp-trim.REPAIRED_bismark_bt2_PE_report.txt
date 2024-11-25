@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF03-EM03-Zygote_R1_001.fastp-trim.REPAIRED.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF03-EM03-Zygote_R2_001.fastp-trim.REPAIRED.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 15 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	133337327
+Number of paired-end alignments with a unique best hit:	21524633
+Mapping efficiency:	16.1% 
+Sequence pairs with no alignments under any condition:	103555667
+Sequence pairs did not map uniquely:	8257027
+Sequence pairs which were discarded because genomic sequence could not be extracted:	21
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	6049554	((converted) top strand)
+GA/CT/CT:	4687480	(complementary to (converted) top strand)
+GA/CT/GA:	4703312	(complementary to (converted) bottom strand)
+CT/GA/GA:	6084266	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	492559811
+
+Total methylated C's in CpG context:	12916237
+Total methylated C's in CHG context:	3461459
+Total methylated C's in CHH context:	19406022
+Total methylated C's in Unknown context:	595330
+
+Total unmethylated C's in CpG context:	47347964
+Total unmethylated C's in CHG context:	87279346
+Total unmethylated C's in CHH context:	322148783
+Total unmethylated C's in Unknown context:	2693339
+
+C methylated in CpG context:	21.4%
+C methylated in CHG context:	3.8%
+C methylated in CHH context:	5.7%
+C methylated in Unknown context (CN or CHN):	18.1%
+
+
+Bismark completed in 0d 4h 58m 27s

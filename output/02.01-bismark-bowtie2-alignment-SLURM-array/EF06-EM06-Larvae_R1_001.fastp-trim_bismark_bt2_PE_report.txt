@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF06-EM06-Larvae_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF06-EM06-Larvae_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 15 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	160517028
+Number of paired-end alignments with a unique best hit:	40050266
+Mapping efficiency:	25.0% 
+Sequence pairs with no alignments under any condition:	106712714
+Sequence pairs did not map uniquely:	13754048
+Sequence pairs which were discarded because genomic sequence could not be extracted:	126
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	9944090	((converted) top strand)
+GA/CT/CT:	10096952	(complementary to (converted) top strand)
+GA/CT/GA:	10073982	(complementary to (converted) bottom strand)
+CT/GA/GA:	9935116	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1064107088
+
+Total methylated C's in CpG context:	29251578
+Total methylated C's in CHG context:	8390454
+Total methylated C's in CHH context:	41085034
+Total methylated C's in Unknown context:	1301630
+
+Total unmethylated C's in CpG context:	106700476
+Total unmethylated C's in CHG context:	195683556
+Total unmethylated C's in CHH context:	682995990
+Total unmethylated C's in Unknown context:	6048016
+
+C methylated in CpG context:	21.5%
+C methylated in CHG context:	4.1%
+C methylated in CHH context:	5.7%
+C methylated in Unknown context (CN or CHN):	17.7%
+
+
+Bismark completed in 0d 8h 20m 43s

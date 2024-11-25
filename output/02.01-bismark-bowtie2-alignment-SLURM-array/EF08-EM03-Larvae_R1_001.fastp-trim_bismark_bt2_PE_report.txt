@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF08-EM03-Larvae_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF08-EM03-Larvae_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	160763703
+Number of paired-end alignments with a unique best hit:	60954643
+Mapping efficiency:	37.9% 
+Sequence pairs with no alignments under any condition:	74647990
+Sequence pairs did not map uniquely:	25161070
+Sequence pairs which were discarded because genomic sequence could not be extracted:	50
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	14261534	((converted) top strand)
+GA/CT/CT:	16154480	(complementary to (converted) top strand)
+GA/CT/GA:	16220168	(complementary to (converted) bottom strand)
+CT/GA/GA:	14318411	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	1999920373
+
+Total methylated C's in CpG context:	58839000
+Total methylated C's in CHG context:	5677195
+Total methylated C's in CHH context:	23737497
+Total methylated C's in Unknown context:	974348
+
+Total unmethylated C's in CpG context:	245192950
+Total unmethylated C's in CHG context:	424448084
+Total unmethylated C's in CHH context:	1242025647
+Total unmethylated C's in Unknown context:	6697215
+
+C methylated in CpG context:	19.4%
+C methylated in CHG context:	1.3%
+C methylated in CHH context:	1.9%
+C methylated in Unknown context (CN or CHN):	12.7%
+
+
+Bismark completed in 0d 20h 10m 48s

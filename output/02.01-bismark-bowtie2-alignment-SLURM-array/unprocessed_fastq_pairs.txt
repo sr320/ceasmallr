@@ -1,0 +1,10 @@
+CF01-CM01-Zygote_R1_001.fastp-trim.REPAIRED.fq.gz CF01-CM01-Zygote_R2_001.fastp-trim.REPAIRED.fq.gz
+CF01-CM02-Larvae_R1_001.fastp-trim.fq.gz CF01-CM02-Larvae_R2_001.fastp-trim.fq.gz
+CF02-CM02-Zygote_R1_001.fastp-trim.fq.gz CF02-CM02-Zygote_R2_001.fastp-trim.fq.gz
+CF03-CM03-Zygote_R1_001.fastp-trim.fq.gz CF03-CM03-Zygote_R2_001.fastp-trim.fq.gz
+CF03-CM04-Larvae_R1_001.fastp-trim.fq.gz CF03-CM04-Larvae_R2_001.fastp-trim.fq.gz
+CF03-CM05-Larvae_R1_001.fastp-trim.fq.gz CF03-CM05-Larvae_R2_001.fastp-trim.fq.gz
+EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz
+EF07-EM03-Larvae_R1_001.fastp-trim.fq.gz EF07-EM03-Larvae_R2_001.fastp-trim.fq.gz
+EF08-EM03-Larvae_R1_001.fastp-trim.fq.gz EF08-EM03-Larvae_R2_001.fastp-trim.fq.gz
+EF08-EM04-Larvae_R1_001.fastp-trim.fq.gz EF08-EM04-Larvae_R2_001.fastp-trim.fq.gz

@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/CF08-CM05-Larvae_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/CF08-CM05-Larvae_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 15 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	76300703
+Number of paired-end alignments with a unique best hit:	1707439
+Mapping efficiency:	2.2% 
+Sequence pairs with no alignments under any condition:	74071777
+Sequence pairs did not map uniquely:	521487
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	437728	((converted) top strand)
+GA/CT/CT:	417659	(complementary to (converted) top strand)
+GA/CT/GA:	416403	(complementary to (converted) bottom strand)
+CT/GA/GA:	435649	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	66514766
+
+Total methylated C's in CpG context:	1332564
+Total methylated C's in CHG context:	159310
+Total methylated C's in CHH context:	1103169
+Total methylated C's in Unknown context:	38547
+
+Total unmethylated C's in CpG context:	7068625
+Total unmethylated C's in CHG context:	12105897
+Total unmethylated C's in CHH context:	44745201
+Total unmethylated C's in Unknown context:	265270
+
+C methylated in CpG context:	15.9%
+C methylated in CHG context:	1.3%
+C methylated in CHH context:	2.4%
+C methylated in Unknown context (CN or CHN):	12.7%
+
+
+Bismark completed in 0d 2h 22m 23s

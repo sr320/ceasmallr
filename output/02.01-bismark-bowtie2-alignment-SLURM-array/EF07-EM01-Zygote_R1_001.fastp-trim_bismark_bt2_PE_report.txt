@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	236542126
+Number of paired-end alignments with a unique best hit:	23579759
+Mapping efficiency:	10.0% 
+Sequence pairs with no alignments under any condition:	202949461
+Sequence pairs did not map uniquely:	10012906
+Sequence pairs which were discarded because genomic sequence could not be extracted:	53
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	6970090	((converted) top strand)
+GA/CT/CT:	4852195	(complementary to (converted) top strand)
+GA/CT/GA:	4827905	(complementary to (converted) bottom strand)
+CT/GA/GA:	6929516	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	538311693
+
+Total methylated C's in CpG context:	10902218
+Total methylated C's in CHG context:	1510834
+Total methylated C's in CHH context:	11438727
+Total methylated C's in Unknown context:	424447
+
+Total unmethylated C's in CpG context:	57349452
+Total unmethylated C's in CHG context:	98086035
+Total unmethylated C's in CHH context:	359024427
+Total unmethylated C's in Unknown context:	2507832
+
+C methylated in CpG context:	16.0%
+C methylated in CHG context:	1.5%
+C methylated in CHH context:	3.1%
+C methylated in Unknown context (CN or CHN):	14.5%
+
+
+Bismark completed in 0d 23h 28m 5s

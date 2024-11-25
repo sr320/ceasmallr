@@ -1,0 +1,752 @@
+Bowtie 2 seems to be working fine (tested command 'bowtie2 --version' [2.5.4])
+Output format is BAM (default)
+Alignments will be written out in BAM format. Samtools found here: '/srlab/programs/samtools-1.20/samtools'
+Reference genome folder provided is /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/	(absolute path is '/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/)'
+FastQ format assumed (by default)
+Each Bowtie 2 instance is going to be run with 4 threads. Please monitor performance closely and tune down if necessary!
+
+Input files to be analysed (in current folder '/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/02.01-bismark-bowtie2-alignment-SLURM-array'):
+/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz
+/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz
+Library was specified to be not strand-specific (non-directional), therefore alignments to all four possible bisulfite strands (OT, CTOT, OB and CTOB) will be reported
+Output will be written into the directory: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/02.01-bismark-bowtie2-alignment-SLURM-array/
+Summary of all aligner options:	-q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Running Bismark Parallel version. Number of parallel instances to be spawned: 4
+
+Current working directory is: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/02.01-bismark-bowtie2-alignment-SLURM-array
+
+Now reading in and storing sequence information of the genome specified in: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/
+
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz
+
+Paired-end alignments will be performed
+=======================================
+
+The provided filenames for paired-end alignments are /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz for PID: 94444 and offset 4 (sequences written out: 59135531)
+
+Using the subset file >EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz< as new in-file 1 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz<)
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz for PID: 0 and offset 3 (sequences written out: 59135531)
+
+Using the subset file >EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz< as new in-file 1 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz<)
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz for PID: 0 and offset 2 (sequences written out: 59135532)
+
+Using the subset file >EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz< as new in-file 1 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz<)
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz for PID: 0 and offset 1 (sequences written out: 59135532)
+
+Using the subset file >EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz< as new in-file 1 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz<)
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz for PID: 94444 and offset 4 (sequences written out: 59135531)
+
+Using the subset file >EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz< as new in-file 2 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz for PID: 0 and offset 2 (sequences written out: 59135532)
+
+Using the subset file >EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz< as new in-file 2 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz for PID: 0 and offset 1 (sequences written out: 59135532)
+
+Using the subset file >EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz< as new in-file 2 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz
+Finished subdividing /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz for PID: 0 and offset 3 (sequences written out: 59135531)
+
+Using the subset file >EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz< as new in-file 2 (instead of >/gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz<)
+Input files are in FastQ format
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz (59135531 sequences in total)
+
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz (59135532 sequences in total)
+
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz (59135531 sequences in total)
+
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz (59135532 sequences in total)
+
+Writing a C -> T converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz
+Writing a G -> A converted version of the input file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz to EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz (59135532 sequences in total)
+
+Input files are EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz (FastQ)
+Now running 4 individual instances of Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz (59135531 sequences in total)
+
+Input files are EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz (FastQ)
+Now running 4 individual instances of Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz (59135532 sequences in total)
+
+Input files are EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz (FastQ)
+Now running 4 individual instances of Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	ATTTAATTTAATAATTTATTTAAAATTATTAAATTAAATTATATTTATAAATAATTTTAATAAAATTAATAATATTATTTTTAATAAATAAAAAAAATAAAAATTTTAATAATTTATTATTTATA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	ATTAAAATTTTTATTTTTTTTATTTATTAAAAATAATATTATTAATTTTATTAAAATTATTTATAAATATAATTTAATTTAATAATTTTAAATAAATTATTAAATTAAATAATTTTTATATAATT	FFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TTAATTTAAAAATTAAATTTTAATTAAATTATAAATAATATTTAATATAATTTTATAATAAATATAGTTTATAGTT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFF:FFFFFFFFFFFFF:F:FFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TTATTATAAAATTATATTAAATATTATTTATAATTTAATTAAAATTTAATTTTTAAATTAAATTTATAAATTTATC	FFFFFFFFFFFFFF:FFFFFF,F:FFF:FFFFFFFF:FFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFF,FF:FFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TGTGTTGGTATGGATTTTGTTGATTTATAGGAATTGATTATTATTTTTTGTTAGATGGTATTTAAAGGTGATGTTAGTGATGTGTAGTTTATTGTATTATTGATTGTTGTTAATTAGTATGGTTTTAATTTGTGG	FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TACCATTCTACTTATCAAAAAAAACATAAATTTCTTTCATCCACAAATTAAAACCATACTAATTAACAACAATCAATAATACAATAAACTACACATCACTAACATCACCTTTAAATACCATCTAAC	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	ACCTAACTCAACAACCTACTCAAAATCATCAAATTAAACCACACCTATAAACAATTCTAACAAAACCAATAATATCACCTTCAACAAACAAAAAAAATAAAAATCCCAATAATTCATCATCTACA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	ATTGGGATTTTTATTTTTTTTGTTTGTTGAAGGTGATATTATTGGTTTTGTTAGAATTGTTTATAGGTGTGGTTTAATTTGATGATTTTGAGTAGGTTGTTGAGTTAGGTGATTTTTGTATAGTT	FFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TATATTAATATAAATTTTATTAATTTATAAAAATTAATTATTATTTTTTATTAAATAATACTTAAAAATAATATTAATAATATATAATTTATTATATTATTAATTATTATTAATTAATATAATTTTAATTTATAA	FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TATTATTTTATTTATTAAAAAAAATATAAATTTTTTTTATTTATAAATTAAAATTATATTAATTAATAATAATTAATAATATAATAAATTATATATTATTAATATTATTTTTAAGTATTATTTAAT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TCAATTTAAAAATCAAATCCTAACTAAACTATAAACAATATTTAACACAACTTTATAATAAACATAATTTATAATT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFF:FFFFFFFFFFFFF:F:FFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TTATTATAAAGTTGTGTTAAATATTGTTTATAGTTTAGTTAGGATTTGATTTTTAAATTGAATTTATAAGTTTGTT	FFFFFFFFFFFFFF:FFFFFF,F:FFF:FFFFFFFF:FFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFF,FF:FFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TCAATTTAAAAATCAAATCCTAACTAAACTATAAACAATATTTAACACAACTTTATAATAAACATAATTTATAATT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFF:FFFFFFFFFFFFF:F:FFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TTATTATAAAGTTGTGTTAAATATTGTTTATAGTTTAGTTAGGATTTGATTTTTAAATTGAATTTATAAGTTTGTT	FFFFFFFFFFFFFF:FFFFFF,F:FFF:FFFFFFFF:FFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFF,FF:FFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TATATTAATATAAATTTTATTAATTTATAAAAATTAATTATTATTTTTTATTAAATAATACTTAAAAATAATATTAATAATATATAATTTATTATATTATTAATTATTATTAATTAATATAATTTTAATTTATAA	FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TATTATTTTATTTATTAAAAAAAATATAAATTTTTTTTATTTATAAATTAAAATTATATTAATTAATAATAATTAATAATATAATAAATTATATATTATTAATATTATTTTTAAGTATTATTTAAT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	ACCTAACTCAACAACCTACTCAAAATCATCAAATTAAACCACACCTATAAACAATTCTAACAAAACCAATAATATCACCTTCAACAAACAAAAAAAATAAAAATCCCAATAATTCATCATCTACA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	ATTGGGATTTTTATTTTTTTTGTTTGTTGAAGGTGATATTATTGGTTTTGTTAGAATTGTTTATAGGTGTGGTTTAATTTGATGATTTTGAGTAGGTTGTTGAGTTAGGTGATTTTTGTATAGTT	FFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	ATTTAATTTAATAATTTATTTAAAATTATTAAATTAAATTATATTTATAAATAATTTTAATAAAATTAATAATATTATTTTTAATAAATAAAAAAAATAAAAATTTTAATAATTTATTATTTATA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27407:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	ATTAAAATTTTTATTTTTTTTATTTATTAAAAATAATATTATTAATTTTATTAAAATTATTTATAAATATAATTTAATTTAATAATTTTAAATAAATTATTAAATTAAATAATTTTTATATAATT	FFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TTAATTTAAAAATTAAATTTTAATTAAATTATAAATAATATTTAATATAATTTTATAATAAATATAGTTTATAGTT	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFF:FFFFFFFFFFFFF:F:FFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:25870:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TTATTATAAAATTATATTAAATATTATTTATAATTTAATTAAAATTTAATTTTTAAATTAAATTTATAAATTTATC	FFFFFFFFFFFFFF:FFFFFF,F:FFF:FFFFFFFF:FFFFFFFFFFF:F:FFFFFFFFFFFFFFFFFF,FF:FFF	YT:Z:UP
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TGTGTTGGTATGGATTTTGTTGATTTATAGGAATTGATTATTATTTTTTGTTAGATGGTATTTAAAGGTGATGTTAGTGATGTGTAGTTTATTGTATTATTGATTGTTGTTAATTAGTATGGTTTTAATTTGTGG	FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27552:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TACCATTCTACTTATCAAAAAAAACATAAATTTCTTTCATCCACAAATTAAAACCATACTAATTAACAACAATCAATAATACAATAAACTACACATCACTAACATCACCTTTAAATACCATCTAAC	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFF:FFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+
+>>> Writing bisulfite mapping results to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_bismark_bt2_pe.bam <<<
+
+
+>>> Writing bisulfite mapping results to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_bismark_bt2_pe.bam <<<
+
+
+Reading in the sequence files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz
+
+Reading in the sequence files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz
+
+Reading in the sequence files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz
+
+Created C -> T as well as G -> A converted versions of the FastQ file EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz (59135531 sequences in total)
+
+Input files are EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz (FastQ)
+Now running 4 individual instances of Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TTTAATTAAAATAAATTATTAAAATAATTATAAATTAATATTATTATAAAATTTATAATTATTTAAATATTTATTATATTTATTTTTTATAATATTAGTAAAAG	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TAAAAAATAAATATAATAAATATTTAAATAATTATAAATTTTATAATAATATTAATTTATAATTATTTTAATAATTTATTTTAATTAAATAAAATTAATTAATA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:F:FFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --norc))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	CTCAACCAAAACAAACCACCAAAATAACTATAAACCAACATTATTACAAAACTTACAACCACTCAAACATTTACTACATTTATCCTTCATAATATCAATAAAAA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TGAAGGATAAATGTAGTAAATGTTTGAGTGGTTGTAAGTTTTGTAATAATGTTGGTTTATAGTTATTTTGGTGGTTTGTTTTGGTTGAGTGAGGTTGATTGGTG	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:F:FFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for GAread1CTread2CTgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	CTCAACCAAAACAAACCACCAAAATAACTATAAACCAACATTATTACAAAACTTACAACCACTCAAACATTTACTACATTTATCCTTCATAATATCAATAAAAA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TGAAGGATAAATGTAGTAAATGTTTGAGTGGTTGTAAGTTTTGTAATAATGTTGGTTTATAGTTATTTTGGTGGTTTGTTTTGGTTGAGTGAGGTTGATTGGTG	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:F:FFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+Now starting a Bowtie 2 paired-end alignment for CTread1GAread2GAgenome (reading in sequences from EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz, with the options: -q --score-min L,0,-0.6 -p 4 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500 --nofw))
+Found first alignment:
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_1:N:0:GTCGGAGC+TTATAACC/1	77	*	0	0	*	*	0	0	TTTAATTAAAATAAATTATTAAAATAATTATAAATTAATATTATTATAAAATTTATAATTATTTAAATATTTATTATATTTATTTTTTATAATATTAGTAAAAG	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+GWNJ-1012:512:GW210315000:4:1101:27896:1047_2:N:0:GTCGGAGC+TTATAACC/2	141	*	0	0	*	*	0	0	TAAAAAATAAATATAATAAATATTTAAATAATTATAAATTTTATAATAATATTAATTTATAATTATTTTAATAATTTATTTTAATTAAATAAAATTAATTAATA	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FF:F:FFFFFFFFFFFFFFFFFFFFFFF	YT:Z:UP
+
+>>> Writing bisulfite mapping results to EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_bismark_bt2_pe.bam <<<
+
+
+Reading in the sequence files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Processed 1000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:1205:23854:9455_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17193
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Processed 2000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 3000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 4000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 5000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Processed 6000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:1501:21169:22091_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 6000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:1501:21133:22091_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Processed 7000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:1559:24858:34554_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17178
+Processed 7000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:1564:4020:8265_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:1615:26684:2707_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 8000000 sequence pairs so far
+Processed 8000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Processed 9000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Processed 10000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:2162:26151:6950_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:2173:32298:3505_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 11000000 sequence pairs so far
+Processed 11000000 sequence pairs so far
+Processed 11000000 sequence pairs so far
+Processed 11000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Processed 12000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:2238:18701:5008_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 12000000 sequence pairs so far
+Processed 13000000 sequence pairs so far
+Processed 13000000 sequence pairs so far
+Processed 13000000 sequence pairs so far
+Processed 14000000 sequence pairs so far
+Processed 13000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:2406:11071:27806_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 14000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:2412:14317:7686_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 14000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Processed 14000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1012:512:GW210315000:4:2409:8214:17221_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 16000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Processed 15000000 sequence pairs so far
+Processed 17000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Processed 16000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Processed 17000000 sequence pairs so far
+Processed 17000000 sequence pairs so far
+Processed 17000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Processed 18000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1102:23303:29293_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1102:18593:31532_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Processed 20000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Processed 19000000 sequence pairs so far
+Processed 20000000 sequence pairs so far
+Processed 20000000 sequence pairs so far
+Processed 20000000 sequence pairs so far
+Processed 21000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1146:32027:10927_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1153:22245:8328_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1154:23737:23719_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 21000000 sequence pairs so far
+Processed 21000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1159:31286:21136_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 21000000 sequence pairs so far
+Processed 22000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1171:31096:13980_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1171:21314:3583_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1173:1994:16501_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17146
+Processed 22000000 sequence pairs so far
+Processed 22000000 sequence pairs so far
+Processed 22000000 sequence pairs so far
+Processed 23000000 sequence pairs so far
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1225:15655:24815_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 23000000 sequence pairs so far
+Processed 23000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1237:27208:12352_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1245:9525:1047_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Processed 24000000 sequence pairs so far
+Processed 24000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1245:9733:1157_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Processed 24000000 sequence pairs so far
+Processed 24000000 sequence pairs so far
+Processed 25000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1263:29351:3881_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 25000000 sequence pairs so far
+Processed 25000000 sequence pairs so far
+Processed 25000000 sequence pairs so far
+Processed 26000000 sequence pairs so far
+Processed 26000000 sequence pairs so far
+Processed 26000000 sequence pairs so far
+Processed 26000000 sequence pairs so far
+Processed 27000000 sequence pairs so far
+Processed 27000000 sequence pairs so far
+Processed 27000000 sequence pairs so far
+Processed 27000000 sequence pairs so far
+Processed 28000000 sequence pairs so far
+Processed 28000000 sequence pairs so far
+Processed 28000000 sequence pairs so far
+Processed 28000000 sequence pairs so far
+Processed 29000000 sequence pairs so far
+Processed 29000000 sequence pairs so far
+Processed 29000000 sequence pairs so far
+Processed 29000000 sequence pairs so far
+Processed 30000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1415:7374:16047_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Processed 30000000 sequence pairs so far
+Processed 30000000 sequence pairs so far
+Processed 30000000 sequence pairs so far
+Processed 31000000 sequence pairs so far
+Processed 31000000 sequence pairs so far
+Processed 31000000 sequence pairs so far
+Processed 32000000 sequence pairs so far
+Processed 31000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1470:22092:12414_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	2
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1513:23204:24079_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17173
+Processed 32000000 sequence pairs so far
+Processed 33000000 sequence pairs so far
+Processed 32000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1529:27489:36918_1:N:0:GTCGGAGC+TTATAACC	NC_035789.1	1
+Processed 32000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1505:30445:25504_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 34000000 sequence pairs so far
+Processed 33000000 sequence pairs so far
+Processed 33000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1526:10113:8390_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 35000000 sequence pairs so far
+Processed 33000000 sequence pairs so far
+Processed 34000000 sequence pairs so far
+Processed 34000000 sequence pairs so far
+Processed 36000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1559:25084:13213_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 34000000 sequence pairs so far
+Processed 35000000 sequence pairs so far
+Processed 35000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1572:29143:10755_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 35000000 sequence pairs so far
+Processed 37000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1601:1443:11005_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 36000000 sequence pairs so far
+Processed 36000000 sequence pairs so far
+Processed 36000000 sequence pairs so far
+Processed 37000000 sequence pairs so far
+Processed 37000000 sequence pairs so far
+Processed 38000000 sequence pairs so far
+Processed 37000000 sequence pairs so far
+Processed 38000000 sequence pairs so far
+Processed 38000000 sequence pairs so far
+Processed 38000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:1678:27326:1846_1:N:0:GTCGGAGC+TTATAACC	NC_035781.1	2
+Processed 39000000 sequence pairs so far
+Processed 39000000 sequence pairs so far
+Processed 39000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2125:22525:20306_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17173
+Processed 40000000 sequence pairs so far
+Processed 39000000 sequence pairs so far
+Processed 40000000 sequence pairs so far
+Processed 40000000 sequence pairs so far
+Processed 41000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2128:25120:23954_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Processed 40000000 sequence pairs so far
+Processed 41000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2172:3450:24439_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 42000000 sequence pairs so far
+Processed 41000000 sequence pairs so far
+Processed 42000000 sequence pairs so far
+Processed 41000000 sequence pairs so far
+Processed 43000000 sequence pairs so far
+Processed 43000000 sequence pairs so far
+Processed 42000000 sequence pairs so far
+Processed 44000000 sequence pairs so far
+Processed 42000000 sequence pairs so far
+Processed 43000000 sequence pairs so far
+Processed 44000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2202:11397:36511_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Processed 45000000 sequence pairs so far
+Processed 44000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2212:10890:12712_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17173
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2262:17363:15217_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 45000000 sequence pairs so far
+Processed 43000000 sequence pairs so far
+Processed 46000000 sequence pairs so far
+Processed 45000000 sequence pairs so far
+Processed 46000000 sequence pairs so far
+Processed 47000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2338:32841:2065_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 46000000 sequence pairs so far
+Processed 44000000 sequence pairs so far
+Processed 48000000 sequence pairs so far
+Processed 47000000 sequence pairs so far
+Processed 45000000 sequence pairs so far
+Processed 47000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2336:15338:19319_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17173
+Processed 49000000 sequence pairs so far
+Processed 48000000 sequence pairs so far
+Processed 46000000 sequence pairs so far
+Processed 50000000 sequence pairs so far
+Processed 48000000 sequence pairs so far
+Processed 49000000 sequence pairs so far
+Processed 47000000 sequence pairs so far
+Processed 51000000 sequence pairs so far
+Processed 50000000 sequence pairs so far
+Processed 49000000 sequence pairs so far
+Processed 48000000 sequence pairs so far
+Processed 52000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2445:7898:20494_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17186
+Processed 51000000 sequence pairs so far
+Processed 50000000 sequence pairs so far
+Processed 53000000 sequence pairs so far
+Processed 52000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2445:7274:4789_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17186
+Processed 51000000 sequence pairs so far
+Processed 49000000 sequence pairs so far
+Processed 53000000 sequence pairs so far
+Processed 54000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2519:11234:6762_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17177
+Processed 54000000 sequence pairs so far
+Processed 52000000 sequence pairs so far
+Processed 50000000 sequence pairs so far
+Processed 55000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2562:24749:2926_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 55000000 sequence pairs so far
+Processed 51000000 sequence pairs so far
+Processed 53000000 sequence pairs so far
+Processed 56000000 sequence pairs so far
+Processed 56000000 sequence pairs so far
+Processed 52000000 sequence pairs so far
+Processed 57000000 sequence pairs so far
+Processed 54000000 sequence pairs so far
+Processed 57000000 sequence pairs so far
+Processed 53000000 sequence pairs so far
+Processed 58000000 sequence pairs so far
+Processed 55000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2663:32307:34115_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2573:23972:9627_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 58000000 sequence pairs so far
+Processed 54000000 sequence pairs so far
+Processed 59000000 sequence pairs so far
+Processed 56000000 sequence pairs so far
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    56550341 (95.63%) aligned concordantly 0 times
+    1158734 (1.96%) aligned concordantly exactly 1 time
+    1426457 (2.41%) aligned concordantly >1 times
+4.37% overall alignment rate
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    56562899 (95.65%) aligned concordantly 0 times
+    1147169 (1.94%) aligned concordantly exactly 1 time
+    1425464 (2.41%) aligned concordantly >1 times
+4.35% overall alignment rate
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    55581519 (93.99%) aligned concordantly 0 times
+    1621910 (2.74%) aligned concordantly exactly 1 time
+    1932103 (3.27%) aligned concordantly >1 times
+6.01% overall alignment rate
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    55599477 (94.02%) aligned concordantly 0 times
+    1604515 (2.71%) aligned concordantly exactly 1 time
+    1931540 (3.27%) aligned concordantly >1 times
+5.98% overall alignment rate
+Processed 59135532 sequences in total
+
+
+Successfully deleted the temporary files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz, EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz, EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.2.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	59135532
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	134574543
+
+Total methylated C's in CpG context:	2723030
+Total methylated C's in CHG context:	377986
+Total methylated C's in CHH context:	2861348
+Total methylated C's in Unknown context:	105743
+
+Total unmethylated C's in CpG context:	14344071
+Total unmethylated C's in CHG context:	24527804
+Total unmethylated C's in CHH context:	89740304
+Total unmethylated C's in Unknown context:	627253
+
+C methylated in CpG context:	16.0%
+C methylated in CHG context:	1.5%
+C methylated in CHH context:	3.1%
+C methylated in Unknown context (CN or CHN):	14.4%
+
+
+Processed 59000000 sequence pairs so far
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    55601396 (94.02%) aligned concordantly 0 times
+    1604533 (2.71%) aligned concordantly exactly 1 time
+    1929602 (3.26%) aligned concordantly >1 times
+5.98% overall alignment rate
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    56563345 (95.65%) aligned concordantly 0 times
+    1150890 (1.95%) aligned concordantly exactly 1 time
+    1421296 (2.40%) aligned concordantly >1 times
+4.35% overall alignment rate
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    55582667 (93.99%) aligned concordantly 0 times
+    1619474 (2.74%) aligned concordantly exactly 1 time
+    1933390 (3.27%) aligned concordantly >1 times
+6.01% overall alignment rate
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    56554722 (95.64%) aligned concordantly 0 times
+    1158172 (1.96%) aligned concordantly exactly 1 time
+    1422637 (2.41%) aligned concordantly >1 times
+4.36% overall alignment rate
+Processed 59135531 sequences in total
+
+
+Successfully deleted the temporary files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz, EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz, EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.3.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	59135531
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	134598854
+
+Total methylated C's in CpG context:	2729808
+Total methylated C's in CHG context:	377935
+Total methylated C's in CHH context:	2867139
+Total methylated C's in Unknown context:	106216
+
+Total unmethylated C's in CpG context:	14323971
+Total unmethylated C's in CHG context:	24518597
+Total unmethylated C's in CHH context:	89781404
+Total unmethylated C's in Unknown context:	626921
+
+C methylated in CpG context:	16.0%
+C methylated in CHG context:	1.5%
+C methylated in CHH context:	3.1%
+C methylated in Unknown context (CN or CHN):	14.5%
+
+
+Processed 55000000 sequence pairs so far
+Processed 57000000 sequence pairs so far
+Processed 58000000 sequence pairs so far
+Processed 56000000 sequence pairs so far
+Processed 59000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2676:17535:19742_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    55600340 (94.02%) aligned concordantly 0 times
+    1602799 (2.71%) aligned concordantly exactly 1 time
+    1932393 (3.27%) aligned concordantly >1 times
+5.98% overall alignment rate
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    56550744 (95.63%) aligned concordantly 0 times
+    1158742 (1.96%) aligned concordantly exactly 1 time
+    1426046 (2.41%) aligned concordantly >1 times
+4.37% overall alignment rate
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    56560811 (95.65%) aligned concordantly 0 times
+    1150379 (1.95%) aligned concordantly exactly 1 time
+    1424342 (2.41%) aligned concordantly >1 times
+4.35% overall alignment rate
+59135532 reads; of these:
+  59135532 (100.00%) were paired; of these:
+    55581192 (93.99%) aligned concordantly 0 times
+    1619791 (2.74%) aligned concordantly exactly 1 time
+    1934549 (3.27%) aligned concordantly >1 times
+6.01% overall alignment rate
+Processed 59135532 sequences in total
+
+
+Successfully deleted the temporary files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz, EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz, EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.1.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	59135532
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	134629299
+
+Total methylated C's in CpG context:	2723348
+Total methylated C's in CHG context:	377023
+Total methylated C's in CHH context:	2856680
+Total methylated C's in Unknown context:	106202
+
+Total unmethylated C's in CpG context:	14351500
+Total unmethylated C's in CHG context:	24522642
+Total unmethylated C's in CHH context:	89798106
+Total unmethylated C's in Unknown context:	627784
+
+C methylated in CpG context:	15.9%
+C methylated in CHG context:	1.5%
+C methylated in CHH context:	3.1%
+C methylated in Unknown context (CN or CHN):	14.5%
+
+
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2622:6849:14325_1:N:0:GTCGGAGC+TTATAACC	NC_035780.1	2
+Processed 57000000 sequence pairs so far
+Chromosomal sequence could not be extracted for	GWNJ-1013:195:GW2105211192nd:2:2630:17743:9549_1:N:0:GTCGGAGC+TTATAACC	NC_007175.2	17186
+Processed 58000000 sequence pairs so far
+Processed 59000000 sequence pairs so far
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    56562433 (95.65%) aligned concordantly 0 times
+    1150869 (1.95%) aligned concordantly exactly 1 time
+    1422229 (2.41%) aligned concordantly >1 times
+4.35% overall alignment rate
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    55603218 (94.03%) aligned concordantly 0 times
+    1604895 (2.71%) aligned concordantly exactly 1 time
+    1927418 (3.26%) aligned concordantly >1 times
+5.97% overall alignment rate
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    56551298 (95.63%) aligned concordantly 0 times
+    1158637 (1.96%) aligned concordantly exactly 1 time
+    1425596 (2.41%) aligned concordantly >1 times
+4.37% overall alignment rate
+59135531 reads; of these:
+  59135531 (100.00%) were paired; of these:
+    55586335 (94.00%) aligned concordantly 0 times
+    1620441 (2.74%) aligned concordantly exactly 1 time
+    1928755 (3.26%) aligned concordantly >1 times
+6.00% overall alignment rate
+Processed 59135531 sequences in total
+
+
+Successfully deleted the temporary files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz, EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz, EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_C_to_T.fastq.gz and EF07-EM01-Zygote_R2_001.fastp-trim.fq.gz.temp.4.gz_G_to_A.fastq.gz
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	59135531
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	134508997
+
+Total methylated C's in CpG context:	2726032
+Total methylated C's in CHG context:	377890
+Total methylated C's in CHH context:	2853560
+Total methylated C's in Unknown context:	106286
+
+Total unmethylated C's in CpG context:	14329910
+Total unmethylated C's in CHG context:	24516992
+Total unmethylated C's in CHH context:	89704613
+Total unmethylated C's in Unknown context:	625874
+
+C methylated in CpG context:	16.0%
+C methylated in CHG context:	1.5%
+C methylated in CHH context:	3.1%
+C methylated in Unknown context (CN or CHN):	14.5%
+
+
+Now waiting for all child processes to complete
+
+
+Right, cleaning up now...
+
+Deleting temporary sequence files...
+Now merging BAM files EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_bismark_bt2_pe.bam EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_bismark_bt2_pe.bam EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_bismark_bt2_pe.bam EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_bismark_bt2_pe.bam into >>> EF07-EM01-Zygote_R1_001.fastp-trim_bismark_bt2_pe.bam <<<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_bismark_bt2_pe.bam <<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_bismark_bt2_pe.bam <<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_bismark_bt2_pe.bam <<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_bismark_bt2_pe.bam <<
+
+Deleting temporary BAM files...
+Writing report to /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/02.01-bismark-bowtie2-alignment-SLURM-array/EF07-EM01-Zygote_R1_001.fastp-trim_bismark_bt2_PE_report.txt
+Now merging temporary reports EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_bismark_bt2_PE_report.txt EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_bismark_bt2_PE_report.txt EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_bismark_bt2_PE_report.txt EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_bismark_bt2_PE_report.txt into >>> /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/02.01-bismark-bowtie2-alignment-SLURM-array/EF07-EM01-Zygote_R1_001.fastp-trim_bismark_bt2_PE_report.txt <<<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.2.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.3.gz_bismark_bt2_PE_report.txt <<
+Merging from file >> EF07-EM01-Zygote_R1_001.fastp-trim.fq.gz.temp.4.gz_bismark_bt2_PE_report.txt <<
+
+Printing a final merged alignment report for all individual sub-reports
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	236542126
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	538311693
+
+Total methylated C's in CpG context:	10902218
+Total methylated C's in CHG context:	1510834
+Total methylated C's in CHH context:	11438727
+Total methylated C's in Unknown context:	424447
+
+Total unmethylated C's in CpG context:	57349452
+Total unmethylated C's in CHG context:	98086035
+Total unmethylated C's in CHH context:	359024427
+Total unmethylated C's in Unknown context:	2507832
+
+C methylated in CpG context:	16.0%
+C methylated in CHG context:	1.5%
+C methylated in CHH context:	3.1%
+C methylated in Unknown context (CN or CHN):	14.5%
+
+
+Deleting temporary report files...
+Bismark completed in 0d 23h 28m 5s
+
+====================
+Bismark run complete
+====================
+

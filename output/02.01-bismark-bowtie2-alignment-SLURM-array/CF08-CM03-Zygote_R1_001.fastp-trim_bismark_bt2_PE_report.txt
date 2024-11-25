@@ -1,0 +1,40 @@
+Bismark report for: /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/CF08-CM03-Zygote_R1_001.fastp-trim.fq.gz and /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/CF08-CM03-Zygote_R2_001.fastp-trim.fq.gz (version: v0.24.2)
+Bismark was run with Bowtie 2 against the bisulfite genome of /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300/ with the specified options: -q --score-min L,0,-0.6 -p 15 --reorder --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	145513978
+Number of paired-end alignments with a unique best hit:	26677733
+Mapping efficiency:	18.3% 
+Sequence pairs with no alignments under any condition:	108533912
+Sequence pairs did not map uniquely:	10302333
+Sequence pairs which were discarded because genomic sequence could not be extracted:	43
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	7901322	((converted) top strand)
+GA/CT/CT:	5421793	(complementary to (converted) top strand)
+GA/CT/GA:	5426981	(complementary to (converted) bottom strand)
+CT/GA/GA:	7927594	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	579993227
+
+Total methylated C's in CpG context:	13259270
+Total methylated C's in CHG context:	3198330
+Total methylated C's in CHH context:	22629985
+Total methylated C's in Unknown context:	548592
+
+Total unmethylated C's in CpG context:	54057025
+Total unmethylated C's in CHG context:	97929997
+Total unmethylated C's in CHH context:	388918620
+Total unmethylated C's in Unknown context:	3085846
+
+C methylated in CpG context:	19.7%
+C methylated in CHG context:	3.2%
+C methylated in CHH context:	5.5%
+C methylated in Unknown context (CN or CHN):	15.1%
+
+
+Bismark completed in 0d 5h 44m 45s
