@@ -86,6 +86,10 @@ echo ""
 
 echo "# Set number of CPUs to use"
 echo 'export threads=40'
+echo ""
+
+echo "# Filename patterns"
+echo 'export deduped_filename_pattern="_R1_001.fastp-trim_bismark_bt2_pe.deduplicated.bam"
 
 
 echo "# Print formatting"
@@ -132,9 +136,9 @@ cd "${output_dir_top}"
 
 #Sorting for Downstream Applications
 find *deduplicated.bam \
-| xargs basename -s _R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
+| xargs basename -s ${deduped_filename_pattern} \
 | xargs -I{} ${samtools_dir}/samtools \
-sort {}_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bam \
+sort {}${deduped_filename_pattern} \
 -@ "${threads}" \
 -o {}_dedup.sorted.bam
 ```
