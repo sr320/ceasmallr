@@ -1,7 +1,0 @@
-
-Total number of alignments analysed in EF03-EM03-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.bam:	22016446
-Total number duplicated alignments removed:	6561479 (29.80%)
-Duplicated alignments were found at:	4472792 different position(s)
-
-Total count of deduplicated leftover sequences: 15454967 (70.20% of total)
-
