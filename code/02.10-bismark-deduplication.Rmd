@@ -166,15 +166,6 @@ index {}_dedup.sorted.bam
 
 ```
 
-# MultiQC
-```{r multiqc, engine='bash', eval=FALSE}
-# Load bash variables into memory
-source .bashvars
-
-cd "${output_dir_top}"
-
-${multiqc} .
-```
 
 # Checksums
 ```{r generate-checksums, engine='bash', eval=FALSE}
@@ -188,6 +179,16 @@ for file in *; do
     md5sum "${file}" >> checksums.md5
   fi
 done
+```
+
+# MultiQC
+```{r multiqc, engine='bash', eval=FALSE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
 ```
 
 # List output files
