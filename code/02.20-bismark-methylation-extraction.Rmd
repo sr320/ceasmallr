@@ -109,7 +109,7 @@ echo ""
 cat .bashvars
 ```
 
-#Methylation Extraction
+# Methylation Extraction
 
 ```{r methylation-extraction, engine='bash', eval=TRUE}
 # Load bash variables into memory
@@ -126,8 +126,10 @@ ${bismark_dir}/bismark_methylation_extractor \
 --samtools_path ${samtools_dir} \
 --gzip \
 --paired-end \
+--comprehensive \
+--merge_non_CpG \
 --zero_based \
---buffer_size 50% \
+--buffer_size 75% \
 --cytosine_report \
 --genome_folder ${genome_dir} \
 *deduplicated.bam
