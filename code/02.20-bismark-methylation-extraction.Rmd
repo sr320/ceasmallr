@@ -1,7 +1,7 @@
 ---
 title: "02.20-bismark-methylation-extraction"
 author: "Sam White"
-date: "2024-11-11"
+date: "2024-11-26"
 output: 
   bookdown::html_document2:
     theme: cosmo
@@ -111,7 +111,7 @@ cat .bashvars
 
 # Methylation Extraction
 
-```{r methylation-extraction, engine='bash', eval=TRUE}
+```{r methylation-extraction, engine='bash', eval=FALSE}
 # Load bash variables into memory
 source .bashvars
 
@@ -133,30 +133,6 @@ ${bismark_dir}/bismark_methylation_extractor \
 --cytosine_report \
 --genome_folder ${genome_dir} \
 *deduplicated.bam
-```
-
-# MultiQC
-```{r multiqc, engine='bash', eval=TRUE}
-# Load bash variables into memory
-source .bashvars
-
-cd "${output_dir_top}"
-
-${multiqc} .
-```
-
-# Checksums
-```{r generate-checksums, engine='bash', eval=TRUE}
-# Load bash variables into memory
-source .bashvars
-
-cd "${output_dir_top}"
-
-for file in *; do
-  if [ "${file}" != "checksums.md5" ]; then
-    md5sum "${file}" >> checksums.md5
-  fi
-done
 ```
 
 # Peek at output files
@@ -186,3 +162,30 @@ cd "${output_dir_top}"
 
 ls -lh
 ```
+
+# Checksums
+```{r generate-checksums, engine='bash', eval=FALSE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+for file in *; do
+  if [ "${file}" != "checksums.md5" ]; then
+    md5sum "${file}" >> checksums.md5
+  fi
+done
+```
+
+# MultiQC
+```{r multiqc, engine='bash', eval=FALSE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+${multiqc} .
+```
+
+
+
