@@ -89,7 +89,7 @@ echo 'export threads=40'
 echo ""
 
 echo "# Filename patterns"
-echo 'export deduped_filename_pattern="_R1_001.fastp-trim_bismark_bt2_pe.deduplicated.bam"'
+echo "export deduped_filename_pattern='_R1_001.fastp-trim*bismark_bt2_pe.deduplicated.bam'"
 
 
 echo "# Print formatting"
@@ -134,13 +134,14 @@ source .bashvars
 cd "${output_dir_top}"
 
 
-#Sorting for Downstream Applications
-find *deduplicated.bam \
-| xargs basename -s ${deduped_filename_pattern} \
-| xargs -I{} ${samtools_dir}/samtools \
-sort {}${deduped_filename_pattern} \
--@ "${threads}" \
--o {}_dedup.sorted.bam
+for bam in *deduplicated.bam
+do
+  sample=$(echo ${bam} | awk -F"_" '{print $1}')
+  ${samtools_dir}/samtools sort \
+  -@ "${threads}" \
+  -o ${sample}_dedup.sorted.bam \
+  ${bam}
+done
 ```
 
 
