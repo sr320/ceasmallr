@@ -1,0 +1,815 @@
+{
+    "report_data_sources": {
+        "Bismark": {
+            "deduplication": {
+                "CF05-CM02-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF05-CM02-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF08-EM04-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF08-EM04-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF05-EM01-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF05-EM01-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF06-CM01-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF06-CM01-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF03-CM03-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF03-CM03-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF01-CM02-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF01-CM02-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF04-CM04-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF04-CM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF03-EM03-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF03-EM03-Zygote_R1_001.fastp-trim.REPAIRED_bismark_bt2_pe.deduplication_report.txt",
+                "EF04-EM04-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF04-EM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF08-CM05-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF08-CM05-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF06-EM01-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF06-EM01-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF05-EM06-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF05-EM06-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF01-CM01-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF01-CM01-Zygote_R1_001.fastp-trim.REPAIRED_bismark_bt2_pe.deduplication_report.txt",
+                "EF08-EM03-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF08-EM03-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF02-CM02-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF02-CM02-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF01-EM01-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF01-EM01-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF05-EM05-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF05-EM05-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF06-EM06-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF06-EM06-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF06-CM02-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF06-CM02-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF07-CM02-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF07-CM02-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF06-EM02-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF06-EM02-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF08-CM03-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF08-CM03-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF04-EM05-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF04-EM05-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF05-CM05-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF05-CM05-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF03-EM04-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF03-EM04-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF03-EM05-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF03-EM05-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF03-CM04-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF03-CM04-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF02-EM02-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF02-EM02-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF07-EM01-Zygote_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF07-EM01-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "EF07-EM03-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/EF07-EM03-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt",
+                "CF08-CM04-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF08-CM04-Larvae_R1_001.fastp-trim.REPAIRED_bismark_bt2_pe.deduplication_report.txt",
+                "CF03-CM05-Larvae_R1_001": "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/CF03-CM05-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplication_report.txt"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "CF05-CM02-Larvae_R1_001": {
+                "aligned_reads": 58467291.0,
+                "dup_reads": 16548046.0,
+                "dup_reads_percent": 28.3,
+                "dedup_reads": 41919245.0,
+                "dedup_reads_percent": 71.7
+            },
+            "EF08-EM04-Larvae_R1_001": {
+                "aligned_reads": 40901150.0,
+                "dup_reads": 11183155.0,
+                "dup_reads_percent": 27.34,
+                "dedup_reads": 29717995.0,
+                "dedup_reads_percent": 72.66
+            },
+            "EF05-EM01-Larvae_R1_001": {
+                "aligned_reads": 30782846.0,
+                "dup_reads": 8714269.0,
+                "dup_reads_percent": 28.31,
+                "dedup_reads": 22068577.0,
+                "dedup_reads_percent": 71.69
+            },
+            "CF06-CM01-Zygote_R1_001": {
+                "aligned_reads": 34432812.0,
+                "dup_reads": 8994429.0,
+                "dup_reads_percent": 26.12,
+                "dedup_reads": 25438383.0,
+                "dedup_reads_percent": 73.88
+            },
+            "CF03-CM03-Zygote_R1_001": {
+                "aligned_reads": 27186815.0,
+                "dup_reads": 7218346.0,
+                "dup_reads_percent": 26.55,
+                "dedup_reads": 19968469.0,
+                "dedup_reads_percent": 73.45
+            },
+            "CF01-CM02-Larvae_R1_001": {
+                "aligned_reads": 46656897.0,
+                "dup_reads": 12039921.0,
+                "dup_reads_percent": 25.81,
+                "dedup_reads": 34616976.0,
+                "dedup_reads_percent": 74.19
+            },
+            "CF04-CM04-Zygote_R1_001": {
+                "aligned_reads": 32455027.0,
+                "dup_reads": 10486449.0,
+                "dup_reads_percent": 32.31,
+                "dedup_reads": 21968578.0,
+                "dedup_reads_percent": 67.69
+            },
+            "EF03-EM03-Zygote_R1_001": {
+                "aligned_reads": 21524612.0,
+                "dup_reads": 6306957.0,
+                "dup_reads_percent": 29.3,
+                "dedup_reads": 15217655.0,
+                "dedup_reads_percent": 70.7
+            },
+            "EF04-EM04-Zygote_R1_001": {
+                "aligned_reads": 13101807.0,
+                "dup_reads": 4232400.0,
+                "dup_reads_percent": 32.3,
+                "dedup_reads": 8869407.0,
+                "dedup_reads_percent": 67.7
+            },
+            "CF08-CM05-Larvae_R1_001": {
+                "aligned_reads": 1707439.0,
+                "dup_reads": 1453896.0,
+                "dup_reads_percent": 85.15,
+                "dedup_reads": 253543.0,
+                "dedup_reads_percent": 14.85
+            },
+            "EF06-EM01-Larvae_R1_001": {
+                "aligned_reads": 48405966.0,
+                "dup_reads": 12950537.0,
+                "dup_reads_percent": 26.75,
+                "dedup_reads": 35455429.0,
+                "dedup_reads_percent": 73.25
+            },
+            "EF05-EM06-Larvae_R1_001": {
+                "aligned_reads": 69096400.0,
+                "dup_reads": 36895115.0,
+                "dup_reads_percent": 53.4,
+                "dedup_reads": 32201285.0,
+                "dedup_reads_percent": 46.6
+            },
+            "CF01-CM01-Zygote_R1_001": {
+                "aligned_reads": 4178636.0,
+                "dup_reads": 1019729.0,
+                "dup_reads_percent": 24.4,
+                "dedup_reads": 3158907.0,
+                "dedup_reads_percent": 75.6
+            },
+            "EF08-EM03-Larvae_R1_001": {
+                "aligned_reads": 60954593.0,
+                "dup_reads": 27325593.0,
+                "dup_reads_percent": 44.83,
+                "dedup_reads": 33629000.0,
+                "dedup_reads_percent": 55.17
+            },
+            "CF02-CM02-Zygote_R1_001": {
+                "aligned_reads": 27528476.0,
+                "dup_reads": 11169363.0,
+                "dup_reads_percent": 40.57,
+                "dedup_reads": 16359113.0,
+                "dedup_reads_percent": 59.43
+            },
+            "EF01-EM01-Zygote_R1_001": {
+                "aligned_reads": 27689909.0,
+                "dup_reads": 7329384.0,
+                "dup_reads_percent": 26.47,
+                "dedup_reads": 20360525.0,
+                "dedup_reads_percent": 73.53
+            },
+            "EF05-EM05-Zygote_R1_001": {
+                "aligned_reads": 8067320.0,
+                "dup_reads": 2482694.0,
+                "dup_reads_percent": 30.77,
+                "dedup_reads": 5584626.0,
+                "dedup_reads_percent": 69.23
+            },
+            "EF06-EM06-Larvae_R1_001": {
+                "aligned_reads": 40050140.0,
+                "dup_reads": 32421613.0,
+                "dup_reads_percent": 80.95,
+                "dedup_reads": 7628527.0,
+                "dedup_reads_percent": 19.05
+            },
+            "CF06-CM02-Larvae_R1_001": {
+                "aligned_reads": 24643851.0,
+                "dup_reads": 6639810.0,
+                "dup_reads_percent": 26.94,
+                "dedup_reads": 18004041.0,
+                "dedup_reads_percent": 73.06
+            },
+            "CF07-CM02-Zygote_R1_001": {
+                "aligned_reads": 23297267.0,
+                "dup_reads": 8290831.0,
+                "dup_reads_percent": 35.59,
+                "dedup_reads": 15006436.0,
+                "dedup_reads_percent": 64.41
+            },
+            "EF06-EM02-Larvae_R1_001": {
+                "aligned_reads": 40538177.0,
+                "dup_reads": 11396825.0,
+                "dup_reads_percent": 28.11,
+                "dedup_reads": 29141352.0,
+                "dedup_reads_percent": 71.89
+            },
+            "CF08-CM03-Zygote_R1_001": {
+                "aligned_reads": 26677690.0,
+                "dup_reads": 9975812.0,
+                "dup_reads_percent": 37.39,
+                "dedup_reads": 16701878.0,
+                "dedup_reads_percent": 62.61
+            },
+            "EF04-EM05-Larvae_R1_001": {
+                "aligned_reads": 50823122.0,
+                "dup_reads": 14992591.0,
+                "dup_reads_percent": 29.5,
+                "dedup_reads": 35830531.0,
+                "dedup_reads_percent": 70.5
+            },
+            "CF05-CM05-Zygote_R1_001": {
+                "aligned_reads": 36583326.0,
+                "dup_reads": 10318833.0,
+                "dup_reads_percent": 28.21,
+                "dedup_reads": 26264493.0,
+                "dedup_reads_percent": 71.79
+            },
+            "EF03-EM04-Larvae_R1_001": {
+                "aligned_reads": 40734229.0,
+                "dup_reads": 11295311.0,
+                "dup_reads_percent": 27.73,
+                "dedup_reads": 29438918.0,
+                "dedup_reads_percent": 72.27
+            },
+            "EF03-EM05-Larvae_R1_001": {
+                "aligned_reads": 38974338.0,
+                "dup_reads": 9587530.0,
+                "dup_reads_percent": 24.6,
+                "dedup_reads": 29386808.0,
+                "dedup_reads_percent": 75.4
+            },
+            "CF03-CM04-Larvae_R1_001": {
+                "aligned_reads": 55395540.0,
+                "dup_reads": 31136697.0,
+                "dup_reads_percent": 56.21,
+                "dedup_reads": 24258843.0,
+                "dedup_reads_percent": 43.79
+            },
+            "EF02-EM02-Zygote_R1_001": {
+                "aligned_reads": 32256348.0,
+                "dup_reads": 8592787.0,
+                "dup_reads_percent": 26.64,
+                "dedup_reads": 23663561.0,
+                "dedup_reads_percent": 73.36
+            },
+            "EF07-EM01-Zygote_R1_001": {
+                "aligned_reads": 23579706.0,
+                "dup_reads": 12562471.0,
+                "dup_reads_percent": 53.28,
+                "dedup_reads": 11017235.0,
+                "dedup_reads_percent": 46.72
+            },
+            "EF07-EM03-Larvae_R1_001": {
+                "aligned_reads": 42132612.0,
+                "dup_reads": 13993385.0,
+                "dup_reads_percent": 33.21,
+                "dedup_reads": 28139227.0,
+                "dedup_reads_percent": 66.79
+            },
+            "CF08-CM04-Larvae_R1_001": {
+                "aligned_reads": 538216.0,
+                "dup_reads": 212976.0,
+                "dup_reads_percent": 39.57,
+                "dedup_reads": 325240.0,
+                "dedup_reads_percent": 60.43
+            },
+            "CF03-CM05-Larvae_R1_001": {
+                "aligned_reads": 38649098.0,
+                "dup_reads": 9672581.0,
+                "dup_reads_percent": 25.03,
+                "dedup_reads": 28976517.0,
+                "dedup_reads_percent": 74.97
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "dup_reads_percent": {
+                "title": "% Dups",
+                "description": "Percent Duplicated Alignments",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlGn-rev",
+                "namespace": "Bismark",
+                "rid": "mqc-generalstats-bismark-dup_reads_percent",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "dedup_reads": {
+                "title": "M Unique",
+                "description": "Deduplicated Alignments (millions)",
+                "min": 0,
+                "scale": "Greens",
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "hidden": true,
+                "namespace": "Bismark",
+                "rid": "mqc-generalstats-bismark-dedup_reads",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 41.919245,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/home/sam/programs/mambaforge/bin/multiqc .",
+    "report_plot_data": {
+        "bismark_deduplication": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "CF01-CM01-Zygote_R1_001",
+                    "CF01-CM02-Larvae_R1_001",
+                    "CF02-CM02-Zygote_R1_001",
+                    "CF03-CM03-Zygote_R1_001",
+                    "CF03-CM04-Larvae_R1_001",
+                    "CF03-CM05-Larvae_R1_001",
+                    "CF04-CM04-Zygote_R1_001",
+                    "CF05-CM02-Larvae_R1_001",
+                    "CF05-CM05-Zygote_R1_001",
+                    "CF06-CM01-Zygote_R1_001",
+                    "CF06-CM02-Larvae_R1_001",
+                    "CF07-CM02-Zygote_R1_001",
+                    "CF08-CM03-Zygote_R1_001",
+                    "CF08-CM04-Larvae_R1_001",
+                    "CF08-CM05-Larvae_R1_001",
+                    "EF01-EM01-Zygote_R1_001",
+                    "EF02-EM02-Zygote_R1_001",
+                    "EF03-EM03-Zygote_R1_001",
+                    "EF03-EM04-Larvae_R1_001",
+                    "EF03-EM05-Larvae_R1_001",
+                    "EF04-EM04-Zygote_R1_001",
+                    "EF04-EM05-Larvae_R1_001",
+                    "EF05-EM01-Larvae_R1_001",
+                    "EF05-EM05-Zygote_R1_001",
+                    "EF05-EM06-Larvae_R1_001",
+                    "EF06-EM01-Larvae_R1_001",
+                    "EF06-EM02-Larvae_R1_001",
+                    "EF06-EM06-Larvae_R1_001",
+                    "EF07-EM01-Zygote_R1_001",
+                    "EF07-EM03-Larvae_R1_001",
+                    "EF08-EM03-Larvae_R1_001",
+                    "EF08-EM04-Larvae_R1_001"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Deduplicated reads (remaining)",
+                        "data": [
+                            3158907.0,
+                            34616976.0,
+                            16359113.0,
+                            19968469.0,
+                            24258843.0,
+                            28976517.0,
+                            21968578.0,
+                            41919245.0,
+                            26264493.0,
+                            25438383.0,
+                            18004041.0,
+                            15006436.0,
+                            16701878.0,
+                            325240.0,
+                            253543.0,
+                            20360525.0,
+                            23663561.0,
+                            15217655.0,
+                            29438918.0,
+                            29386808.0,
+                            8869407.0,
+                            35830531.0,
+                            22068577.0,
+                            5584626.0,
+                            32201285.0,
+                            35455429.0,
+                            29141352.0,
+                            7628527.0,
+                            11017235.0,
+                            28139227.0,
+                            33629000.0,
+                            29717995.0
+                        ]
+                    },
+                    {
+                        "name": "Duplicate reads (removed)",
+                        "data": [
+                            1019729.0,
+                            12039921.0,
+                            11169363.0,
+                            7218346.0,
+                            31136697.0,
+                            9672581.0,
+                            10486449.0,
+                            16548046.0,
+                            10318833.0,
+                            8994429.0,
+                            6639810.0,
+                            8290831.0,
+                            9975812.0,
+                            212976.0,
+                            1453896.0,
+                            7329384.0,
+                            8592787.0,
+                            6306957.0,
+                            11295311.0,
+                            9587530.0,
+                            4232400.0,
+                            14992591.0,
+                            8714269.0,
+                            2482694.0,
+                            36895115.0,
+                            12950537.0,
+                            11396825.0,
+                            32421613.0,
+                            12562471.0,
+                            13993385.0,
+                            27325593.0,
+                            11183155.0
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "bismark_deduplication",
+                "title": "Bismark: Deduplication",
+                "ylab": "% Reads",
+                "cpswitch_c_active": false,
+                "cpswitch_counts_label": "Number of Reads",
+                "stacking": "percent"
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_bismark_dedup": {
+            "CF05-CM02-Larvae_R1_001": {
+                "aligned_reads": 58467291.0,
+                "dup_reads": 16548046.0,
+                "dup_reads_percent": 28.3,
+                "dedup_reads": 41919245.0,
+                "dedup_reads_percent": 71.7
+            },
+            "EF08-EM04-Larvae_R1_001": {
+                "aligned_reads": 40901150.0,
+                "dup_reads": 11183155.0,
+                "dup_reads_percent": 27.34,
+                "dedup_reads": 29717995.0,
+                "dedup_reads_percent": 72.66
+            },
+            "EF05-EM01-Larvae_R1_001": {
+                "aligned_reads": 30782846.0,
+                "dup_reads": 8714269.0,
+                "dup_reads_percent": 28.31,
+                "dedup_reads": 22068577.0,
+                "dedup_reads_percent": 71.69
+            },
+            "CF06-CM01-Zygote_R1_001": {
+                "aligned_reads": 34432812.0,
+                "dup_reads": 8994429.0,
+                "dup_reads_percent": 26.12,
+                "dedup_reads": 25438383.0,
+                "dedup_reads_percent": 73.88
+            },
+            "CF03-CM03-Zygote_R1_001": {
+                "aligned_reads": 27186815.0,
+                "dup_reads": 7218346.0,
+                "dup_reads_percent": 26.55,
+                "dedup_reads": 19968469.0,
+                "dedup_reads_percent": 73.45
+            },
+            "CF01-CM02-Larvae_R1_001": {
+                "aligned_reads": 46656897.0,
+                "dup_reads": 12039921.0,
+                "dup_reads_percent": 25.81,
+                "dedup_reads": 34616976.0,
+                "dedup_reads_percent": 74.19
+            },
+            "CF04-CM04-Zygote_R1_001": {
+                "aligned_reads": 32455027.0,
+                "dup_reads": 10486449.0,
+                "dup_reads_percent": 32.31,
+                "dedup_reads": 21968578.0,
+                "dedup_reads_percent": 67.69
+            },
+            "EF03-EM03-Zygote_R1_001": {
+                "aligned_reads": 21524612.0,
+                "dup_reads": 6306957.0,
+                "dup_reads_percent": 29.3,
+                "dedup_reads": 15217655.0,
+                "dedup_reads_percent": 70.7
+            },
+            "EF04-EM04-Zygote_R1_001": {
+                "aligned_reads": 13101807.0,
+                "dup_reads": 4232400.0,
+                "dup_reads_percent": 32.3,
+                "dedup_reads": 8869407.0,
+                "dedup_reads_percent": 67.7
+            },
+            "CF08-CM05-Larvae_R1_001": {
+                "aligned_reads": 1707439.0,
+                "dup_reads": 1453896.0,
+                "dup_reads_percent": 85.15,
+                "dedup_reads": 253543.0,
+                "dedup_reads_percent": 14.85
+            },
+            "EF06-EM01-Larvae_R1_001": {
+                "aligned_reads": 48405966.0,
+                "dup_reads": 12950537.0,
+                "dup_reads_percent": 26.75,
+                "dedup_reads": 35455429.0,
+                "dedup_reads_percent": 73.25
+            },
+            "EF05-EM06-Larvae_R1_001": {
+                "aligned_reads": 69096400.0,
+                "dup_reads": 36895115.0,
+                "dup_reads_percent": 53.4,
+                "dedup_reads": 32201285.0,
+                "dedup_reads_percent": 46.6
+            },
+            "CF01-CM01-Zygote_R1_001": {
+                "aligned_reads": 4178636.0,
+                "dup_reads": 1019729.0,
+                "dup_reads_percent": 24.4,
+                "dedup_reads": 3158907.0,
+                "dedup_reads_percent": 75.6
+            },
+            "EF08-EM03-Larvae_R1_001": {
+                "aligned_reads": 60954593.0,
+                "dup_reads": 27325593.0,
+                "dup_reads_percent": 44.83,
+                "dedup_reads": 33629000.0,
+                "dedup_reads_percent": 55.17
+            },
+            "CF02-CM02-Zygote_R1_001": {
+                "aligned_reads": 27528476.0,
+                "dup_reads": 11169363.0,
+                "dup_reads_percent": 40.57,
+                "dedup_reads": 16359113.0,
+                "dedup_reads_percent": 59.43
+            },
+            "EF01-EM01-Zygote_R1_001": {
+                "aligned_reads": 27689909.0,
+                "dup_reads": 7329384.0,
+                "dup_reads_percent": 26.47,
+                "dedup_reads": 20360525.0,
+                "dedup_reads_percent": 73.53
+            },
+            "EF05-EM05-Zygote_R1_001": {
+                "aligned_reads": 8067320.0,
+                "dup_reads": 2482694.0,
+                "dup_reads_percent": 30.77,
+                "dedup_reads": 5584626.0,
+                "dedup_reads_percent": 69.23
+            },
+            "EF06-EM06-Larvae_R1_001": {
+                "aligned_reads": 40050140.0,
+                "dup_reads": 32421613.0,
+                "dup_reads_percent": 80.95,
+                "dedup_reads": 7628527.0,
+                "dedup_reads_percent": 19.05
+            },
+            "CF06-CM02-Larvae_R1_001": {
+                "aligned_reads": 24643851.0,
+                "dup_reads": 6639810.0,
+                "dup_reads_percent": 26.94,
+                "dedup_reads": 18004041.0,
+                "dedup_reads_percent": 73.06
+            },
+            "CF07-CM02-Zygote_R1_001": {
+                "aligned_reads": 23297267.0,
+                "dup_reads": 8290831.0,
+                "dup_reads_percent": 35.59,
+                "dedup_reads": 15006436.0,
+                "dedup_reads_percent": 64.41
+            },
+            "EF06-EM02-Larvae_R1_001": {
+                "aligned_reads": 40538177.0,
+                "dup_reads": 11396825.0,
+                "dup_reads_percent": 28.11,
+                "dedup_reads": 29141352.0,
+                "dedup_reads_percent": 71.89
+            },
+            "CF08-CM03-Zygote_R1_001": {
+                "aligned_reads": 26677690.0,
+                "dup_reads": 9975812.0,
+                "dup_reads_percent": 37.39,
+                "dedup_reads": 16701878.0,
+                "dedup_reads_percent": 62.61
+            },
+            "EF04-EM05-Larvae_R1_001": {
+                "aligned_reads": 50823122.0,
+                "dup_reads": 14992591.0,
+                "dup_reads_percent": 29.5,
+                "dedup_reads": 35830531.0,
+                "dedup_reads_percent": 70.5
+            },
+            "CF05-CM05-Zygote_R1_001": {
+                "aligned_reads": 36583326.0,
+                "dup_reads": 10318833.0,
+                "dup_reads_percent": 28.21,
+                "dedup_reads": 26264493.0,
+                "dedup_reads_percent": 71.79
+            },
+            "EF03-EM04-Larvae_R1_001": {
+                "aligned_reads": 40734229.0,
+                "dup_reads": 11295311.0,
+                "dup_reads_percent": 27.73,
+                "dedup_reads": 29438918.0,
+                "dedup_reads_percent": 72.27
+            },
+            "EF03-EM05-Larvae_R1_001": {
+                "aligned_reads": 38974338.0,
+                "dup_reads": 9587530.0,
+                "dup_reads_percent": 24.6,
+                "dedup_reads": 29386808.0,
+                "dedup_reads_percent": 75.4
+            },
+            "CF03-CM04-Larvae_R1_001": {
+                "aligned_reads": 55395540.0,
+                "dup_reads": 31136697.0,
+                "dup_reads_percent": 56.21,
+                "dedup_reads": 24258843.0,
+                "dedup_reads_percent": 43.79
+            },
+            "EF02-EM02-Zygote_R1_001": {
+                "aligned_reads": 32256348.0,
+                "dup_reads": 8592787.0,
+                "dup_reads_percent": 26.64,
+                "dedup_reads": 23663561.0,
+                "dedup_reads_percent": 73.36
+            },
+            "EF07-EM01-Zygote_R1_001": {
+                "aligned_reads": 23579706.0,
+                "dup_reads": 12562471.0,
+                "dup_reads_percent": 53.28,
+                "dedup_reads": 11017235.0,
+                "dedup_reads_percent": 46.72
+            },
+            "EF07-EM03-Larvae_R1_001": {
+                "aligned_reads": 42132612.0,
+                "dup_reads": 13993385.0,
+                "dup_reads_percent": 33.21,
+                "dedup_reads": 28139227.0,
+                "dedup_reads_percent": 66.79
+            },
+            "CF08-CM04-Larvae_R1_001": {
+                "aligned_reads": 538216.0,
+                "dup_reads": 212976.0,
+                "dup_reads_percent": 39.57,
+                "dedup_reads": 325240.0,
+                "dedup_reads_percent": 60.43
+            },
+            "CF03-CM05-Larvae_R1_001": {
+                "aligned_reads": 38649098.0,
+                "dup_reads": 9672581.0,
+                "dup_reads_percent": 25.03,
+                "dedup_reads": 28976517.0,
+                "dedup_reads_percent": 74.97
+            }
+        },
+        "multiqc_general_stats": {
+            "CF05-CM02-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 28.3,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 41919245.0
+            },
+            "EF08-EM04-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 27.34,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 29717995.0
+            },
+            "EF05-EM01-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 28.31,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 22068577.0
+            },
+            "CF06-CM01-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 26.12,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 25438383.0
+            },
+            "CF03-CM03-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 26.55,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 19968469.0
+            },
+            "CF01-CM02-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 25.81,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 34616976.0
+            },
+            "CF04-CM04-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 32.31,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 21968578.0
+            },
+            "EF03-EM03-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 29.3,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 15217655.0
+            },
+            "EF04-EM04-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 32.3,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 8869407.0
+            },
+            "CF08-CM05-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 85.15,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 253543.0
+            },
+            "EF06-EM01-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 26.75,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 35455429.0
+            },
+            "EF05-EM06-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 53.4,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 32201285.0
+            },
+            "CF01-CM01-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 24.4,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 3158907.0
+            },
+            "EF08-EM03-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 44.83,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 33629000.0
+            },
+            "CF02-CM02-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 40.57,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 16359113.0
+            },
+            "EF01-EM01-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 26.47,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 20360525.0
+            },
+            "EF05-EM05-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 30.77,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 5584626.0
+            },
+            "EF06-EM06-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 80.95,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 7628527.0
+            },
+            "CF06-CM02-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 26.94,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 18004041.0
+            },
+            "CF07-CM02-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 35.59,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 15006436.0
+            },
+            "EF06-EM02-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 28.11,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 29141352.0
+            },
+            "CF08-CM03-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 37.39,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 16701878.0
+            },
+            "EF04-EM05-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 29.5,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 35830531.0
+            },
+            "CF05-CM05-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 28.21,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 26264493.0
+            },
+            "EF03-EM04-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 27.73,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 29438918.0
+            },
+            "EF03-EM05-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 24.6,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 29386808.0
+            },
+            "CF03-CM04-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 56.21,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 24258843.0
+            },
+            "EF02-EM02-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 26.64,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 23663561.0
+            },
+            "EF07-EM01-Zygote_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 53.28,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 11017235.0
+            },
+            "EF07-EM03-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 33.21,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 28139227.0
+            },
+            "CF08-CM04-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 39.57,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 325240.0
+            },
+            "CF03-CM05-Larvae_R1_001": {
+                "Bismark_mqc-generalstats-bismark-dup_reads_percent": 25.03,
+                "Bismark_mqc-generalstats-bismark-dedup_reads": 28976517.0
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2024-11-26, 09:48 PST",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/home/sam/programs/mambaforge/lib/python3.10/site-packages/multiqc/utils",
+    "config_short_version": "1.14",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.14"
+}

@@ -1,0 +1,7 @@
+
+Total number of alignments analysed in CF02-CM02-Zygote_R1_001.fastp-trim_bismark_bt2_pe.bam:	27528476
+Total number duplicated alignments removed:	11169363 (40.57%)
+Duplicated alignments were found at:	6355065 different position(s)
+
+Total count of deduplicated leftover sequences: 16359113 (59.43% of total)
+

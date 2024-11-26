@@ -1,0 +1,42 @@
+Output will be written into the directory: /home/shared/8TB_HDD_01/sam/gitrepos/ceasmallr/output/02.10-bismark-deduplication/
+Processing paired-end Bismark output file(s) (SAM format):
+CF04-CM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.bam
+
+
+If there are several alignments to a single position in the genome the first alignment will be chosen. Since the input files are not in any way sorted this is a near-enough random selection of reads.
+
+Checking file >>CF04-CM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.bam<< for signs of file truncation...
+
+samtools view: writing to standard output failed: Broken pipe
+samtools view: error closing standard output: -1
+
+
+Now testing Bismark result file CF04-CM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.bam for positional sorting (which would be bad...)	...passed!
+Output file is: CF04-CM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.deduplicated.bam
+
+
+Total number of alignments analysed in CF04-CM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.bam:	32455027
+Total number duplicated alignments removed:	10486449 (32.31%)
+Duplicated alignments were found at:	6992482 different position(s)
+
+Total count of deduplicated leftover sequences: 21968578 (67.69% of total)
+
+skipping header line:	@HD	VN:1.0	SO:unsorted
+skipping header line:	@SQ	SN:NC_035780.1	LN:65668440
+skipping header line:	@SQ	SN:NC_035781.1	LN:61752955
+skipping header line:	@SQ	SN:NC_035782.1	LN:77061148
+skipping header line:	@SQ	SN:NC_035783.1	LN:59691872
+skipping header line:	@SQ	SN:NC_035784.1	LN:98698416
+skipping header line:	@SQ	SN:NC_035785.1	LN:51258098
+skipping header line:	@SQ	SN:NC_035786.1	LN:57830854
+skipping header line:	@SQ	SN:NC_035787.1	LN:75944018
+skipping header line:	@SQ	SN:NC_035788.1	LN:104168038
+skipping header line:	@SQ	SN:NC_035789.1	LN:32650045
+skipping header line:	@SQ	SN:NC_007175.2	LN:17244
+skipping header line:	@PG	ID:Bismark	VN:v0.24.2	CL:"bismark --genome /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/data/Cvirginica_v300 --score_min L,0,-0.6 --parallel 15 --non_directional --gzip -p 15 -1 /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/CF04-CM04-Zygote_R1_001.fastp-trim.fq.gz -2 /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/00.00-trimming-fastp/CF04-CM04-Zygote_R2_001.fastp-trim.fq.gz --output_dir /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/02.01-bismark-bowtie2-alignment-SLURM-array"
+skipping header line:	@PG	ID:samtools	PN:samtools	PP:Bismark	VN:1.20	CL:/srlab/programs/samtools-1.20/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.1	PN:samtools	PP:samtools	VN:1.20	CL:/srlab/programs/samtools-1.20/samtools view -h /gscratch/scrubbed/samwhite/gitrepos/ceasmallr/output/02.01-bismark-bowtie2-alignment-SLURM-array/CF04-CM04-Zygote_R1_001.fastp-trim.fq.gz.temp.1.gz_bismark_bt2_pe.bam
+skipping header line:	@PG	ID:samtools.2	PN:samtools	PP:samtools.1	VN:1.20	CL:/srlab/programs/samtools-1.20/samtools view -bSh -
+skipping header line:	@PG	ID:samtools.3	PN:samtools	PP:samtools.2	VN:1.12	CL:/home/shared/samtools-1.12/samtools view -h --threads 1 CF04-CM04-Zygote_R1_001.fastp-trim_bismark_bt2_pe.bam
+samtools view: writing to standard output failed: Broken pipe
+samtools view: error closing standard output: -1
