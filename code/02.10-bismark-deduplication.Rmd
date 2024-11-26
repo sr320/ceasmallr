@@ -143,7 +143,15 @@ do
   ${bam}
 done
 ```
+## Check file counts
+```{bash check-sorted-bam-file-counts, engine='bash', eval=FALSE}
+# Load bash variables into memory
+source .bashvars
 
+cd "${output_dir_top}"
+ls -1 *deduplicated.bam
+ls -1 *dedup.sorted.bam
+```
 
 # Indexing for Downstream Applications
 ```{r indexing, engine='bash', eval=FALSE}
