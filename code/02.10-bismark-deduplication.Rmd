@@ -149,8 +149,8 @@ done
 source .bashvars
 
 cd "${output_dir_top}"
-ls -1 *deduplicated.bam
-ls -1 *dedup.sorted.bam
+ls -1 *deduplicated.bam | wc -l
+ls -1 *dedup.sorted.bam | wc -l
 ```
 
 # Indexing for Downstream Applications
