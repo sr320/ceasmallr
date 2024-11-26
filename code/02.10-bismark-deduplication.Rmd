@@ -89,7 +89,7 @@ echo 'export threads=40'
 echo ""
 
 echo "# Filename patterns"
-echo 'export deduped_filename_pattern="_R1_001.fastp-trim_bismark_bt2_pe.deduplicated.bam"
+echo 'export deduped_filename_pattern="_R1_001.fastp-trim_bismark_bt2_pe.deduplicated.bam"'
 
 
 echo "# Print formatting"
