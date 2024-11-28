@@ -1,0 +1,29 @@
+CF05-CM02-Larvae_R1_001.fastp-trim_bismark_bt2_pe.deduplicated.bam
+
+Parameters used to extract methylation information:
+Bismark Extractor Version: v0.24.0
+Bismark result file: paired-end (SAM format)
+Output specified: comprehensive
+No overlapping methylation calls specified
+Methylation in CHG and CHH context will be merged into "non-CpG context" output
+
+
+Processed 41919245 lines in total
+Total number of methylation call strings processed: 83838490
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	787999181
+
+Total methylated C's in CpG context:	20565739
+Total methylated C's in CHG context:	2279033
+Total methylated C's in CHH context:	11070123
+
+Total C to T conversions in CpG context:	97075246
+Total C to T conversions in CHG context:	163685370
+Total C to T conversions in CHH context:	493323670
+
+C methylated in CpG context:	17.5%
+C methylated in non-CpG context:	2.0%
+
+
