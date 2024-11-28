@@ -135,6 +135,25 @@ ${bismark_dir}/bismark_methylation_extractor \
 *deduplicated.bam
 ```
 
+# Cytosine coverage
+```{r coverag2cytosine, engine='bash', eval=FALSE}
+# Load bash variables into memory
+source .bashvars
+
+cd "${output_dir_top}"
+
+find *deduplicated.bismark.cov.gz \
+| xargs basename -s _bismark_bt2_pe.deduplicated.bismark.cov.gz \
+| xargs -I{} ${bismark_dir}/coverage2cytosine \
+--genome_folder ${genome_dir} \
+-o {} \
+--merge_CpG \
+--zero_based \
+--gzip \
+{}_bismark_bt2_pe.deduplicated.bismark.cov.gz
+
+```
+
 # Peek at output files
 ```{r head-files, engine='bash', eval=TRUE}
 # Load bash variables into memory
@@ -142,15 +161,27 @@ source .bashvars
 
 cd "${output_dir_top}"
 
-head \
-<(zcat CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bedGraph.gz) \
-CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bedGraph.gz.bismark.zero.cov \
-<(zcat CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.bismark.cov.gz) \
-<(zcat CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.CpG_report.txt.gz) \
-CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.cytosine_context_summary.txt \
-CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated.M-bias.txt \
-CF01-CM01-Zygote_R1_001.fastp-trim.20220827_bismark_bt2_pe.deduplicated_splitting_report.txt \
-| column -t -s $'\t'
+for file in *CF01-CM01-Zygote*; do
+  if [[ -f "$file" ]]; then
+    if [[ "$file" == *.gz ]]; then
+      echo "<===== $file ====>"
+      echo ""
+      zcat "$file" | head | column -t -s $'\t'
+      echo ""
+      echo "${line}"
+      echo ""
+    else
+      echo "<===== $file ====>"
+      echo ""
+      echo "$file"
+      head "$file" | column -t -s $'\t'
+      echo ""
+      echo "${line}"
+      echo ""
+    fi
+  fi
+done
+
 ```
 
 # List all outputs
