@@ -46,7 +46,7 @@ Expects input BAM filenames formatted like (e.g.):
 
 Due to the large file sizes of BAMS, these cannot be hosted in the [ceasmallr GitHub repo](https://github.com/sr320/ceasmallr). As such these files are available for download here:
 
-- [https://gannet.fish.washington.edu/Atumefaciens/gitrepos/ceasmallr/output/02.10-bismark-deduplication/](https://gannet.fish.washington.edu/Atumefaciens/gitrepos/ceasmallr/output/02.10-bismark-deduplication/)
+- [https://gannet.fish.washington.edu/gitrepos/ceasmallr/output/02.10-bismark-deduplication/](https://gannet.fish.washington.edu/gitrepos/ceasmallr/output/02.10-bismark-deduplication/)
 
 
 ```{r setup, include=FALSE}
